@@ -272,7 +272,7 @@
 
     /*PROMOCOES*/
     .promocoes {
-        padding: 10px 5px;
+        padding: 20px 5px;
         max-width: 95%;
         .promocao{
             height: 370px;
@@ -362,7 +362,6 @@
 
     /*MENU*/
     .menu{
-
         & img{
             height: 70px;
             width: 142px;
@@ -379,13 +378,14 @@
     .container-entrada {
         .base-1, .base-2{
             height: 80vh;
+            gap: 50px;
         }
         .base-1 {
             flex-direction: column;
 
             & h1 {
                 width: 90%;
-                font-size: 25px;
+                font-size: 30px;
                 text-align: center;
             }
             & img{
