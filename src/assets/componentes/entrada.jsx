@@ -31,13 +31,13 @@ function funcionamento(){
 let estilo = ''
 let retorno = funcionamento()
 if(retorno === true){
-  retorno = 'Aberta'
+  retorno = 'Aberto'
   estilo = {
     backgroundColor: 'rgba(153, 255, 0, 0.671)'
   }
 }
 else{
-  retorno = 'Fechada'
+  retorno = 'Fechado'
   estilo = {
     backgroundColor: 'tomato'
   }

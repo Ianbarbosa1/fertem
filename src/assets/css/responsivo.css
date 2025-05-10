@@ -1,7 +1,211 @@
+@media screen and (min-width:350px) and (max-width:489px) {
+    footer{
+        padding: 20px 10px;
+        margin-bottom: 55px;
+        border-radius: 3% 3% 0% 0% / 3% 3% 0% 0%;
+    }
+    main{
+        padding: 200px 0px 50px 0px;
+    }
+
+    /*MENU*/
+    .menu{
+        justify-content: space-between;
+        padding: 0px 5px;
+        bottom: 0px;
+        height: 60px;
+        border-top: 1px solid white;
+
+        & img{
+            height: 40px;
+            width: 85px;
+        }
+        & .links{
+            gap: 40px;
+        }
+        & a{
+            font-size: 18px;
+        }
+        svg{
+            font-size: 25px;
+        }
+        small{
+            display:none;
+        }
+        P{
+            font-size: 13px;
+        }
+    }   
+
+    /*ENTRADA*/
+    .container-entrada {
+        padding-top: 0px;
+
+        .base-1, .base-2{
+            height: 90vh;
+        }
+        .base-1 {
+            flex-direction: column;
+
+            & h1 {
+                width: 95%;
+                font-size: 25px;
+                text-align: center;
+            }
+            & img{
+                display: none;
+            }
+        }
+        .base-2 {
+            flex-direction: column;
+            padding: 60px 10px 10px 10px;
+
+            & h1 {
+                max-width: 98%;
+                font-size: 28px;
+            }
+            .previa {
+                display: none;
+            }
+        }
+    }
+
+    /*PROMOCOES*/
+    .promocoes {
+        padding: 20px 5px;
+        max-width: 95%;
+        & h1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .promocoes-int{
+            gap: 15px 10px;
+ 
+        }
+        .promocao{
+            height: 310px;
+            width: 150px;
+            & img{
+                height: 150px;
+            }
+            & h2{
+                font-size: 16px;
+            }
+            & h3{
+                font-size: 20px;
+            }
+            & p{
+            font-size: 12px;
+            }
+        }
+            
+    }   
+
+    /*CATEGORIA PRODUTOS*/
+    .produto-categoria{
+        & .modal{
+            top: 0px;
+            height: 92vh;
+        }
+        & .categorias{
+            width: 348px;
+            & .marquee{
+                margin-bottom: 0px;
+                height: 120px;
+                & .categoria{
+                    margin-right: 20px;
+                    height: 100px;
+                    width: 100px;
+                    & svg{
+                        font-size: 20px;
+                    }
+                    & p{
+                        font-size: 16px;
+                    }
+                }
+                
+            }
+        }
+    }
+
+    /*PRODUTOS*/
+    .produtos {
+        padding: 0px;
+        width: 100%;
+
+        & .pesquisa{
+            width: 305px;
+            font-size: 16px;
+        }
+
+        & .container-produtos {
+            padding: 20px 10px;
+            width: 350px;
+            & .all-produtos{
+                gap: 20px 15px;
+                justify-content: center;
+
+                & .product{
+                    margin-left: 0px;
+                    height: 230px;
+                    width: 150px;
+                    & h2{
+                        font-size: 14px;
+                        -webkit-line-clamp: 2;
+                    }
+                    & h3{
+                        font-size: 13px;
+                    }
+                    & p{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    /*RODAPÉ*/
+    .rodape{
+        flex-direction: column;
+        gap: 30px;
+        & .sobre{
+            max-width: 280px;
+            font-size: 15px;
+            text-align: center;
+            & img{
+              height: 90px;
+              width: 160px; 
+            }
+            & address{
+              font-weight: 500;
+              margin: 10px 0px;
+            }
+        }
+        & .links-footer{
+            display: none;
+        }
+        & .redes{
+            gap: 30px;
+            & a{
+                font-size: 13px;
+            }
+        }
+    }
+    .end{
+        margin-top: 30px;
+        gap: 25px;
+        & h1, h2{
+            font-size: 14px;
+            max-width: 100%;
+        }
+    }
+}
+
 @media screen and (min-width:490px) and (max-width:649px) {
     footer{
-        padding: 10px;
-        margin-bottom: 80px;
+        padding: 20px 10px;
+        margin-bottom: 70px;
+        border-radius: 3% 3% 0% 0% / 3% 3% 0% 0%;
     }
     main{
         padding: 200px 0px 50px 0px;
@@ -12,7 +216,7 @@
         justify-content: space-between;
         padding: 0px 10px;
         bottom: 0px;
-        height: 80px;
+        height: 70px;
         border-top: 1px solid white;
 
         & img{
@@ -45,12 +249,11 @@
 
             & h1 {
                 width: 95%;
-                font-size: 25px;
+                font-size: 30px;
                 text-align: center;
             }
             & img{
-                height: 350px;
-                width: 350px;
+                display: none;
             }
         }
         .base-2 {
@@ -59,25 +262,10 @@
 
             & h1 {
                 max-width: 95%;
-                font-size: 25px;
+                font-size: 35px;
             }
             .previa {
-                justify-content: space-around;
-                width: 100%;
-                flex-wrap: wrap;
-                gap: 20px 50px;
-                & nav{
-                    height: 100px;
-                    width: 100px;
-                    filter: drop-shadow(5px 5px 1px rgba(255, 255, 255, 0.37));
-                }
-                & img{
-                    height: 45px;
-                    width: 45px;
-                }
-                & h2{
-                    font-size: 14px;
-                }
+                display: none;
             }
         }
     }
@@ -94,6 +282,10 @@
 
     /*CATEGORIA PRODUTOS*/
     .produto-categoria{
+        & .modal{
+            top: 0px;
+            height: 92vh;
+        }
         & .categorias{
             width: 470px;
         }
@@ -105,10 +297,19 @@
         width: 100%;
 
         & .container-produtos {
+            padding: 20px 10px;
             width: 450px;
             & .all-produtos{
-                gap: 20px 0px;
+                gap: 20px 15px;
+                justify-content: center;
+
+                & .product{
+                    margin-left: 0px;
+                    height: 310px;
+                    width: 200px;
+                }
             }
+            
         }
     }
 
