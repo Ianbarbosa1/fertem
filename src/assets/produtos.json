@@ -1,0 +1,59 @@
+[
+    {
+      "id": 2903,
+      "categoria": 7,
+      "nome": "Fita Isolante 3M Imperial 20 metros",
+      "imagem": "https://i.postimg.cc/Vk6TZ61K/fita-isolante-imperial.jpg",
+      "valor": 7.00,
+      "descricao": ""
+    },
+    {
+      "id": 1234,
+      "categoria": 3,
+      "nome": "Chave de Fenda Haste Flexível 500 mm Tramontina PRO",
+      "imagem": "https://i.postimg.cc/wT9nJ2r8/chave-de-fenda-haste.jpg",
+      "valor": 79.90,
+      "descricao": ""
+    },
+    {
+      "id": 3928,
+      "categoria": 1,
+      "nome": "Politriz Angular Velocidade Variável 6 Pol. 1050W 220V LITH-LT3000",
+      "imagem": "https://i.postimg.cc/VN0h1VJM/lixadeira.jpg",
+      "valor": 149.90,
+      "descricao": ""
+    },
+    {
+      "id": 2473,
+      "categoria": 1,
+      "nome": "Furadeira Profissional Black Bull DeWalt",
+      "imagem": "https://i.postimg.cc/Gm5fWCmd/furadeira-de-impacto-dewalt.jpg",
+      "valor": 150.00,
+      "descricao": ""
+    },
+    {
+      "id": 9583,
+      "categoria": 7,
+      "nome": "Auto Transformador Bivolt 5000VA TRAFOSTEEL",
+      "imagem": "https://i.postimg.cc/NMhz0kXn/politriz-angular.jpg",
+      "valor": 199.90,
+      "descricao": ""
+    },
+    {
+      "id": 9573,
+      "categoria": 3,
+      "nome": "Jogo de Ferramentas Encaixe 1/2Pol. 3/8Pol. 1/4Pol. com 216 Peças e Maleta",
+      "imagem": "https://i.postimg.cc/Kzns33r8/Jogo-de-Ferramentas.jpg",
+      "valor": 799.90,
+      "descricao": ""
+    },
+    {
+      "id": 7850,
+      "categoria": 8,
+      "nome": "Escada Extensível Vazada em Fibra 31 Degraus 9,60 Metros.",
+      "imagem": "https://i.postimg.cc/02ZFCmg6/escada-aluminio-11dg.jpg",
+      "valor": 1479.90,
+      "descricao": ""
+    }
+  ]
+  

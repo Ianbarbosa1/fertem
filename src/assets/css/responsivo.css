@@ -1,0 +1,406 @@
+@media screen and (min-width:490px) and (max-width:649px) {
+    footer{
+        padding: 10px;
+        margin-bottom: 80px;
+    }
+    main{
+        padding: 200px 0px 50px 0px;
+    }
+
+    /*MENU*/
+    .menu{
+        justify-content: space-between;
+        padding: 0px 10px;
+        bottom: 0px;
+        height: 80px;
+        border-top: 1px solid white;
+
+        & img{
+            height: 45px;
+            width: 90px;
+        }
+        & .links{
+            gap: 50px;
+        }
+        & a{
+            font-size: 18px;
+        }
+        svg{
+            font-size: 30px;
+        }
+        small{
+            display:none;
+        }
+    }   
+
+    /*ENTRADA*/
+    .container-entrada {
+        padding-top: 0px;
+
+        .base-1, .base-2{
+            height: 91vh;
+        }
+        .base-1 {
+            flex-direction: column;
+
+            & h1 {
+                width: 95%;
+                font-size: 25px;
+                text-align: center;
+            }
+            & img{
+                height: 350px;
+                width: 350px;
+            }
+        }
+        .base-2 {
+            flex-direction: column;
+            padding: 60px 10px 10px 10px;
+
+            & h1 {
+                max-width: 95%;
+                font-size: 25px;
+            }
+            .previa {
+                justify-content: space-around;
+                width: 100%;
+                flex-wrap: wrap;
+                gap: 20px 50px;
+                & nav{
+                    height: 100px;
+                    width: 100px;
+                    filter: drop-shadow(5px 5px 1px rgba(255, 255, 255, 0.37));
+                }
+                & img{
+                    height: 45px;
+                    width: 45px;
+                }
+                & h2{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    /*PROMOCOES*/
+    .promocoes {
+        padding: 10px 5px;
+        max-width: 95%;
+        .promocao{
+            height: 370px;
+            width: 200px;
+        }
+    }
+
+    /*CATEGORIA PRODUTOS*/
+    .produto-categoria{
+        & .categorias{
+            width: 470px;
+        }
+    }
+
+    /*PRODUTOS*/
+    .produtos {
+        padding: 0px;
+        width: 100%;
+
+        & .container-produtos {
+            width: 450px;
+            & .all-produtos{
+                gap: 20px 0px;
+            }
+        }
+    }
+
+    /*RODAPÉ*/
+    .rodape{
+        flex-direction: column;
+        gap: 30px;
+        & .sobre{
+            max-width: 280px;
+            font-size: 15px;
+            text-align: center;
+            & img{
+              height: 90px;
+              width: 160px; 
+            }
+            & address{
+              font-weight: 500;
+              margin: 10px 0px;
+            }
+        }
+        & .links-footer{
+            display: none;
+        }
+        & .redes{
+            gap: 30px;
+            flex-direction: row;
+            & a{
+                font-size: 13px;
+            }
+        }
+    }
+    .end{
+        margin-top: 30px;
+        gap: 25px;
+        & h1, h2{
+            font-size: 14px;
+            max-width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width:650px) and (max-width:849px) {
+    footer{
+        padding: 25px;
+        border-radius: 5% 5% 0% 0% / 5% 5% 0% 0%;
+    }
+    main{
+        padding: 200px 0px 50px 0px;
+    }
+
+    /*MENU*/
+    .menu{
+
+        & img{
+            height: 70px;
+            width: 142px;
+        }
+        & .links{
+            gap: 10px;
+        }
+        & a{
+            font-size: 18px;
+        }
+    }   
+
+    /*ENTRADA*/
+    .container-entrada {
+        .base-1, .base-2{
+            height: 80vh;
+        }
+        .base-1 {
+            flex-direction: column;
+
+            & h1 {
+                width: 90%;
+                font-size: 25px;
+                text-align: center;
+            }
+            & img{
+                height: 400px;
+                width: 450px;
+            }
+        }
+        .base-2 {
+            flex-direction: column;
+            padding: 10px;
+
+            & h1 {
+                max-width: 90%;
+                font-size: 30px;
+            }
+            .previa {
+                width: 100%;
+                & nav{
+                    height: 110px;
+                    width: 110px;
+                }
+                & img{
+                    height: 45px;
+                    width: 45px;
+                }
+                & h2{
+                    font-size: 15px;
+                    font-weight: 400;
+                    font-family: "Karla", sans-serif;
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+
+    /*PROMOCOES*/
+    .promocoes {
+        max-width: 90%;
+    }
+
+    /*CATEGORIA PRODUTOS*/
+    .produto-categoria{
+        & .categorias{
+            width: 640px;
+        }
+    }
+
+    /*PRODUTOS*/
+    .produtos {
+        padding: 0px;
+        width: 100%;
+
+        & .container-produtos {
+            width: 585px;
+            & .all-produtos{
+                gap: 20px 0px;
+            }
+        }
+    }
+
+    /*RODAPÉ*/
+    .rodape{
+        & .sobre{
+            max-width: 280px;
+            font-size: 15px;
+            & img{
+              height: 90px;
+              width: 160px;  
+            }
+            & address{
+              font-weight: 500;
+              margin: 10px 0px;
+            }
+        }
+        & .links-footer{
+            display: none;
+        }
+        & .redes{
+            gap: 25px;
+            & a{
+                font-size: 15px;
+            }
+        }
+    }
+    .end{
+        gap: 25px;
+        & h1, h2{
+            font-size: 17px;
+            max-width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width:850px) and (max-width:999px) {
+
+    /*ENTRADA*/
+    .container-entrada {
+        .base-1 {
+            & h1 {
+                max-width: 500px;
+                font-size: 25px;
+            }
+            & img{
+                height: 400px;
+                width: 400px;
+            }
+        }
+
+        .base-2 {
+            & h1 {
+                max-width: 80%;
+                font-size: 35px;
+            }
+
+            .previa {
+                width: 85%;
+            }
+        }
+    }
+
+    /*PROMOCOES*/
+    .promocoes {
+        max-width: 90%;
+    }
+
+    /*CATEGORIA PRODUTOS*/
+    .produto-categoria{
+        & .categorias{
+            width: 820px;
+        }
+    }
+
+    /*PRODUTOS*/
+    .produtos {
+        padding: 0px;
+        width: 100%;
+        & .container-produtos {
+            width: 840px;
+            & .all-produtos{
+                gap: 20px 0px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1290px) {
+
+    /*ENTRADA*/
+    .container-entrada {
+        .base-1 {
+            & h1 {
+                max-width: 550px;
+                font-size: 28px;
+            }
+            & img{
+                height: 400px;
+                width: 400px;
+            }
+        }
+
+        .base-2 {
+            & h1 {
+                max-width: 80%;
+                font-size: 35px;
+            }
+
+            .previa {
+                width: 85%;
+            }
+        }
+    }
+
+    /*PROMOCOES*/
+    .promocoes {
+        max-width: 90%;
+    }
+
+    /*CATEGORIA PRODUTOS*/
+    .produto-categoria{
+        & .categorias{
+            width: 920px;
+        }
+    }
+
+    /*PRODUTOS*/
+    .produtos {
+        & .container-produtos {
+            width: 920px;
+        }
+    }
+}
+
+@media screen and (min-width:1300px) and (max-width:1550px) {
+
+    /*ENTRADA*/
+    .container-entrada {
+        .base-1 {
+            & h1 {
+                max-width: 700px;
+            }
+        }
+
+        .base-2 {
+            & h1 {
+                max-width: 80%;
+                font-size: 35px;
+            }
+
+            .previa {
+                width: 85%;
+            }
+        }
+    }
+
+    /*PROMOCOES*/
+    .promocoes {
+        max-width: 90%;
+    }
+}
