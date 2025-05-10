@@ -28,7 +28,7 @@ footer{
   align-items: center;
   flex-direction: column;
   background-color: #0263b2;
-  padding: 30px;
+  padding: 29px;
   border-radius: 5% 5% 0% 0% / 10% 10% 0% 0%;
 }
 
@@ -420,8 +420,7 @@ footer{
       }
     }
   }
-}
-
+} 
 /*RODAPÉ*/
 & .rodape{
   width: 100%;
