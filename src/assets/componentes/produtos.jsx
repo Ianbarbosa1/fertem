@@ -32,8 +32,9 @@ export function Produtos() {
       <section className="container-produtos">
         <h1>PRODUTOS</h1>
         <section className="all-produtos">
+          
           {produtos.map((post) => {
-            return (
+              return (
               <>
                 <div className="product" key={post.id} title={post.nome}>
                   <nav>
@@ -44,7 +45,7 @@ export function Produtos() {
                   <p><span>R$</span> {post.valor.toFixed(2)}</p>
                 </div>
               </>
-            );
+            )
           })}
         </section>
       </section>

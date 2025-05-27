@@ -3,7 +3,7 @@ import { Previa } from "../fragmentos/previa";
 /*ICONES*/
 import { BsBoxes } from "react-icons/bs";
 import { FaMapLocationDot } from "react-icons/fa6";
-import { MdAttachMoney } from "react-icons/md";
+import { FaShoppingCart } from "react-icons/fa";
 
 /*IMAGENS*/
 import logo from "../imagens/fertem-logo-sem-fundo.png";
@@ -85,7 +85,7 @@ export function Entrada() {
           </a>
 
           <a href="" title="orçamento">
-            <MdAttachMoney/>
+            <FaShoppingCart/>
             <small>Orçamento</small>
           </a>
         </nav>

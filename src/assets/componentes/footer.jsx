@@ -1,7 +1,7 @@
 import logo from '../imagens/fertem-logo-sem-fundo.png'
 import { FaWhatsapp } from 'react-icons/fa6'
 import { FaInstagram } from 'react-icons/fa6' 
-import { MdOutlineEmail } from 'react-icons/md'  
+import { FaFacebookF } from 'react-icons/fa6' 
 export function Footer(){
     return(
         <>  
@@ -38,10 +38,10 @@ export function Footer(){
                     </a>
 
                     <a href='https://maps.app.goo.gl/EhaDchrhHiLp9Upe8' target="_blank"> 
-                        <MdOutlineEmail/>
+                        <FaFacebookF/>
                         <div>
-                            <p>Email</p>
-                            <span>Fertem@gmail.com</span>
+                            <p>Facebook</p>
+                            <span>Fertem</span>
                         </div>
                     </a>
                 </section>
