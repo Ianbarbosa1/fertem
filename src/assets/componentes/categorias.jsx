@@ -312,7 +312,6 @@ export function Categoria() {
       )}
 
       <section className="categorias">
-        <h1>CATEGORIAS</h1>
         <Marquee pauseOnHover speed={20} className="marquee">
           <button className="categoria" id="one" onClick={primeiraCategoria}>
             <GiDrill />

@@ -1,6 +1,5 @@
 import Dados from "../produtos.json";
 import { useState } from "react";
-import { Categoria } from "./categorias";
 import lupa from "../imagens/pesquisa.svg"
 
 
@@ -14,9 +13,7 @@ export function Produtos() {
   );
 
   return (
-    <section className="produtos" id="produtos">
-      <Categoria/>
-
+    <section className="produtos">
       <div>
         <input
           type="text"

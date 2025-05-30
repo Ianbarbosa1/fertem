@@ -1,4 +1,4 @@
-import logo from '../imagens/fertem-logo-sem-fundo.png'
+import logo from '../imagens/logo-sem-fundo.png'
 import { FaWhatsapp } from 'react-icons/fa6'
 import { FaInstagram } from 'react-icons/fa6' 
 import { FaFacebookF } from 'react-icons/fa6' 
@@ -13,9 +13,8 @@ export function Footer(){
                 </section>
 
                 <section className='links-footer'>
-                    <a href='#homes'>Home</a>
+                    <a href='#home'>Home</a>
                     <a href='#ofertas'>Ofertas</a>
-                    <a href='#categoria'>Categorias</a>
                     <a href='#produtos'>Produtos</a>
                     <a href='https://maps.app.goo.gl/EhaDchrhHiLp9Upe8' target="_blank">Localização</a>
                 </section>

@@ -1,21 +1,17 @@
 @media screen and (min-width:350px) and (max-width:489px) {
     footer{
         padding: 20px 10px;
-        margin-bottom: 55px;
         border-radius: 3% 3% 0% 0% / 3% 3% 0% 0%;
     }
-    main{
-        padding: 200px 0px 50px 0px;
+    header {
+        padding-top: 60px;
     }
 
     /*MENU*/
     .menu{
         justify-content: space-between;
-        padding: 0px 5px;
-        bottom: 0px;
+        padding: 0px 10px;
         height: 60px;
-        border-top: 1px solid white;
-
         & img{
             height: 40px;
             width: 85px;
@@ -35,40 +31,74 @@
         P{
             font-size: 13px;
         }
-    }   
+    }
 
-    /*ENTRADA*/
-    .container-entrada {
-        padding-top: 0px;
-
-        .base-1, .base-2{
-            height: 90vh;
-        }
-        .base-1 {
-            flex-direction: column;
-
-            & h1 {
-                width: 95%;
-                font-size: 25px;
-                text-align: center;
-            }
-            & img{
-                display: none;
-            }
-        }
-        .base-2 {
-            flex-direction: column;
-            padding: 60px 10px 10px 10px;
-
-            & h1 {
-                max-width: 98%;
-                font-size: 28px;
-            }
-            .previa {
-                display: none;
-            }
+    /*CATEGORIAS*/
+    .modal{
+        height: 92vh;
+    }
+    .categorias {
+        width: 95%;
+    }
+    .categoria{
+        height: 90px;
+        width: 90px;
+        margin-right: 10px;
+        & p {
+            font-size: 13px;
+        } 
+        & svg{
+            font-size: 25px;
         }
     }
+
+    /*ENTRADA*/
+    .container-entrada{
+        height: 480px;
+    }
+    .container-estatico {
+        border-radius: 3% 3% 0% 0% / 2% 2% 0% 0%;
+    }
+    .oneEstrutura{
+        gap:20px;
+        flex-direction: column;
+        width: 95%;
+        & h1 {
+            text-align: center;
+            width: 100%;
+            font-size: 23px;
+            backdrop-filter: blur(2px);
+        }
+    }
+    .imagens{
+        gap: 10px;
+        img{
+            height: 90px;
+            width: 90px;
+        }
+    }
+    .twoEstrutura{
+        flex-direction: column-reverse;
+        width: 95%;
+        h1{
+            border-radius: 10px;
+            text-align: center;
+            font-size: 23px;
+            backdrop-filter: blur(2px);
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+    }
+    .setas {
+        & svg {
+            font-size: 32px;
+            margin: 5px;
+            padding: 5px;
+        }
+    }
+    
 
     /*PROMOCOES*/
     .promocoes {
@@ -98,68 +128,38 @@
             font-size: 12px;
             }
         }
-            
     }   
 
-    /*CATEGORIA PRODUTOS*/
-    .produto-categoria{
-        & .modal{
-            top: 0px;
-            height: 92vh;
-        }
-        & .categorias{
-            width: 348px;
-            & .marquee{
-                margin-bottom: 0px;
-                height: 120px;
-                & .categoria{
-                    margin-right: 20px;
-                    height: 100px;
-                    width: 100px;
-                    & svg{
-                        font-size: 20px;
-                    }
-                    & p{
-                        font-size: 16px;
-                    }
-                }
-                
-            }
-        }
-    }
 
     /*PRODUTOS*/
     .produtos {
         padding: 0px;
         width: 100%;
-
-        & .pesquisa{
-            width: 305px;
-            font-size: 16px;
-        }
-
-        & .container-produtos {
-            padding: 20px 10px;
-            width: 350px;
-            & .all-produtos{
-                gap: 20px 15px;
-                justify-content: center;
-
-                & .product{
-                    margin-left: 0px;
-                    height: 230px;
-                    width: 150px;
-                    & h2{
-                        font-size: 14px;
-                        -webkit-line-clamp: 2;
-                    }
-                    & h3{
-                        font-size: 13px;
-                    }
-                    & p{
-                        font-size: 20px;
-                    }
-                }
+    }
+    .pesquisa{
+        width: 305px;
+        font-size: 16px;
+    }
+    .container-produtos {
+        padding: 20px 10px;
+        width: 90%;
+    }
+    .all-produtos{
+        gap: 20px 15px;
+        justify-content: center;
+        & .product{
+            margin-left: 0px;
+            height: 230px;
+            width: 150px;
+            & h2{
+                font-size: 14px;
+                -webkit-line-clamp: 2;
+            }
+            & h3{
+                font-size: 13px;
+            }
+            & p{
+                font-size: 20px;
             }
         }
     }
@@ -168,27 +168,27 @@
     .rodape{
         flex-direction: column;
         gap: 30px;
-        & .sobre{
-            max-width: 280px;
-            font-size: 15px;
-            text-align: center;
-            & img{
-              height: 90px;
-              width: 160px; 
-            }
-            & address{
-              font-weight: 500;
-              margin: 10px 0px;
-            }
+    }
+    .sobre{
+       width: 100%;
+        font-size: 15px;
+        text-align: center;
+        & img{
+          height: 90px;
+          width: 160px; 
         }
-        & .links-footer{
-            display: none;
+        & address{
+          font-weight: 500;
+          margin: 10px 0px;
         }
-        & .redes{
-            gap: 30px;
-            & a{
-                font-size: 13px;
-            }
+    }
+    .links-footer{
+        display: none;
+    }
+    .redes{
+        gap: 30px;
+        & a{
+            font-size: 14px;
         }
     }
     .end{
@@ -196,7 +196,6 @@
         gap: 25px;
         & h1, h2{
             font-size: 14px;
-            max-width: 100%;
         }
     }
 }
@@ -204,21 +203,17 @@
 @media screen and (min-width:490px) and (max-width:649px) {
     footer{
         padding: 20px 10px;
-        margin-bottom: 70px;
         border-radius: 3% 3% 0% 0% / 3% 3% 0% 0%;
     }
-    main{
-        padding: 200px 0px 50px 0px;
+    header {
+        padding-top: 60px;
     }
 
     /*MENU*/
     .menu{
         justify-content: space-between;
         padding: 0px 10px;
-        bottom: 0px;
         height: 70px;
-        border-top: 1px solid white;
-
         & img{
             height: 45px;
             width: 90px;
@@ -235,59 +230,83 @@
         small{
             display:none;
         }
-    }   
+    }
 
+    /*CATEGORIAS*/
+    .modal{
+        height: 92vh;
+    }
+    .categorias {
+        width: 95%;
+    }
+    .categoria{
+        height: 110px;
+        width: 110px;
+        margin-right: 10px;
+        & p {
+            font-size: 15px;
+        }  
+    }
+    
     /*ENTRADA*/
-    .container-entrada {
-        padding-top: 0px;
-
-        .base-1, .base-2{
-            height: 91vh;
-        }
-        .base-1 {
-            flex-direction: column;
-
-            & h1 {
-                width: 95%;
-                font-size: 30px;
-                text-align: center;
-            }
-            & img{
-                display: none;
-            }
-        }
-        .base-2 {
-            flex-direction: column;
-            padding: 60px 10px 10px 10px;
-
-            & h1 {
-                max-width: 95%;
-                font-size: 35px;
-            }
-            .previa {
-                display: none;
-            }
+    .container-entrada{
+        height: 600px;
+    }
+    .container-estatico {
+        border-radius: 3% 3% 0% 0% / 2% 2% 0% 0%;
+    }
+    .oneEstrutura{
+        gap:50px;
+        flex-direction: column;
+        width: 90%;
+        & h1 {
+            border-radius: 10px;
+            text-align: center;
+            width: 95%;
+            font-size: 28px;
+            backdrop-filter: blur(2px);
         }
     }
+    .twoEstrutura{
+        flex-direction: column-reverse;
+        width: 85%;
+        h1{
+            border-radius: 10px;
+            text-align: center;
+            font-size: 28px;
+            backdrop-filter: blur(2px);
+        }
+        img{
+            height: 300px;
+            width: 300px;
+        }
+    }
+    .imagens{
+        gap: 30px;
+        img{
+            height: 100px;
+            width: 100px;
+        }
+    }
+    .setas {
+        & svg {
+            margin: 5px;
+            padding: 5px;
+        }
+    }
+
 
     /*PROMOCOES*/
     .promocoes {
         padding: 20px 5px;
         max-width: 95%;
-        .promocao{
-            height: 370px;
-            width: 200px;
-        }
     }
+    .promocao{
+        height: 370px;
+        width: 200px;
 
-    /*CATEGORIA PRODUTOS*/
-    .produto-categoria{
-        & .modal{
-            top: 0px;
-            height: 92vh;
-        }
-        & .categorias{
-            width: 470px;
+        & img{
+            height: 192px;
         }
     }
 
@@ -295,58 +314,54 @@
     .produtos {
         padding: 0px;
         width: 100%;
-
-        & .container-produtos {
-            padding: 20px 10px;
-            width: 450px;
-            & .all-produtos{
-                gap: 20px 15px;
-                justify-content: center;
-
-                & .product{
-                    margin-left: 0px;
-                    height: 310px;
-                    width: 200px;
-                }
-            }
-            
+    }
+    .container-produtos {
+        padding: 20px 10px;
+        width: 435px;
+    }
+    .all-produtos{
+        gap: 15px 15px;
+        justify-content: center;
+        & .product{
+            margin-left: 0px;
+            height: 280px;
+            width: 200px;
         }
     }
 
     /*RODAPÉ*/
     .rodape{
         flex-direction: column;
+        gap: 50px;
+    }
+    .sobre{
+        max-width: 450px;
+        font-size: 17px;
+        text-align: center;
+        & img{
+          height: 100px;
+          width: 170px; 
+        }
+        & address{
+          margin: 15px 0px;
+        }
+    }
+    .links-footer{
+        display: none;
+    }
+    .redes{
         gap: 30px;
-        & .sobre{
-            max-width: 280px;
+        flex-direction: row;
+        & a{
             font-size: 15px;
-            text-align: center;
-            & img{
-              height: 90px;
-              width: 160px; 
-            }
-            & address{
-              font-weight: 500;
-              margin: 10px 0px;
-            }
-        }
-        & .links-footer{
-            display: none;
-        }
-        & .redes{
-            gap: 30px;
-            flex-direction: row;
-            & a{
-                font-size: 13px;
-            }
         }
     }
     .end{
-        margin-top: 30px;
+        margin-top: 50px;
         gap: 25px;
+
         & h1, h2{
             font-size: 14px;
-            max-width: 100%;
         }
     }
 }
@@ -355,9 +370,6 @@
     footer{
         padding: 25px;
         border-radius: 5% 5% 0% 0% / 5% 5% 0% 0%;
-    }
-    main{
-        padding: 200px 0px 50px 0px;
     }
 
     /*MENU*/
@@ -372,64 +384,53 @@
         & a{
             font-size: 18px;
         }
-    }   
+    }
+
+    /*CATEGORIAS*/
+    .categorias {
+        width: 95%;
+    }
+    .categoria{
+        height: 110px;
+        width: 110px;
+        & p {
+            font-size: 16px;
+        }  
+    }
 
     /*ENTRADA*/
-    .container-entrada {
-        .base-1, .base-2{
-            height: 80vh;
-            gap: 50px;
-        }
-        .base-1 {
-            flex-direction: column;
-
-            & h1 {
-                width: 90%;
-                font-size: 30px;
-                text-align: center;
-            }
-            & img{
-                height: 400px;
-                width: 450px;
-            }
-        }
-        .base-2 {
-            flex-direction: column;
-            padding: 10px;
-
-            & h1 {
-                max-width: 90%;
-                font-size: 30px;
-            }
-            .previa {
-                width: 100%;
-                & nav{
-                    height: 110px;
-                    width: 110px;
-                }
-                & img{
-                    height: 45px;
-                    width: 45px;
-                }
-                & h2{
-                    font-size: 15px;
-                    font-weight: 400;
-                    font-family: "Karla", sans-serif;
-                    color: aliceblue;
-                }
-            }
+    .container-entrada{
+        height: 600px;
+    }
+    .oneEstrutura{
+        gap:30px;
+        flex-direction: column;
+        width: 90%;
+        & h1 {
+            text-align: center;
+            width: 95%;
+            font-size: 30px;
+            backdrop-filter: blur(2px);
         }
     }
-
-    /*PROMOCOES*/
-    .promocoes {
-        max-width: 90%;
+    .imagens{
+        gap: 30px;
+        img{
+            height: 120px;
+            width: 120px;
+        }
     }
-
-    /*CATEGORIA PRODUTOS*/
-    .produto-categoria{
-        & .categorias{
-            width: 640px;
+    .twoEstrutura{
+        flex-direction: column-reverse;
+        width: 85%;
+        h1{
+            text-align: center;
+            font-size: 30px;
+            backdrop-filter: blur(2px);
+        }
+        img{
+            height: 350px;
+            width: 350px;
         }
     }
 
@@ -437,37 +438,34 @@
     .produtos {
         padding: 0px;
         width: 100%;
-
-        & .container-produtos {
-            width: 585px;
-            & .all-produtos{
-                gap: 20px 0px;
-            }
+    }
+    .container-produtos {
+        width: 585px;
+    }
+    .all-produtos{
+        gap: 20px 0px;
+    }
+    
+    /*RODAPÉ*/
+    .sobre{
+        max-width: 280px;
+        font-size: 15px;
+        & img{
+          height: 90px;
+          width: 160px;  
+        }
+        & address{
+          font-weight: 500;
+          margin: 10px 0px;
         }
     }
-
-    /*RODAPÉ*/
-    .rodape{
-        & .sobre{
-            max-width: 280px;
+     .links-footer{
+        display: none;
+    }
+    .redes{
+        gap: 25px;
+        & a{
             font-size: 15px;
-            & img{
-              height: 90px;
-              width: 160px;  
-            }
-            & address{
-              font-weight: 500;
-              margin: 10px 0px;
-            }
-        }
-        & .links-footer{
-            display: none;
-        }
-        & .redes{
-            gap: 25px;
-            & a{
-                font-size: 15px;
-            }
         }
     }
     .end{
@@ -480,41 +478,41 @@
 }
 
 @media screen and (min-width:850px) and (max-width:999px) {
+    /*CATEGORIAS*/
+    .categorias {
+        width: 85%;
+    }
+    .categoria{
+        height: 110px;
+        width: 110px;
+        & p {
+            font-size: 16px;
+        }  
+    }
 
     /*ENTRADA*/
-    .container-entrada {
-        .base-1 {
-            & h1 {
-                max-width: 500px;
-                font-size: 25px;
-            }
-            & img{
-                height: 400px;
-                width: 400px;
-            }
-        }
-
-        .base-2 {
-            & h1 {
-                max-width: 80%;
-                font-size: 35px;
-            }
-
-            .previa {
-                width: 85%;
-            }
+    .oneEstrutura{
+        width: 90%;
+        & h1 {
+            width: 95%;
+            font-size: 30px;
         }
     }
-
-    /*PROMOCOES*/
-    .promocoes {
-        max-width: 90%;
+    .imagens{
+        gap: 30px;
+        img{
+            height: 130px;
+            width: 130px;
+        }
     }
-
-    /*CATEGORIA PRODUTOS*/
-    .produto-categoria{
-        & .categorias{
-            width: 820px;
+    .twoEstrutura{
+        width: 85%;
+        h1{
+            font-size: 30px;
+        }
+        img{
+            height: 300px;
+            width: 300px;
         }
     }
 
@@ -522,51 +520,44 @@
     .produtos {
         padding: 0px;
         width: 100%;
-        & .container-produtos {
-            width: 840px;
-            & .all-produtos{
-                gap: 20px 0px;
-            }
-        }
+    }
+    .container-produtos {
+        width: 840px;
+    }
+    .all-produtos{
+        gap: 20px 0px;
     }
 }
 
-@media screen and (min-width:1000px) and (max-width:1290px) {
+@media screen and (min-width:1000px) and (max-width:1299px) {
+    /*CATEGORIAS*/
+    .categorias {
+        width: 85%;
+    }
 
     /*ENTRADA*/
-    .container-entrada {
-        .base-1 {
-            & h1 {
-                max-width: 550px;
-                font-size: 28px;
-            }
-            & img{
-                height: 400px;
-                width: 400px;
-            }
-        }
-
-        .base-2 {
-            & h1 {
-                max-width: 80%;
-                font-size: 35px;
-            }
-
-            .previa {
-                width: 85%;
-            }
+    .oneEstrutura{
+        width: 90%;
+        & h1 {
+            width: 95%;
+            font-size: 30px;
         }
     }
-
-    /*PROMOCOES*/
-    .promocoes {
-        max-width: 90%;
+    .imagens{
+        gap: 30px;
+        img{
+            height: 130px;
+            width: 130px;
+        }
     }
-
-    /*CATEGORIA PRODUTOS*/
-    .produto-categoria{
-        & .categorias{
-            width: 920px;
+    .twoEstrutura{
+        width: 85%;
+        h1{
+            font-size: 30px;
+        }
+        img{
+            height: 300px;
+            width: 300px;
         }
     }
 
@@ -580,28 +571,20 @@
 
 @media screen and (min-width:1300px) and (max-width:1550px) {
 
+    .categorias {
+        width: 85%;
+    }
     /*ENTRADA*/
-    .container-entrada {
-        .base-1 {
-            & h1 {
-                max-width: 700px;
-            }
-        }
-
-        .base-2 {
-            & h1 {
-                max-width: 80%;
-                font-size: 35px;
-            }
-
-            .previa {
-                width: 85%;
-            }
+    .oneEstrutura{
+        width: 90%;
+    }
+    .imagens{
+        img{
+            height: 140px;
+            width: 140px;
         }
     }
-
-    /*PROMOCOES*/
-    .promocoes {
-        max-width: 90%;
+    .categorias {
+        width: 85%;
     }
 }
