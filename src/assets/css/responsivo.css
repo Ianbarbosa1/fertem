@@ -6,6 +6,9 @@
     header {
         padding-top: 60px;
     }
+    .observador{
+        display: none;
+    }
 
     /*MENU*/
     .menu{
@@ -31,71 +34,47 @@
         P{
             font-size: 13px;
         }
+        .menu-hamburguer{
+            display: flex;
+        }
     }
 
     /*CATEGORIAS*/
-    .modal{
-        height: 92vh;
-    }
     .categorias {
-        width: 95%;
+        height: 100%;
+        padding: 10px;
+        gap: 15px 25px;
+        flex-wrap: wrap;
     }
     .categoria{
-        height: 90px;
-        width: 90px;
-        margin-right: 10px;
+        height: 60px;
+        width: 60px;
+
+        & svg {
+        font-size: 18px;
+        }
         & p {
-            font-size: 13px;
-        } 
-        & svg{
-            font-size: 25px;
+            font-size: 10px;
         }
     }
-
+    
     /*ENTRADA*/
-    .container-entrada{
-        height: 480px;
-    }
-    .container-estatico {
-        border-radius: 3% 3% 0% 0% / 2% 2% 0% 0%;
+    .container-entrada {
+        height: 150px;
     }
     .oneEstrutura{
-        gap:20px;
-        flex-direction: column;
-        width: 95%;
-        & h1 {
-            text-align: center;
-            width: 100%;
-            font-size: 23px;
-            backdrop-filter: blur(2px);
-        }
-    }
-    .imagens{
-        gap: 10px;
-        img{
-            height: 90px;
-            width: 90px;
-        }
+        height: 150px;
+        width: 100%;
     }
     .twoEstrutura{
-        flex-direction: column-reverse;
-        width: 95%;
-        h1{
-            border-radius: 10px;
-            text-align: center;
-            font-size: 23px;
-            backdrop-filter: blur(2px);
-        }
-        img{
-            height: 200px;
-            width: 200px;
-        }
+        height: 150px;
+        width: 100%;
     }
     .setas {
         & svg {
-            font-size: 32px;
             margin: 5px;
             padding: 5px;
+            font-size: 25px;
         }
     }
     
@@ -208,12 +187,15 @@
     header {
         padding-top: 60px;
     }
+    .observador{
+        display: none;
+    }
 
     /*MENU*/
     .menu{
         justify-content: space-between;
         padding: 0px 10px;
-        height: 70px;
+        height: 60px;
         & img{
             height: 45px;
             width: 90px;
@@ -230,68 +212,47 @@
         small{
             display:none;
         }
+        .menu-hamburguer{
+            display: flex;
+        }
     }
 
     /*CATEGORIAS*/
-    .modal{
-        height: 92vh;
-    }
     .categorias {
-        width: 95%;
+        height: 100%;
+        padding: 10px;
+        gap: 15px 30px;
+        flex-wrap: wrap;
     }
     .categoria{
-        height: 110px;
-        width: 110px;
-        margin-right: 10px;
+        height: 60px;
+        width: 70px;
+
+        & svg {
+        font-size: 20px;
+        }
         & p {
-            font-size: 15px;
-        }  
+            font-size: 11px;
+        }
     }
     
     /*ENTRADA*/
-    .container-entrada{
-        height: 600px;
-    }
-    .container-estatico {
-        border-radius: 3% 3% 0% 0% / 2% 2% 0% 0%;
+    .container-entrada {
+        height: 200px;
     }
     .oneEstrutura{
-        gap:50px;
-        flex-direction: column;
-        width: 90%;
-        & h1 {
-            border-radius: 10px;
-            text-align: center;
-            width: 95%;
-            font-size: 28px;
-            backdrop-filter: blur(2px);
-        }
+        height: 200px;
+        width: 100%;
     }
     .twoEstrutura{
-        flex-direction: column-reverse;
-        width: 85%;
-        h1{
-            border-radius: 10px;
-            text-align: center;
-            font-size: 28px;
-            backdrop-filter: blur(2px);
-        }
-        img{
-            height: 300px;
-            width: 300px;
-        }
-    }
-    .imagens{
-        gap: 30px;
-        img{
-            height: 100px;
-            width: 100px;
-        }
+        height: 200px;
+        width: 100%;
     }
     .setas {
         & svg {
             margin: 5px;
             padding: 5px;
+            font-size: 30px;
         }
     }
 
@@ -371,6 +332,9 @@
         padding: 25px;
         border-radius: 5% 5% 0% 0% / 5% 5% 0% 0%;
     }
+    .observador{
+        display: none;
+    }
 
     /*MENU*/
     .menu{
@@ -384,54 +348,37 @@
         & a{
             font-size: 18px;
         }
+        .menu-hamburguer{
+            display: flex;
+        }
     }
 
+
     /*CATEGORIAS*/
-    .categorias {
-        width: 95%;
+    .categorias{
+        display: none;
     }
-    .categoria{
-        height: 110px;
-        width: 110px;
+    .categoria{ 
+
+        & svg {
+            font-size: 25px;
+        }
         & p {
-            font-size: 16px;
-        }  
+            font-size: 15px;
+        }
     }
 
     /*ENTRADA*/
-    .container-entrada{
-        height: 600px;
+    .container-entrada {
+        height: 290px;
     }
     .oneEstrutura{
-        gap:30px;
-        flex-direction: column;
-        width: 90%;
-        & h1 {
-            text-align: center;
-            width: 95%;
-            font-size: 30px;
-            backdrop-filter: blur(2px);
-        }
-    }
-    .imagens{
-        gap: 30px;
-        img{
-            height: 120px;
-            width: 120px;
-        }
+        height: 290px;
+        width: 100%;
     }
     .twoEstrutura{
-        flex-direction: column-reverse;
-        width: 85%;
-        h1{
-            text-align: center;
-            font-size: 30px;
-            backdrop-filter: blur(2px);
-        }
-        img{
-            height: 350px;
-            width: 350px;
-        }
+        height: 290px;
+        width: 100%;
     }
 
     /*PRODUTOS*/
@@ -478,42 +425,47 @@
 }
 
 @media screen and (min-width:850px) and (max-width:999px) {
+    /*MENU*/
+    .menu{
+        height: 82px;
+
+        & img{
+            height: 75px;
+            width: 148px;
+        }
+        & small {
+            font-size: 18px;
+        }
+    }
+
     /*CATEGORIAS*/
     .categorias {
-        width: 85%;
+        height: 100%;
+        gap: 10px;
     }
-    .categoria{
-        height: 110px;
-        width: 110px;
+    .categoria{ 
+        height: 75px;
+        width: 75px;
+
+        & svg {
+            font-size: 20px;
+        }
         & p {
-            font-size: 16px;
-        }  
+            font-size: 13px;
+        }
     }
 
     /*ENTRADA*/
-    .oneEstrutura{
-        width: 90%;
-        & h1 {
-            width: 95%;
-            font-size: 30px;
-        }
+    .container-entrada {
+        height: 350px;
     }
-    .imagens{
-        gap: 30px;
-        img{
-            height: 130px;
-            width: 130px;
-        }
+    .oneEstrutura{
+        height: 350px;
+        width: 100%;
     }
     .twoEstrutura{
-        width: 85%;
-        h1{
-            font-size: 30px;
-        }
-        img{
-            height: 300px;
-            width: 300px;
-        }
+        height: 350px;
+        width: 100%;
     }
 
     /*PRODUTOS*/
@@ -530,35 +482,44 @@
 }
 
 @media screen and (min-width:1000px) and (max-width:1299px) {
+    /*MENU*/
+    .menu{
+        height: 82px;
+
+        & img{
+            height: 75px;
+            width: 148px;
+        }
+        & small {
+            font-size: 18px;
+        }
+    }
+    
     /*CATEGORIAS*/
     .categorias {
-        width: 85%;
+        height: 100%;
+        gap: 10px;
+    }
+    .categoria{ 
+        & svg {
+            font-size: 25px;
+        }
+        & p {
+            font-size: 15px;
+        }
     }
 
-    /*ENTRADA*/
-    .oneEstrutura{
-        width: 90%;
-        & h1 {
-            width: 95%;
-            font-size: 30px;
-        }
+    /*BANNERS*/
+    .container-entrada{
+        height: 430px;
     }
-    .imagens{
-        gap: 30px;
-        img{
-            height: 130px;
-            width: 130px;
-        }
+    .oneEstrutura {
+        height: 430px;
+        width: 100%;
     }
-    .twoEstrutura{
-        width: 85%;
-        h1{
-            font-size: 30px;
-        }
-        img{
-            height: 300px;
-            width: 300px;
-        }
+    .twoEstrutura {
+        height: 430px;
+        width: 100%;
     }
 
     /*PRODUTOS*/
@@ -570,21 +531,11 @@
 }
 
 @media screen and (min-width:1300px) and (max-width:1550px) {
-
-    .categorias {
-        width: 85%;
+    /*BANNERS*/
+    .oneEstrutura {
+        width: 100%;
     }
-    /*ENTRADA*/
-    .oneEstrutura{
-        width: 90%;
-    }
-    .imagens{
-        img{
-            height: 140px;
-            width: 140px;
-        }
-    }
-    .categorias {
-        width: 85%;
+    .twoEstrutura {
+        width: 100%;
     }
 }

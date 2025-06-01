@@ -1,7 +1,7 @@
 [
     {
       "id": 1111,
-      "categoria": 0,
+      "categoria": 3,
       "nome": "Escova de Aço Para Furadeira Makita 100mm(4'')",
       "imagem": "https://i.postimg.cc/s2772rZ1/escova-aco-furadeira.jpg",
       "valor": 0.00,
@@ -9,7 +9,7 @@
     },
     {
       "id": 1111,
-      "categoria": 0,
+      "categoria": 3,
       "nome": "Escova Circular Torcida 10.000 RPM 5'' Bestfer",
       "imagem": "https://i.postimg.cc/7YXypGsZ/escova-circular-torcida-5.jpg",
       "valor": 0.00,
@@ -17,7 +17,7 @@
     },
     {
       "id": 1111,
-      "categoria": 0,
+      "categoria": 3,
       "nome": "Escova de Aço com Cabo Bestfer",
       "imagem": "https://i.postimg.cc/Dy7TjdcN/escova-aco-cabo.jpg",
       "valor": 0.00,
@@ -25,7 +25,7 @@
     },
     {
       "id": 1111,
-      "categoria": 0,
+      "categoria": 3,
       "nome": "Maçarico Portátil a Gás com Regulador Fertak",
       "imagem": "https://i.postimg.cc/TP2vdrws/macarico-a-gas-fertak.jpg",
       "valor": 0.00,
@@ -33,7 +33,7 @@
     },
     {
       "id": 1111,
-      "categoria": 0,
+      "categoria": 3,
       "nome": "Jogo de Escovas Circulares 2'' 2 Peças",
       "imagem": "https://i.postimg.cc/FHVQXP9c/jogo-escovas-circulares.jpg",
       "valor": 0.00,
@@ -41,7 +41,7 @@
     },
     {
       "id": 1111,
-      "categoria": 0,
+      "categoria": 3,
       "nome": "Escova Tipo Copo 4'' Rosca(M14) Bestfer",
       "imagem": "https://i.postimg.cc/FHVQXP9c/jogo-escovas-circulares.jpg",
       "valor": 0.00,
@@ -49,7 +49,7 @@
     },
     {
       "id": 1111,
-      "categoria": 0,
+      "categoria": 2,
       "nome": "PU 40 Multiuso Selante Adesivo Branco",
       "imagem": "https://i.postimg.cc/k4pknz61/PU-40.png",
       "valor": 0.00,
@@ -57,7 +57,7 @@
     },
     {
       "id": 1111,
-      "categoria": 0,
+      "categoria": 2,
       "nome": "PU 40 Multiuso Selante Adesivo Preto",
       "imagem": "https://i.postimg.cc/k4pknz61/PU-40.pngg",
       "valor": 0.00,
@@ -65,7 +65,7 @@
     },
     {
       "id": 1111,
-      "categoria": 0,
+      "categoria": 2,
       "nome": "PU 40 Multiuso Selante Adesivo Cinza",
       "imagem": "https://i.postimg.cc/k4pknz61/PU-40.png",
       "valor": 0.00,
@@ -73,7 +73,7 @@
     },
     {
       "id": 1111,
-      "categoria": 0,
+      "categoria": 2,
       "nome": "Aguarrás Solvente e Removedor 500ml",
       "imagem": "https://i.postimg.cc/FK9tGjXZ/aguarras.png",
       "valor": 0.00,
@@ -81,7 +81,7 @@
     },
     {
       "id": 1111,
-      "categoria": 0,
+      "categoria": 2,
       "nome": "Vaselina Liquida multiuso 500ml",
       "imagem": "https://i.postimg.cc/6q4FTcC9/vaselina-liquida.png",
       "valor": 0.00,
@@ -89,7 +89,7 @@
     },
     {
       "id": 1111,
-      "categoria": 0,
+      "categoria": 2,
       "nome": "Removedor Quimico para Tintas 500ml",
       "imagem": "https://i.postimg.cc/JnnfCMnH/removedor.png",
       "valor": 0.00,
@@ -97,7 +97,7 @@
     },
     {
       "id": 1111,
-      "categoria": 0,
+      "categoria": 2,
       "nome": "Querosene Removedor Comum 500ml",
       "imagem": "https://i.postimg.cc/BvNrzXqG/querosene.png",
       "valor": 0.00,

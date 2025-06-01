@@ -41,7 +41,7 @@ footer {
 
 
 /*DIVs FLEX*/
-.menu,.links, .container-entrada, .container-estatico, .oneEstrutura, .imagens, .twoEstrutura, .promocoes-int, .produtos, .produto-categoria, .modal, .categorias, .categoria, .all-produtos, .links-footer, .redes, .rodape, .end {
+.menu, .links, .tipos, .container-entrada, .container-estatico, .oneEstrutura, .imagens, .twoEstrutura, .promocoes-int, .produtos, .produto-categoria, .modal, .modal-tel, .categorias, .categoria, .produto-categoria, .all-produtos, .links-footer, .redes, .rodape, .end {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +74,6 @@ footer {
     flex-direction: column;
     gap: 5px;
     color: white;
-    font-size: 20px;
     padding: 10px 0px;
 
     &:hover {
@@ -106,15 +105,24 @@ footer {
   & span {
     color: white;
   }
+
+  .menu-hamburguer{
+    cursor: pointer;
+    display: none;
+    & svg{
+      font-size: 30px;
+    }
+  }
 }
 
 
 /*CATEGORIA*/
 .produto-categoria {
+  height: 100%;
   width: 100%;
 }
 .modal {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.219);
   position: fixed;
@@ -130,8 +138,8 @@ footer {
     color: #f01f2b;
     font-size: 40px;
     position: absolute;
-    right: 10px;
-    top: 10px;
+    right: 20px;
+    top: 20px;
 
     &:hover {
       color: #0264b2;
@@ -144,23 +152,19 @@ footer {
   }
 }
 .categorias {
-  width: 70%;
-  padding: 10px 0px;
-  flex-direction: column;
-  border-radius: 5px;
-}
-.marquee {
   width: 100%;
   height: 140px;
+  gap: 50px;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 .categoria {
-  margin-right: 30px;
   flex-direction: column;
-  height: 130px;
-  width: 130px;
+  height: 100px;
+  width: 100px;
   text-align: center;
   box-shadow: 0px 0px 3px gray;
-  border-radius: 50%;
+  border-radius: 20%;
   cursor: pointer;
   gap: 5px;
   border: none;
@@ -171,8 +175,11 @@ footer {
     color: #f01f2b;
   }
   & p {
-    font-size: 18px;
+    font-size: 15px;
     color: #181818;
+  }
+  &:hover{
+    box-shadow: 0px 0px 5px gray;
   }
   &:hover svg {
     transition: all 0.6s ease-in-out;
@@ -183,6 +190,20 @@ footer {
     color: #0264b2;
   }
 }
+.modal-tel{
+  height: 100vh;
+  width: 100%;
+  gap: 50px;
+  background-color: rgba(255, 255, 255, 0.219);
+  position: fixed;
+  bottom: 0px;
+  z-index: +2;
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  flex-direction: column;
+  transition: all 1s ease-in-out;
+  display: none;
+}
 
 
 /*ENTRADA*/
@@ -191,76 +212,29 @@ footer {
   width: 100%;
   margin-bottom: 50px;
 }
-.container-estatico {
-  height: 100%;
-  width: 100%;
-  background-position: center;
-  background-image: url(../imagens/back-inicial.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 0px 50px;
-  text-align: center;
-  border-radius: 5% 5% 0% 0% / 5% 5% 0% 0%;
-}
 .oneEstrutura {
   transition: all 0.5s ease-in-out;
-  position: absolute;
-  max-width: 95%;
-  gap: 10px;
-
-  & h1 {
-    text-align: start;
-    font-size: 35px;
-    font-weight: 500;
-    color: aliceblue;
-    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
-  }
-}
-.frase1{
-    color: #008cff;
-    font-weight: 600;
-  }
-.frase2{
-    font-weight: 600;
-    border-bottom: 2px solid #008cff;
-}                  
-.imagens {
-  gap: 10px;
+  height: 500px;
   width: 90%;
-  flex-wrap: wrap;
-
-  & img {
-    height: 157px;
-    width: 170px;
-    border-radius: 5px;
-    filter: drop-shadow(0px 0px 10px #0263b2);
-  }
+  position: absolute;
+  background-position: center;
+  background-image: url(../imagens/back-fertem.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .twoEstrutura {
+  height: 500px;
+  width: 90%;
   transition: all 0.5s ease-in-out;
-  position: absolute;
   z-index: -1;
   opacity: 0;
-  gap: 30px;
-  width: 80%;
-
-  & h1{
-    font-size: 35px;
-    color: aliceblue;
-    font-weight: 500;
-    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
-    text-align: start;
-  }
-  & img{
-    border-radius: 5px;
-    filter: drop-shadow(0px 0px 10px #0263b2);
-    height: 400px;
-    width: 400px;
-  }
+  background-position: center;
+  background-image: url(../imagens/back-fertem-3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .setas {
   position: absolute;
-  z-index: +1;
   cursor: pointer;
 
   & svg {
@@ -268,23 +242,25 @@ footer {
     color: #f01f2b;
     margin: 20px;
     padding: 5px;
-    border: 1px solid white;
+    border: 1px solid #f01f2b;
     border-radius: 50%;
 
     &:hover {
-      border: 2px solid white;
+      border: 2px solid #0263b2;
     }
   }
 }
 & #right {
   transition: all 0.5s ease-in-out;
   right: 0px;
+  border-radius: 50%;
 }
 & #left {
   transition: all 0.5s ease-in-out;
   left: 0;
   opacity: 0;
   z-index: -1;
+  border-radius: 50%;
 }
 
 

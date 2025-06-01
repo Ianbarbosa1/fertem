@@ -28,7 +28,7 @@ export function Footer(){
                         </div>
                     </a>
 
-                    <a href='https://www.instagram.com/' target="_blank">
+                    <a href='https://www.instagram.com/fertem01?igsh=OXg5Njg0Zm45bWho' target="_blank">
                         <FaInstagram/>
                         <div>
                             <p>Instagram</p>

@@ -1,4 +1,3 @@
-import Marquee from "react-fast-marquee";
 import Dados from "../produtos.json";
 
 /*ICONES*/
@@ -68,6 +67,7 @@ export function Categoria() {
 
   return (
     <section className="produto-categoria">
+
       {mostrou1 && (
         <section className="modal">
           <IoClose className="fechar" onClick={fechou} />
@@ -311,8 +311,20 @@ export function Categoria() {
         </section>
       )}
 
+      <section className="modal-tel" id="menu-tel">
+        <IoClose className="fechar"/>
+        <button onClick={primeiraCategoria}>Maquinas</button>
+        <button onClick={segundaCategoria}>Decoração</button>
+        <button onClick={terceiraCategoria}>Ferramentas</button>
+        <button onClick={quartaCategoria}>Argamassas</button>
+        <button onClick={quintaCategoria}>Iluminação</button>
+        <button onClick={sextaCategoria}>Hidráulica</button>
+        <button onClick={setimaCategoria}>Elétrica</button>
+        <button onClick={oitavaCategoria}>Ferragem</button>
+        <button onClick={nonaCategoria}>EPI</button>
+      </section>
+
       <section className="categorias">
-        <Marquee pauseOnHover speed={20} className="marquee">
           <button className="categoria" id="one" onClick={primeiraCategoria}>
             <GiDrill />
             <p>Maquinas</p>
@@ -349,7 +361,6 @@ export function Categoria() {
             <GiChelseaBoot />
             <p>EPI</p>
           </button>
-        </Marquee>
       </section>
     </section>
   );
