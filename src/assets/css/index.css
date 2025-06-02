@@ -56,16 +56,15 @@ footer {
   background-color: #0264b2;
   z-index: +2;
   position: fixed;
+  top: 0px;
 
   & img {
     height: 80px;
     width: 152px;
   }
-
   & .links {
     gap: 50px;
   }
-
   & a {
     transition: all 0.3s;
     display: flex;
@@ -80,32 +79,26 @@ footer {
       color: tomato;
     }
   }
-
   a:hover svg {
     transition: all 0.3s;
     color: tomato;
   }
-
   & svg {
     color: white;
     font-size: 20px;
   }
-
   & small {
     font-size: 20px;
   }
-
   & p {
     padding: 7px;
     font-size: 18px;
     color: rgb(255, 255, 255);
     border-radius: 5px;
   }
-
   & span {
     color: white;
   }
-
   .menu-hamburguer{
     cursor: pointer;
     display: none;
@@ -127,28 +120,28 @@ footer {
   background-color: rgba(255, 255, 255, 0.219);
   position: fixed;
   bottom: 0px;
-  z-index: 3;
+  z-index: 4;
   backdrop-filter: blur(10px);
   border-radius: 5px;
   flex-direction: column;
   transition: all 1s ease-in-out;
 
-  & .fechar {
-    cursor: pointer;
-    color: #f01f2b;
-    font-size: 40px;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-
-    &:hover {
-      color: #0264b2;
-    }
-  }
-
+  
   & .container-produtos {
     max-height: 730px;
     overflow-y: auto;
+  }
+}
+.fechar {
+  cursor: pointer;
+  color: #f01f2b;
+  font-size: 40px;
+  position: absolute;
+  right: 18px;
+  top: 18px;
+
+  &:hover {
+    color: #0264b2;
   }
 }
 .categorias {
@@ -197,12 +190,25 @@ footer {
   background-color: rgba(255, 255, 255, 0.219);
   position: fixed;
   bottom: 0px;
-  z-index: +2;
+  z-index: 3;
   backdrop-filter: blur(10px);
   border-radius: 5px;
   flex-direction: column;
   transition: all 1s ease-in-out;
   display: none;
+}
+.botao-cat{
+  width: 50%;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  color:aliceblue;
+  transition: all 1s ease-in;
+  background-image: linear-gradient(to right, tomato, #0263b2);
+  &:hover{
+    text-decoration: underline;
+  }
 }
 
 
@@ -230,7 +236,7 @@ footer {
   opacity: 0;
   background-position: center;
   background-image: url(../imagens/back-fertem-3.png);
-  background-size: contain;
+  background-size:contain;
   background-repeat: no-repeat;
 }
 .setas {
@@ -448,7 +454,7 @@ footer {
 
 
 /*RODAPÉ*/
-& .rodape {
+.rodape {
   width: 100%;
   justify-content: space-around;
   color: aliceblue;
@@ -474,7 +480,6 @@ footer {
     font-size: 18px;
     font-weight: 500;
     color: aliceblue;
-
     &:hover {
       color: rgb(179, 184, 189);
       text-decoration: underline;
@@ -492,11 +497,9 @@ footer {
     display: flex;
     align-items: center;
     gap: 7px;
-
     &:hover {
       color: rgb(179, 184, 189);
     }
-
     & svg {
       font-size: 30px;
     }
@@ -507,14 +510,12 @@ footer {
   color: aliceblue;
   gap: 30px;
 
-  & h1,
-  h2 {
+  & h1,h2 {
     font-weight: 300;
     font-size: 20px;
     max-width: 350px;
     text-align: center;
   }
-
   & nav {
     height: 10px;
     width: 3px;

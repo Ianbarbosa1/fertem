@@ -2,9 +2,6 @@ import { Promocao } from "../fragmentos/promocao";
 import { Categoria } from "../componentes/categorias";
 import { Banners } from "./banners";
 
-
-/*IMAGENS*/
-
 export function Entrada() {
   return (
     <>

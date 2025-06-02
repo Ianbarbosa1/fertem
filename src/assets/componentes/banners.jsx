@@ -1,6 +1,6 @@
 /*ICONES*/
-import { FaArrowLeft } from "react-icons/fa6";
-import { FaArrowRight } from "react-icons/fa6";
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 
 export function Banners() {
   function alteracaoEstrutura() {
@@ -39,7 +39,7 @@ export function Banners() {
   return (
     <section className="container-entrada">
       <span className="setas" id="left" onClick={alteracaoEstrutura2}>
-        <FaArrowLeft />
+        <IoIosArrowBack/>
       </span>
 
       <section className="oneEstrutura"></section>
@@ -47,7 +47,7 @@ export function Banners() {
       <section className="twoEstrutura" id="ofertas"></section>
 
       <span className="setas" id="right" onClick={alteracaoEstrutura}>
-        <FaArrowRight />
+        <IoIosArrowForward />
       </span>
     </section>
   );
