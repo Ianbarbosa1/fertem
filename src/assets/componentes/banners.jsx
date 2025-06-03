@@ -44,7 +44,9 @@ export function Banners() {
 
       <section className="oneEstrutura"></section>
 
-      <section className="twoEstrutura" id="ofertas"></section>
+      <section className="twoEstrutura"></section>
+
+      <section className="threeEstrutura"></section>
 
       <span className="setas" id="right" onClick={alteracaoEstrutura}>
         <IoIosArrowForward />

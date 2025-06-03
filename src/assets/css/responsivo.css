@@ -57,22 +57,14 @@
     
     /*ENTRADA*/
     .container-entrada {
-        height: 230px;
+        margin-top: 20px;
+        height: 500px;
     }
-    .oneEstrutura{
-        height: 200px;
-        width: 100%;
+    .oneEstrutura, .twoEstrutura, .setas{
+        display: none;
     }
-    .twoEstrutura{
-        height: 200px;
-        width: 100%;
-    }
-    .setas {
-        & svg {
-            margin: 5px;
-            padding: 5px;
-            font-size: 30px;
-        }
+    .threeEstrutura{
+        display: block;
     }
     
 
@@ -227,23 +219,13 @@
     
     /*ENTRADA*/
     .container-entrada {
-        height: 300px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
-    .oneEstrutura{
-        height: 300px;
-        width: 100%;
+    .oneEstrutura, .twoEstrutura, .setas{
+        display: none;
     }
-    .twoEstrutura{
-        height: 300px;
-        width: 100%;
-    }
-    .setas {
-        & svg {
-            margin: 5px;
-            padding: 5px;
-            font-size: 35px;
-        }
+    .threeEstrutura{
+        display: block;
     }
 
 
@@ -392,15 +374,13 @@
 
     /*ENTRADA*/
     .container-entrada {
-        height: 400px;
+        margin-top: 20px;
     }
-    .oneEstrutura{
-        height: 350px;
-        width: 100%;
+    .oneEstrutura, .twoEstrutura, .setas{
+        display: none;
     }
-    .twoEstrutura{
-        height: 350px;
-        width: 100%;
+    .threeEstrutura{
+        display: block;
     }
 
     /*PROMOÇÕES*/
@@ -547,11 +527,7 @@
     .container-entrada {
         height: 420px;
     }
-    .oneEstrutura{
-        height: 420px;
-        width: 100%;
-    }
-    .twoEstrutura{
+    .oneEstrutura, .twoEstrutura{
         height: 420px;
         width: 100%;
     }
@@ -622,11 +598,7 @@
     .container-entrada{
         height: 500px;
     }
-    .oneEstrutura {
-        height: 500px;
-        width: 100%;
-    }
-    .twoEstrutura {
+    .oneEstrutura, .twoEstrutura {
         height: 500px;
         width: 100%;
     }
@@ -688,10 +660,7 @@
 
 @media screen and (min-width:1300px) and (max-width:1550px) {
     /*BANNERS*/
-    .oneEstrutura {
-        width: 100%;
-    }
-    .twoEstrutura {
+    .oneEstrutura, .twoEstrutura {
         width: 100%;
     }
 }
