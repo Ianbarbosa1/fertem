@@ -42,14 +42,14 @@
     /*CATEGORIAS*/
     .modal{
         & .container-produtos {
-            max-height: 630px;
+            max-height: 600px;
         }
     }
     .categorias {
         display: none;
     }
     .modal-tel{
-        gap: 25px;
+        gap: 20px;
     }
     .botao-cat{
         font-size: 16px;
@@ -57,14 +57,14 @@
     
     /*ENTRADA*/
     .container-entrada {
-        height: 150px;
+        height: 230px;
     }
     .oneEstrutura{
-        height: 150px;
+        height: 200px;
         width: 100%;
     }
     .twoEstrutura{
-        height: 150px;
+        height: 200px;
         width: 100%;
     }
     .setas {
@@ -227,15 +227,15 @@
     
     /*ENTRADA*/
     .container-entrada {
-        height: 200px;
+        height: 300px;
         margin-top: 10px;
     }
     .oneEstrutura{
-        height: 200px;
+        height: 300px;
         width: 100%;
     }
     .twoEstrutura{
-        height: 200px;
+        height: 300px;
         width: 100%;
     }
     .setas {
@@ -392,14 +392,14 @@
 
     /*ENTRADA*/
     .container-entrada {
-        height: 290px;
+        height: 400px;
     }
     .oneEstrutura{
-        height: 290px;
+        height: 350px;
         width: 100%;
     }
     .twoEstrutura{
-        height: 290px;
+        height: 350px;
         width: 100%;
     }
 
@@ -545,14 +545,14 @@
 
     /*ENTRADA*/
     .container-entrada {
-        height: 350px;
+        height: 420px;
     }
     .oneEstrutura{
-        height: 350px;
+        height: 420px;
         width: 100%;
     }
     .twoEstrutura{
-        height: 350px;
+        height: 420px;
         width: 100%;
     }
 
@@ -620,14 +620,14 @@
 
     /*BANNERS*/
     .container-entrada{
-        height: 430px;
+        height: 500px;
     }
     .oneEstrutura {
-        height: 430px;
+        height: 500px;
         width: 100%;
     }
     .twoEstrutura {
-        height: 430px;
+        height: 500px;
         width: 100%;
     }
 

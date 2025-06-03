@@ -126,19 +126,20 @@ footer {
   flex-direction: column;
   transition: all 1s ease-in-out;
 
-  
   & .container-produtos {
     max-height: 730px;
     overflow-y: auto;
   }
 }
+.title{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .fechar {
   cursor: pointer;
   color: #f01f2b;
   font-size: 40px;
-  position: absolute;
-  right: 18px;
-  top: 18px;
 
   &:hover {
     color: #0264b2;
@@ -214,14 +215,14 @@ footer {
 
 /*ENTRADA*/
 .container-entrada {
-  height: 500px;
+  height: 600px;
   width: 100%;
   margin-bottom: 50px;
 }
 .oneEstrutura {
   transition: all 0.5s ease-in-out;
-  height: 500px;
-  width: 90%;
+  height: 600px;
+  width: 100%;
   position: absolute;
   background-position: center;
   background-image: url(../imagens/back-fertem.png);
@@ -229,13 +230,13 @@ footer {
   background-repeat: no-repeat;
 }
 .twoEstrutura {
-  height: 500px;
-  width: 90%;
+  height: 600px;
+  width: 100%;
   transition: all 0.5s ease-in-out;
   z-index: -1;
   opacity: 0;
   background-position: center;
-  background-image: url(../imagens/back-fertem-3.png);
+  background-image: url(../imagens/back-fertem-5.png);
   background-size:contain;
   background-repeat: no-repeat;
 }
