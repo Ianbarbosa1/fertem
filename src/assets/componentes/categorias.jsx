@@ -1,4 +1,5 @@
 import Dados from "../produtos.json";
+import { useState } from "react";
 
 /*ICONES*/
 import { BsBoxes } from "react-icons/bs";
@@ -14,12 +15,10 @@ import { GiStraightPipe } from "react-icons/gi";
 import { GiWireCoil } from "react-icons/gi";
 import { PiLadder } from "react-icons/pi";
 import { GiChelseaBoot } from "react-icons/gi";
+import { IoClose } from "react-icons/io5";
 
 /*IMAGENS*/
 import logo from "../imagens/logo-sem-fundo.png";
-
-import { useState } from "react";
-import { IoClose } from "react-icons/io5";
 
 let horas = new Date();
 let dia = horas.getDay();
@@ -51,6 +50,14 @@ if (retorno === true) {
 }
 
 export function Categoria() {
+  /*FUNÇÃO DE DETALHE DO PRODUTO*/
+  const [detalhe, setDetalhe] = useState([])
+  const [fechar, setFechar] = useState(false)
+  const detalheProduto = (Produto) => 
+  {
+    setDetalhe([{...Produto}])
+    setFechar(true)
+  }
 
   function openCategories(){
     let modal = document.querySelector('#menu-tel')
@@ -150,6 +157,38 @@ export function Categoria() {
     
       <section className="produto-categoria">
 
+      {
+        fechar ?
+        <section className="detalhamento">
+          <IoClose className="fechar" onClick={() => setFechar(false)} />
+          {
+            detalhe.map((item) => 
+            {
+              return(
+                <>
+                  <section className="detalhe-interno">
+                    <img src={item.imagem} alt={item.nome} />
+                    <div className="sobre-produto">
+                      <h1>{item.nome}</h1>
+                      <h2> <span>R$</span> {item.valor}</h2>
+                      <span>Cod: {item.id}</span>
+
+                      <nav>
+                        <div>
+                          <h4>Descrição do produto:</h4>
+                        </div>
+                        
+                        <p>{item.descricao}</p>
+                      </nav>
+                    </div>
+                  </section>
+                </>
+              )
+            })
+          }
+        </section> :null
+      }
+
         {mostrou1 && (
           <section className="modal">
             <div className="container-produtos">
@@ -169,7 +208,10 @@ export function Categoria() {
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor.toFixed(2)}</p>
+                          <p><span>R$</span> {post.valor}</p>
+                          <div className="botoes">
+                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                          </div>
                         </div>
                       </>
                     );
@@ -199,7 +241,10 @@ export function Categoria() {
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor.toFixed(2)}</p>
+                          <p><span>R$</span> {post.valor}</p>
+                          <div className="botoes">
+                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                          </div>
                         </div>
                       </>
                     );
@@ -229,7 +274,10 @@ export function Categoria() {
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor.toFixed(2)}</p>
+                          <p><span>R$</span> {post.valor}</p>
+                          <div className="botoes">
+                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                          </div>
                         </div>
                       </>
                     );
@@ -259,7 +307,10 @@ export function Categoria() {
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor.toFixed(2)}</p>
+                          <p><span>R$</span> {post.valor}</p>
+                          <div className="botoes">
+                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                          </div>
                         </div>
                       </>
                     );
@@ -289,7 +340,10 @@ export function Categoria() {
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor.toFixed(2)}</p>
+                          <p><span>R$</span> {post.valor}</p>
+                          <div className="botoes">
+                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                          </div>
                         </div>
                       </>
                     );
@@ -319,7 +373,10 @@ export function Categoria() {
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor.toFixed(2)}</p>
+                          <p><span>R$</span> {post.valor}</p>
+                          <div className="botoes">
+                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                          </div>
                         </div>
                       </>
                     );
@@ -349,7 +406,10 @@ export function Categoria() {
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor.toFixed(2)}</p>
+                          <p><span>R$</span> {post.valor}</p>
+                          <div className="botoes">
+                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                          </div>
                         </div>
                       </>
                     );
@@ -379,7 +439,10 @@ export function Categoria() {
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor.toFixed(2)}</p>
+                          <p><span>R$</span> {post.valor}</p>
+                          <div className="botoes">
+                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                          </div>
                         </div>
                       </>
                     );
@@ -409,7 +472,10 @@ export function Categoria() {
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor.toFixed(2)}</p>
+                          <p><span>R$</span> {post.valor}</p>
+                          <div className="botoes">
+                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                          </div>
                         </div>
                       </>
                     );

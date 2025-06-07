@@ -86,7 +86,6 @@
                 height: 120px;
             }
             & h2{
-                -webkit-line-clamp: 3;
                 font-size: 14px;
             }
             & h3{
@@ -117,17 +116,60 @@
         justify-content: center;
         & .product{
             margin-left: 0px;
-            height: 230px;
+            height: 240px;
             width: 140px;
             & h2{
-                font-size: 14px;
-                -webkit-line-clamp: 3;
+                font-size: 12px;
             }
             & h3{
-                font-size: 13px;
+                font-size: 11px;
             }
             & p{
-                font-size: 20px;
+                font-size: 18px;
+            }
+            .botoes{
+                button, a{
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+    .detalhamento{
+        .fechar{
+            position: relative;
+            left: 175px;
+            top: 30px;
+        }
+    }
+    .detalhe-interno{
+        img{
+            height: 150px;
+            width: 150px;
+        }
+    }
+    .sobre-produto{
+        width: 150px;
+        gap: 10px;
+        h1{
+            font-size: 15px;
+        }
+        h2{
+            font-size: 18px;
+            span{
+                font-size: 13px;
+            }
+        }
+        span{
+            font-size: 12px;
+        }
+        nav{
+            height: 100%;
+            h4{
+                width: 130px;
+                font-size: 12px;
+            }
+            p{
+                font-size: 12px;
             }
         }
     }
@@ -271,10 +313,9 @@
     .all-produtos{
         gap: 15px 10px;
         justify-content: center;
-
         & .product {
             margin-left: 5px;
-            height: 260px;
+            height: 290px;
             width: 165px;
             & h2 {
                 -webkit-line-clamp: 3;
@@ -285,6 +326,45 @@
             }
             & p {
                 font-size: 20px;
+            }
+        }
+    }
+    .detalhamento{
+        .fechar{
+            position: relative;
+            left: 225px;
+            top: 30px;
+        }
+    }
+    .detalhe-interno{
+        img{
+            height: 200px;
+            width: 200px;
+        }
+    }
+    .sobre-produto{
+        width: 200px;
+        gap: 15px;
+        h1{
+            font-size: 18px;
+        }
+        h2{
+            font-size: 20px;
+            span{
+                font-size: 14px;
+            }
+        }
+        span{
+            font-size: 13px;
+        }
+        nav{
+            height: 100%;
+            h4{
+                width: 140px;
+                font-size: 13px;
+            }
+            p{
+                font-size: 13px;
             }
         }
     }
@@ -419,7 +499,7 @@
     .all-produtos{
         gap: 20px 0px;
         & .product {
-            height: 260px;
+            height: 280px;
             width: 165px;
             & h2 {
                 font-size: 16px;
@@ -429,6 +509,40 @@
             }
             & p {
                 font-size: 23px;
+            }
+        }
+    }
+    .detalhamento{
+        .fechar{
+            position: relative;
+            left: 300px;
+            top: 30px;
+        }
+    }
+    .detalhe-interno{
+        img{
+            height: 300px;
+            width: 300px;
+        }
+    }
+    .sobre-produto{
+        width: 250px;
+        h1{
+            font-size: 20px;
+        }
+        h2{
+            font-size: 23px;
+            span{
+                font-size: 14px;
+            }
+        }
+        span{
+            font-size: 14px;
+        }
+        nav{
+            h4{
+                width: 163px;
+                font-size: 15px;
             }
         }
     }
@@ -544,7 +658,7 @@
         gap: 20px 0px;
 
         & .product {
-            height: 260px;
+            height: 290px;
             width: 180px;
             & h2 {
                 font-size: 16px;
@@ -555,6 +669,19 @@
             & p {
                 font-size: 23px;
             }
+        }
+    }
+    .detalhamento{
+        .fechar{
+            position: relative;
+            left: 400px;
+            top: 30px;
+        }
+    }
+    .detalhe-interno{
+        img{
+            height: 400px;
+            width: 400px;
         }
     }
 
@@ -636,7 +763,7 @@
         gap: 15px 5px;
 
         & .product {
-            height: 290px;
+            height: 305px;
             width: 200px;
             & h2 {
                 font-size: 16px;

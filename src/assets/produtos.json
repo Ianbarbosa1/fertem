@@ -1,107 +1,107 @@
 [
     {
-      "id": 1111,
+      "id": 1000,
       "categoria": 3,
       "nome": "Escova de Aço Para Furadeira Makita 100mm(4'')",
       "imagem": "https://i.postimg.cc/s2772rZ1/escova-aco-furadeira.jpg",
-      "valor": 0.00,
-      "descricao": "Para furadeiras, ideal para remoção de ferrugem leve e tinta de metais com 100mm de diâmetro."
+      "valor": "150,00",
+      "descricao": "Escova circular com cerdas de aço para uso em furadeiras elétricas, ideal para limpeza de superfícies metálicas, remoção de ferrugem, tinta e rebarbas."
     },
     {
-      "id": 1111,
+      "id": 1001,
       "categoria": 3,
       "nome": "Escova Circular Torcida 10.000 RPM 5'' Bestfer",
       "imagem": "https://i.postimg.cc/7YXypGsZ/escova-circular-torcida-5.jpg",
-      "valor": 0.00,
-      "descricao": "."
+      "valor": "0",
+      "descricao": "Escova metálica circular com fios de aço torcidos, utilizada em esmerilhadeiras para trabalhos pesados de limpeza e preparação de superfícies metálicas, removendo ferrugem, tinta, resíduos e preparando superfícies metálicas."
     },
     {
-      "id": 1111,
+      "id": 1002,
       "categoria": 3,
       "nome": "Escova de Aço com Cabo Bestfer",
       "imagem": "https://i.postimg.cc/Dy7TjdcN/escova-aco-cabo.jpg",
-      "valor": 0.00,
-      "descricao": "."
+      "valor": "0",
+      "descricao": "Escova manual com cerdas de aço e cabo ergonômico, utilizada para limpeza de superfícies metálicas, remoção de ferrugem, tinta, resíduos e preparação para pintura ou soldagem."
     },
     {
-      "id": 1111,
+      "id": 1003,
       "categoria": 3,
       "nome": "Maçarico Portátil a Gás com Regulador Fertak",
       "imagem": "https://i.postimg.cc/TP2vdrws/macarico-a-gas-fertak.jpg",
-      "valor": 0.00,
-      "descricao": "."
+      "valor": "0",
+      "descricao": "Ferramenta portátil que utiliza gás para gerar chama intensa, usada em soldagem, corte, aquecimento e trabalhos de bricolagem que requerem controle preciso da temperatura."
     },
     {
-      "id": 1111,
+      "id": 1004,
       "categoria": 3,
       "nome": "Jogo de Escovas Circulares 2'' 2 Peças",
       "imagem": "https://i.postimg.cc/FHVQXP9c/jogo-escovas-circulares.jpg",
-      "valor": 0.00,
-      "descricao": "."
+      "valor":"0",
+      "descricao": "Conjunto de escovas circulares pequenas usadas em ferramentas rotativas para limpeza, remoção de ferrugem, tinta e acabamento em superfícies metálicas"
     },
     {
-      "id": 1111,
+      "id": 1005,
       "categoria": 3,
       "nome": "Escova Tipo Copo 4'' Rosca(M14) Bestfer",
       "imagem": "https://i.postimg.cc/G2GqJfQj/escova-tipo-copo-4.jpg",
-      "valor": 0.00,
-      "descricao": "."
+      "valor": "0",
+      "descricao": "Escova em formato de copo com cerdas de aço, rosqueada para esmerilhadeiras, usada para limpeza, remoção de ferrugem e preparação de superfícies metálicas em áreas de difícil acesso."
     },
     {
-      "id": 1111,
+      "id": 1006,
       "categoria": 2,
       "nome": "PU 40 Multiuso Selante Adesivo Branco",
       "imagem": "https://i.postimg.cc/k4pknz61/PU-40.png",
-      "valor": 0.00,
-      "descricao": "."
+      "valor": "0",
+      "descricao": "Selante adesivo à base de poliuretano, utilizado para vedação, colagem e reparos em diversas superfícies, oferecendo alta resistência e durabilidade, ideal para aplicações internas e externas."
     },
     {
-      "id": 1111,
+      "id": 1007,
       "categoria": 2,
       "nome": "PU 40 Multiuso Selante Adesivo Preto",
       "imagem": "https://i.postimg.cc/k4pknz61/PU-40.pngg",
-      "valor": 0.00,
-      "descricao": "."
+      "valor": "0",
+      "descricao": "Selante adesivo à base de poliuretano, utilizado para vedação, colagem e reparos em diversas superfícies, oferecendo alta resistência e durabilidade, ideal para aplicações internas e externas."
     },
     {
-      "id": 1111,
+      "id": 1008,
       "categoria": 2,
       "nome": "PU 40 Multiuso Selante Adesivo Cinza",
       "imagem": "https://i.postimg.cc/k4pknz61/PU-40.png",
-      "valor": 0.00,
-      "descricao": "."
+      "valor": "0",
+      "descricao": "Selante adesivo à base de poliuretano, utilizado para vedação, colagem e reparos em diversas superfícies, oferecendo alta resistência e durabilidade, ideal para aplicações internas e externas."
     },
     {
-      "id": 1111,
+      "id": 1009,
       "categoria": 2,
       "nome": "Aguarrás Solvente e Removedor 500ml",
       "imagem": "https://i.postimg.cc/FK9tGjXZ/aguarras.png",
-      "valor": 0.00,
-      "descricao": "."
+      "valor": "0",
+      "descricao": "Solvente usado para diluir tintas, limpar pincéis e remover resíduos de tinta e verniz em superfícies variadas."
     },
     {
-      "id": 1111,
+      "id": 1010,
       "categoria": 2,
       "nome": "Vaselina Liquida multiuso 500ml",
       "imagem": "https://i.postimg.cc/6q4FTcC9/vaselina-liquida.png",
-      "valor": 0.00,
-      "descricao": "."
+      "valor": "0",
+      "descricao": "Lubrificante e protetor para superfícies metálicas, plásticas e de borracha, usada para reduzir atrito, proteger contra ferrugem e umidade em diversos equipamentos e peças."
     },
     {
-      "id": 1111,
+      "id": 1011,
       "categoria": 2,
       "nome": "Removedor Quimico para Tintas 500ml",
       "imagem": "https://i.postimg.cc/JnnfCMnH/removedor.png",
-      "valor": 0.00,
-      "descricao": "."
+      "valor": "0",
+      "descricao": "Produto químico usado para dissolver e remover tintas, vernizes e esmaltes de diversas superfícies, facilitando a limpeza e preparação para repintura."
     },
     {
-      "id": 1111,
+      "id": 1012,
       "categoria": 2,
       "nome": "Querosene Removedor Comum 500ml",
       "imagem": "https://i.postimg.cc/BvNrzXqG/querosene.png",
-      "valor": 0.00,
-      "descricao": "."
+      "valor": "0",
+      "descricao": "Combustível e solvente usado para limpeza, remoção de graxa, óleo e sujeiras pesadas em peças e superfícies metálicas."
     }
 ]
   

@@ -41,7 +41,7 @@ footer {
 
 
 /*DIVs FLEX*/
-.menu, .links, .tipos, .container-entrada, .container-estatico, .oneEstrutura, .imagens, .twoEstrutura, .promocoes-int, .produtos, .produto-categoria, .modal, .modal-tel, .categorias, .categoria, .produto-categoria, .all-produtos, .links-footer, .redes, .rodape, .end {
+.menu, .links, .tipos, .container-entrada, .container-estatico, .oneEstrutura, .imagens, .twoEstrutura, .promocoes-int, .produtos, .produto-categoria, .modal, .modal-tel, .categorias, .categoria, .produto-categoria, .all-produtos, .botoes, .detalhamento, .detalhe-interno, .sobre-produto, .links-footer, .redes, .rodape, .end {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,7 +139,7 @@ footer {
 .fechar {
   cursor: pointer;
   color: #f01f2b;
-  font-size: 40px;
+  font-size: 30px;
 
   &:hover {
     color: #0264b2;
@@ -398,7 +398,7 @@ footer {
 
   & .product {
     margin-left: 13px;
-    height: 310px;
+    height: 355px;
     width: 250px;
     background-color: white;
     box-shadow: 0px 0px 2px gray;
@@ -431,7 +431,7 @@ footer {
       font-weight: 400;
       font-size: 15px;
       margin: 7px 7px;
-      font-family: "Karla"
+      font-family: "Karla", sans-serif;
     }
     & p {
       color: #f01f2b;
@@ -442,6 +442,93 @@ footer {
       & span {
         font-size: 15px;
       }
+    }
+    .botoes{
+      flex-direction: column;
+      gap: 10px;
+      margin: 10px 10px 0px 10px;
+
+      button, a{
+        cursor: pointer;
+        border: none;
+        color: aliceblue;
+        padding: 7px;
+        width: 100%;
+        background-color: #0263b2;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 14px;
+        &:hover{
+          color: rgb(216, 211, 211);
+        }
+      }
+
+      a{
+        background-color: #f01f2b;
+      }
+    }
+  }
+}
+.detalhamento{
+  top: 0%;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 5;
+  background-color: #18181836;
+  backdrop-filter: blur(15px);
+  border-radius: 5px;
+  flex-direction: column;
+
+  .fechar{
+    position: relative;
+    left: 425px;
+    top: 30px;
+  }
+}
+.detalhe-interno{
+  gap: 20px;
+  padding: 30px;
+  align-items: start;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+
+  img{
+    height: 450px;
+    width: 450px;
+  }
+}
+.sobre-produto{
+  width: 350px;
+  gap: 30px;
+  align-items: start;
+  flex-direction: column;
+
+  h1{
+    font-size: 24px;
+    font-family: "Karla", sans-serif;
+    font-weight: 500;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 28px;
+    span{
+      font-size: 16px;
+      color: #f01f2b;
+    }
+  }
+  span{
+    color: gray;
+    font-weight: 400;
+    font-family: "Karla", sans-serif;
+  }
+  nav{
+    padding: 5px;
+    box-shadow: 0px 0px 1px gray;
+    h4{
+      width: 173px;
+      border-bottom: 2px solid #f01f2b;
+      margin-bottom: 10px;
     }
   }
 }
