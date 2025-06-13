@@ -1,11 +1,18 @@
+/*IMAGENS*/
 import logo from '../imagens/logo-sem-fundo.png'
+
+/*ICONES*/
 import { FaWhatsapp } from 'react-icons/fa6'
 import { FaInstagram } from 'react-icons/fa6' 
 import { FaFacebookF } from 'react-icons/fa6' 
+import { IoLogoWhatsapp } from 'react-icons/io'
 export function Footer(){
     return(
         <>  
             <section className='rodape'>
+                <a href='https://wa.me/5521971678688' className="whatsapp">
+                    <IoLogoWhatsapp/>
+                </a>
                 <section className='sobre'>
                     <img src={logo} alt="Fertem-logo"/>
                     <address>Av. Antônio Gomes. 1069 - Ampliação, Itaborai-RJ 24806-686.</address>
@@ -14,8 +21,6 @@ export function Footer(){
 
                 <section className='links-footer'>
                     <a href='#home'>Home</a>
-                    <a href='#ofertas'>Ofertas</a>
-                    <a href='#produtos'>Produtos</a>
                     <a href='https://maps.app.goo.gl/EhaDchrhHiLp9Upe8' target="_blank">Localização</a>
                 </section>
 

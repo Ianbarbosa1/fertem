@@ -1,7 +1,4 @@
 @media screen and (min-width:350px) and (max-width:489px) {
-    header {
-        padding-top: 60px;
-    }
     footer{
         padding: 20px 10px;
         border-radius: 3% 3% 0% 0% / 3% 3% 0% 0%;
@@ -13,29 +10,40 @@
     /*MENU*/
     .menu{
         justify-content: space-between;
-        padding: 0px 10px;
+        padding: 0px 5px;
         height: 60px;
-        & img{
-            height: 40px;
-            width: 85px;
-        }
-        & .links{
-            gap: 40px;
-        }
-        & a{
-            font-size: 18px;
-        }
-        svg{
-            font-size: 25px;
-        }
-        small{
+
+        & small{
             display:none;
-        }
-        P{
-            font-size: 13px;
         }
         .menu-hamburguer{
             display: flex;
+            & svg{
+                font-size: 25px;
+            }
+        }
+    }
+    .logo{
+        height: 35px;
+        width:68px;
+    }
+    .pesquisa {
+        height: 35px;
+        width: 210px;
+        font-size: 12px;
+        margin-left: 15px;
+        padding: 0px 25px 0px 7px;
+    }
+    .lupa {
+        height: 20px;
+        right: 25px;
+        top: 2px;
+    }
+    .whatsapp{
+        bottom: 50px;
+        left: 25px;
+        & svg{
+            font-size: 35px;
         }
     }
 
@@ -51,65 +59,52 @@
     .modal-tel{
         gap: 20px;
     }
-    .botao-cat{
-        font-size: 16px;
-    }
     
-    /*ENTRADA*/
-    .container-entrada {
-        margin-top: 20px;
-        height: 500px;
-    }
-    .oneEstrutura, .twoEstrutura, .setas{
+    /*CATEGORIAS*/
+    .categorias {
         display: none;
     }
-    .threeEstrutura{
-        display: block;
+    .modal-tel{
+        gap: 30px;
+    }
+    .botao-cat{ 
+        font-size: 17px;
     }
     
-
-    /*PROMOCOES*/
-    .promocoes {
-        padding: 20px 5px;
-        max-width: 95%;
-        & h1{
-            text-align: center;
-            margin-bottom: 20px;
+    /*BANNERS*/
+    .container-entrada {
+        height: 200px;
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .oneEstrutura, .twoEstrutura {
+        height: 200px;
+        width: 100%;
+        background-image: url(../imagens/back-fertem-phone.png);
+    }
+    .twoEstrutura {
+        background-image: url(../imagens/back-localizacao-phone.png);
+    }
+    .setas{
+        & svg {
+            font-size: 35px;
+            margin: 10px;
+            background-color: #18181894;
         }
-        .promocoes-int{
-            gap: 15px 10px;
-        }
-        .promocao{
-            height: 300px;
-            width: 120px;
-            & img{
-                height: 120px;
-            }
-            & h2{
-                font-size: 14px;
-            }
-            & h3{
-                font-size: 17px;
-            }
-            & p{
-                font-size: 12px;
-            }
-        }
-    }   
-
+    }
+    
 
     /*PRODUTOS*/
     .produtos {
         padding: 0px;
         width: 100%;
     }
-    .pesquisa{
-        width: 305px;
-        font-size: 16px;
-    }
     .container-produtos {
         padding: 20px 10px;
         width: 90%;
+        & h1{
+            font-size: 20px;
+        }
     }
     .all-produtos{
         gap: 20px 15px;
@@ -165,12 +160,25 @@
         nav{
             height: 100%;
             h4{
-                width: 130px;
+                width: 135px;
                 font-size: 12px;
             }
             p{
                 font-size: 12px;
             }
+        }
+    }
+
+    /*FORNECEDORES*/
+    .titulo{
+        & h1{
+            font-size: 20px;
+        }
+    }
+    .marquee{
+        & img{
+            margin-right: 25px;
+            height: 30px;
         }
     }
 
@@ -211,9 +219,6 @@
 }
 
 @media screen and (min-width:490px) and (max-width:649px) {
-    header {
-        padding-top: 60px;
-    }
     footer{
         padding: 20px 10px;
         border-radius: 3% 3% 0% 0% / 3% 3% 0% 0%;
@@ -227,24 +232,29 @@
         justify-content: space-between;
         padding: 0px 10px;
         height: 60px;
-        & img{
-            height: 45px;
-            width: 90px;
-        }
-        & .links{
-            gap: 50px;
-        }
-        & a{
-            font-size: 18px;
-        }
-        svg{
-            font-size: 30px;
-        }
-        small{
+
+        & small{
             display:none;
         }
         .menu-hamburguer{
             display: flex;
+        }
+    }
+    .logo{
+        height: 45px;
+        width: 90px;
+    }
+    .pesquisa {
+        height: 38px;
+        width: 280px;
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    .whatsapp{
+        bottom: 50px;
+        left: 25px;
+        & svg{
+            font-size: 35px;
         }
     }
 
@@ -259,48 +269,28 @@
         font-size: 18px;
     }
     
-    /*ENTRADA*/
+    /*BANNERS*/
     .container-entrada {
-        margin-top: 20px;
+        height: 260px;
+        width: 100%;
+        margin: 10px 0px;
     }
-    .oneEstrutura, .twoEstrutura, .setas{
-        display: none;
+    .oneEstrutura, .twoEstrutura {
+        height: 270px;
+        width: 100%;
+        background-image: url(../imagens/back-fertem-phone.png);
     }
-    .threeEstrutura{
-        display: block;
+    .twoEstrutura {
+        background-image: url(../imagens/back-localizacao-phone.png);
     }
-
-
-    /*PROMOCOES*/
-    .promocoes {
-        padding: 20px 5px;
-        max-width: 95%;
-    }
-    .promocao {
-        height: 335px;
-        width: 150px;
-
-        & img {
-            height: 150px;
-        }
-        & h2 {
-            font-size: 15px;
-            -webkit-line-clamp: 3;
-        }
-        & div {
-            font-size: 14px;
-        }
-        & h3 {
-            font-size: 20px;
-            & span {
-                font-size: 16px;
-            }
-        }
-        & p {
-            font-size: 13px;
+    .setas{
+        & svg {
+            font-size: 35px;
+            margin: 10px;
+            background-color: #18181894;
         }
     }
-
+    
     /*PRODUTOS*/
     .produtos {
         padding: 0px;
@@ -309,6 +299,9 @@
     .container-produtos {
         padding: 20px 10px;
         width: 400px;
+        & h1{
+            font-size: 20px;
+        }
     }
     .all-produtos{
         gap: 15px 10px;
@@ -360,12 +353,25 @@
         nav{
             height: 100%;
             h4{
-                width: 140px;
+                width: 150px;
                 font-size: 13px;
             }
             p{
                 font-size: 13px;
             }
+        }
+    }
+
+    /*FORNECEDORES*/
+    .titulo{
+        & h1{
+            font-size: 20px;
+        }
+    }
+    .marquee{
+        & img{
+            margin-right: 35px;
+            height: 35px;
         }
     }
 
@@ -407,84 +413,55 @@
 }
 
 @media screen and (min-width:650px) and (max-width:849px) {
-    header {
-        padding-top: 82px;
-    }
     footer{
         padding: 25px;
         border-radius: 5% 5% 0% 0% / 5% 5% 0% 0%;
     }
-    .observador{
-        display: none;
-    }
-
+    
     /*MENU*/
     .menu{
-        height: 82px;
-
-        & img{
-            height: 60px;
-            width: 122px;
-        }
-        & .links{
-            gap: 10px;
-        }
-        & small {
-            font-size: 16px;
-        }
         .menu-hamburguer{
             display: flex;
         }
     }
-
+    .logo{
+        height: 55px;
+        width: 110px;
+    }
+    .pesquisa {
+        margin-left: 20px;
+        height: 38px;
+        font-size: 16px;
+    }
+    .observador{
+        display: none;
+    }
+    .whatsapp{
+        bottom: 70px;
+        left: 25px;
+    }
 
     /*CATEGORIAS*/
-    .categorias{
+    .categorias {
         display: none;
     }
-    .categoria{ 
 
+    /*BANNERS*/
+    .oneEstrutura{
+        height: 340px;
+        width: 100%;
+        background-image: url(../imagens/back-fertem-phone.png);
+    }
+    .twoEstrutura {
+        height: 340px;
+        width: 100%;
+        background-image: url(../imagens/back-localizacao-phone.png);
+    }
+    .setas{
         & svg {
-            font-size: 25px;
-        }
-        & p {
-            font-size: 15px;
-        }
-    }
-
-    /*ENTRADA*/
-    .container-entrada {
-        margin-top: 20px;
-    }
-    .oneEstrutura, .twoEstrutura, .setas{
-        display: none;
-    }
-    .threeEstrutura{
-        display: block;
-    }
-
-    /*PROMOÇÕES*/
-    .promocao {
-        height: 335px;
-        width: 180px;
-
-        & img {
-            height: 180px;
-        }
-        & h2 {
-            font-size: 16px;
-        }
-        & div {
-            font-size: 14px;
-        }
-        & h3 {
-            font-size: 20px;
-            & span {
-                font-size: 16px;
-            }
-        }
-        & p {
-            font-size: 13px;
+            font-size: 35px;
+            margin: 10px;
+            background-color: #18181894;
         }
     }
 
@@ -541,9 +518,17 @@
         }
         nav{
             h4{
-                width: 163px;
+                width: 170px;
                 font-size: 15px;
             }
+        }
+    }
+
+    /*FORNECEDORES*/
+    .marquee{
+        & img{
+            margin-right: 50px;
+            height: 40px;
         }
     }
     
@@ -579,73 +564,41 @@
 }
 
 @media screen and (min-width:850px) and (max-width:999px) {
-    header {
-        padding-top: 82px;
-    }
     /*MENU*/
     .menu{
-        height: 82px;
-
-        & img{
-            height: 75px;
-            width: 148px;
-        }
-        & small {
-            font-size: 18px;
-        }
+        & p {
+            font-size: 16px;
+        } 
     }
-
+    .logo{
+        height: 55px;
+        width: 118px;
+    }
+    .pesquisa {
+        height: 38px;
+        font-size: 16px;
+    }
+    
     /*CATEGORIAS*/
     .categorias {
-        height: 100%;
-        gap: 10px;
+        height: 100px;
+        gap: 15px;
+        padding: 0px 10px;
     }
-    .categoria{ 
+    .categoria {
         height: 75px;
         width: 75px;
-
-        & svg {
-            font-size: 20px;
-        }
-        & p {
-            font-size: 12px;
-        }
     }
-
-    /*PROMOÇÕES*/
-    .promocao {
-        height: 340px;
-        width: 180px;
-
-        & img {
-            height: 180px;
-        }
-        & h2 {
-            font-size: 16px;
-        }
-        & div {
-            font-size: 14px;
-        }
-        & h3 {
-            font-size: 20px;
-            & span {
-                font-size: 16px;
-            }
-        }
-        & p {
-            font-size: 13px;
-        }
-    }
-
-    /*ENTRADA*/
+    /*BANNERS*/
     .container-entrada {
-        height: 420px;
-    }
-    .oneEstrutura, .twoEstrutura{
-        height: 420px;
+        height: 200px;
         width: 100%;
     }
-
+    .oneEstrutura, .twoEstrutura {
+        height: 210px;
+        width: 100%;
+    }
+    
     /*PRODUTOS*/
     .produtos {
         padding: 0px;
@@ -656,7 +609,6 @@
     }
     .all-produtos{
         gap: 20px 0px;
-
         & .product {
             height: 290px;
             width: 180px;
@@ -685,6 +637,15 @@
         }
     }
 
+    /*FORNECEDORES*/
+    .marquee{
+        & img{
+            margin-right: 50px;
+            height: 43px;
+        }
+    }
+
+
     /*RODAPÉ*/
     .end {
         & h1,h2 {
@@ -695,73 +656,37 @@
 
 @media screen and (min-width:1000px) and (max-width:1299px) {
     /*MENU*/
-    .menu{
-        height: 82px;
-
-        & img{
-            height: 75px;
-            width: 148px;
-        }
-        & small {
-            font-size: 18px;
-        }
+    .logo{
+        height: 55px;
+        width: 118px;
     }
     
-    /*CATEGORIAS*/
+   /*CATEGORIAS*/
     .categorias {
-        height: 100%;
-        gap: 10px;
+        height: 100px;
+        gap: 20px;
+        padding: 0px 20px;
     }
-    .categoria{ 
-        & svg {
-            font-size: 25px;
-        }
-        & p {
-            font-size: 15px;
-        }
+    .categoria {
+        height: 80px;
+        width: 80px;
     }
-
     /*BANNERS*/
-    .container-entrada{
-        height: 500px;
-    }
-    .oneEstrutura, .twoEstrutura {
-        height: 500px;
+    .container-entrada {
+        height: 225px;
         width: 100%;
     }
-
-    /*PROMOÇÕES*/
-    .promocao {
-        height: 370px;
-        width: 210px;
-
-        & img {
-            height: 210px;
-        }
-        & h2 {
-            font-size: 16px;
-        }
-        & div {
-            font-size: 14px;
-        }
-        & h3 {
-            font-size: 20px;
-            & span {
-                font-size: 16px;
-            }
-        }
-        & p {
-            font-size: 13px;
-        }
+    .oneEstrutura, .twoEstrutura {
+        height: 225px;
+        width: 100%;
     }
-
+    
     /*PRODUTOS*/
     .container-produtos {
         width: 920px;
     }
     .all-produtos{
         gap: 15px 5px;
-
         & .product {
             height: 305px;
             width: 200px;
@@ -776,6 +701,13 @@
             }
         }
     }
+    /*FORNECEDORES*/
+    .marquee{
+        & img{
+            margin-right: 50px;
+            height: 45px;
+        }
+    }
 
     /*RODAPÉ*/
     .end {
@@ -786,8 +718,33 @@
 }
 
 @media screen and (min-width:1300px) and (max-width:1550px) {
+    /*MENU*/
+    .logo {
+        height: 60px;
+        width: 132px;
+    }
+
+    /*CATEGORIAS*/
+    .categorias {
+        height: 100px;
+        gap: 20px;
+        padding: 0px 20px;
+    }
+    .categoria {
+        height: 80px;
+        width: 80px;
+        & p{ 
+            font-size: 13px;
+        }
+    }
+
     /*BANNERS*/
+    .container-entrada {
+        height: 280px;
+        width: 100%;
+    }
     .oneEstrutura, .twoEstrutura {
+        height: 280px;
         width: 100%;
     }
 }

@@ -1,29 +1,19 @@
 import Dados from "../produtos.json";
 import { useState } from "react";
+import { Banners } from "./banners";
 
 /*ICONES*/
-import { BsBoxes } from "react-icons/bs";
-import { FaMapLocationDot } from "react-icons/fa6";
-import { FaShoppingCart } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
-import { GiDrill } from "react-icons/gi";
-import { FaBrush } from "react-icons/fa6";
-import { BsTools } from "react-icons/bs";
-import { FaMortarPestle } from "react-icons/fa6";
-import { FaLightbulb } from "react-icons/fa6";
-import { GiStraightPipe } from "react-icons/gi";
-import { GiWireCoil } from "react-icons/gi";
-import { PiLadder } from "react-icons/pi";
-import { GiChelseaBoot } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 
 /*IMAGENS*/
 import logo from "../imagens/logo-sem-fundo.png";
+import lupa from "../imagens/pesquisa.svg";
 
+/*FUNCIONAMENTO DA LOJA FISICA*/
 let horas = new Date();
 let dia = horas.getDay();
 let hora = horas.getHours();
-
 function funcionamento() {
   if (
     (hora >= 8 && hora <= 18 && dia >= 1 && dia <= 6) ||
@@ -34,7 +24,6 @@ function funcionamento() {
     return false;
   }
 }
-
 let estilo = "";
 let retorno = funcionamento();
 if (retorno === true) {
@@ -50,22 +39,30 @@ if (retorno === true) {
 }
 
 export function Categoria() {
-  /*FUNÇÃO DE DETALHE DO PRODUTO*/
-  const [detalhe, setDetalhe] = useState([])
-  const [fechar, setFechar] = useState(false)
-  const detalheProduto = (Produto) => 
-  {
-    setDetalhe([{...Produto}])
-    setFechar(true)
-  }
 
-  function openCategories(){
-    let modal = document.querySelector('#menu-tel')
-    modal.style.display = 'flex'
+  /*FUNÇÃO DE PESQUISA*/
+  const [busca, setBusca] = useState("");
+  const buscaM = busca.toLowerCase();
+  const produtos = Dados.filter(
+    (produto) =>
+      produto.nome.toLowerCase().includes(buscaM)
+  );
+
+  /*FUNÇÃO DE DETALHE DO PRODUTO*/
+  const [detalhe, setDetalhe] = useState([]);
+  const [fechar, setFechar] = useState(false);
+  const detalheProduto = (Produto) => {
+    setDetalhe([{ ...Produto }]);
+    setFechar(true);
+  };
+
+  function openCategories() {
+    let modal = document.querySelector("#menu-tel");
+    modal.style.display = "flex";
   }
-  function closeCategories(){
-    let modal = document.querySelector('#menu-tel')
-    modal.style.display = 'none'
+  function closeCategories() {
+    let modal = document.querySelector("#menu-tel");
+    modal.style.display = "none";
   }
 
   let [mostrou1, setMostrou1] = useState(false);
@@ -120,97 +117,102 @@ export function Categoria() {
 
   return (
     <>
-    <section className="menu">
-            <a href="#home">
-              <img src={logo} alt="Logo Fertem" />
-            </a>
-    
-            <nav className="links">
-              <a href="#produtos" title="Produtos">
-                <BsBoxes />
-                <small>Produtos</small>
-              </a>
-    
-              <a
-                href="https://maps.app.goo.gl/EhaDchrhHiLp9Upe8"
-                target="_blank"
-                title="Localização"
-              >
-                <FaMapLocationDot />
-                <small>Localização</small>
-              </a>
-    
-              <a href="" title="orçamento">
-                <FaShoppingCart />
-                <small>Orçamento</small>
-              </a>
-            </nav>
-    
-            <p title="Funcionamento da Loja Fisica" style={estilo} className="observador">
-              {retorno}
-            </p>
-    
-            <p className="menu-hamburguer" title="Categorias" onClick={openCategories}>
-              <IoMenu />
-            </p>
-    </section>
-    
-      <section className="produto-categoria">
+      {/*MENU*/}
+      <section className="menu">
+        <a href="#home">
+          <img src={logo} alt="Logo Fertem" className="logo" />
+        </a>
 
-      {
-        fechar ?
-        <section className="detalhamento">
-          <IoClose className="fechar" onClick={() => setFechar(false)} />
-          {
-            detalhe.map((item) => 
-            {
-              return(
+        <nav className="links">
+          <input
+            type="text"
+            placeholder="Qual produto deseja encontrar?"
+            className="pesquisa"
+            value={busca}
+            onChange={(ev) => setBusca(ev.target.value)}
+          />
+
+          <img src={lupa} alt="" className="lupa" />
+        </nav>
+
+        <p
+          title="Funcionamento da Loja Fisica"
+          style={estilo}
+          className="observador">
+          {retorno}
+        </p>
+
+        <p
+          className="menu-hamburguer"
+          title="Categorias"
+          onClick={openCategories}>
+          <IoMenu />
+        </p>
+      </section>
+
+      {/*CATEGORIAS*/}
+      <section className="produto-categoria">
+        {fechar ? (
+          <section className="detalhamento">
+            <IoClose className="fechar" onClick={() => setFechar(false)} />
+            {detalhe.map((item) => {
+              return (
                 <>
                   <section className="detalhe-interno">
                     <img src={item.imagem} alt={item.nome} />
                     <div className="sobre-produto">
                       <h1>{item.nome}</h1>
-                      <h2> <span>R$</span> {item.valor}</h2>
+                      <h2>
+                        {" "}
+                        <span>R$</span> {item.valor}
+                      </h2>
                       <span>Cod: {item.id}</span>
 
                       <nav>
                         <div>
                           <h4>Descrição do produto:</h4>
                         </div>
-                        
+
                         <p>{item.descricao}</p>
                       </nav>
                     </div>
                   </section>
                 </>
-              )
-            })
-          }
-        </section> :null
-      }
+              );
+            })}
+          </section>
+        ) : null}
 
         {mostrou1 && (
           <section className="modal">
             <div className="container-produtos">
               <nav className="title">
-                <h1>MAQUINAS</h1> 
+                <h1>MAQUINAS</h1>
                 <IoClose className="fechar" onClick={fechou} />
               </nav>
-              
+
               <section className="all-produtos">
                 {Dados.map((post) => {
                   if (post.categoria == 1) {
                     return (
                       <>
-                        <div className="product" key={post.id} title={post.nome}>
+                        <div
+                          className="product"
+                          key={post.id}
+                          title={post.nome}
+                        >
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor}</p>
+                          <p>
+                            <span>R$</span> {post.valor}
+                          </p>
                           <div className="botoes">
-                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                            <button onClick={() => detalheProduto(post)}>
+                              Sobre
+                            </button>
                           </div>
                         </div>
                       </>
@@ -226,7 +228,7 @@ export function Categoria() {
           <section className="modal">
             <div className="container-produtos">
               <nav className="title">
-                <h1>DECORAÇÃO</h1> 
+                <h1>DECORAÇÃO</h1>
                 <IoClose className="fechar" onClick={fechou} />
               </nav>
 
@@ -235,15 +237,23 @@ export function Categoria() {
                   if (post.categoria == 2) {
                     return (
                       <>
-                        <div className="product" key={post.id} title={post.nome}>
+                        <div
+                          className="product"
+                          key={post.id}
+                          title={post.nome}
+                        >
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor}</p>
+                          <p>
+                            <span>R$</span> {post.valor}
+                          </p>
                           <div className="botoes">
-                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                            <button onClick={() => detalheProduto(post)}>
+                              Sobre
+                            </button>
                           </div>
                         </div>
                       </>
@@ -259,7 +269,7 @@ export function Categoria() {
           <section className="modal">
             <div className="container-produtos">
               <nav className="title">
-                <h1>FERRAMENTAS</h1> 
+                <h1>FERRAMENTAS</h1>
                 <IoClose className="fechar" onClick={fechou} />
               </nav>
 
@@ -268,15 +278,23 @@ export function Categoria() {
                   if (post.categoria == 3) {
                     return (
                       <>
-                        <div className="product" key={post.id} title={post.nome}>
+                        <div
+                          className="product"
+                          key={post.id}
+                          title={post.nome}
+                        >
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor}</p>
+                          <p>
+                            <span>R$</span> {post.valor}
+                          </p>
                           <div className="botoes">
-                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                            <button onClick={() => detalheProduto(post)}>
+                              Sobre
+                            </button>
                           </div>
                         </div>
                       </>
@@ -292,7 +310,7 @@ export function Categoria() {
           <section className="modal">
             <div className="container-produtos">
               <nav className="title">
-                <h1>ARGAMASSAS</h1> 
+                <h1>ARGAMASSAS</h1>
                 <IoClose className="fechar" onClick={fechou} />
               </nav>
 
@@ -301,15 +319,23 @@ export function Categoria() {
                   if (post.categoria == 4) {
                     return (
                       <>
-                        <div className="product" key={post.id} title={post.nome}>
+                        <div
+                          className="product"
+                          key={post.id}
+                          title={post.nome}
+                        >
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor}</p>
+                          <p>
+                            <span>R$</span> {post.valor}
+                          </p>
                           <div className="botoes">
-                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                            <button onClick={() => detalheProduto(post)}>
+                              Sobre
+                            </button>
                           </div>
                         </div>
                       </>
@@ -325,7 +351,7 @@ export function Categoria() {
           <section className="modal">
             <div className="container-produtos">
               <nav className="title">
-                <h1>ILUMINAÇÃO</h1> 
+                <h1>ILUMINAÇÃO</h1>
                 <IoClose className="fechar" onClick={fechou} />
               </nav>
 
@@ -334,15 +360,23 @@ export function Categoria() {
                   if (post.categoria == 5) {
                     return (
                       <>
-                        <div className="product" key={post.id} title={post.nome}>
+                        <div
+                          className="product"
+                          key={post.id}
+                          title={post.nome}
+                        >
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor}</p>
+                          <p>
+                            <span>R$</span> {post.valor}
+                          </p>
                           <div className="botoes">
-                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                            <button onClick={() => detalheProduto(post)}>
+                              Sobre
+                            </button>
                           </div>
                         </div>
                       </>
@@ -358,7 +392,7 @@ export function Categoria() {
           <section className="modal">
             <div className="container-produtos">
               <nav className="title">
-                <h1>HIDRÁULICA</h1> 
+                <h1>HIDRÁULICA</h1>
                 <IoClose className="fechar" onClick={fechou} />
               </nav>
 
@@ -367,15 +401,23 @@ export function Categoria() {
                   if (post.categoria == 6) {
                     return (
                       <>
-                        <div className="product" key={post.id} title={post.nome}>
+                        <div
+                          className="product"
+                          key={post.id}
+                          title={post.nome}
+                        >
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor}</p>
+                          <p>
+                            <span>R$</span> {post.valor}
+                          </p>
                           <div className="botoes">
-                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                            <button onClick={() => detalheProduto(post)}>
+                              Sobre
+                            </button>
                           </div>
                         </div>
                       </>
@@ -391,7 +433,7 @@ export function Categoria() {
           <section className="modal">
             <div className="container-produtos">
               <nav className="title">
-                <h1>ELÉTRICA</h1> 
+                <h1>ELÉTRICA</h1>
                 <IoClose className="fechar" onClick={fechou} />
               </nav>
 
@@ -400,15 +442,23 @@ export function Categoria() {
                   if (post.categoria == 7) {
                     return (
                       <>
-                        <div className="product" key={post.id} title={post.nome}>
+                        <div
+                          className="product"
+                          key={post.id}
+                          title={post.nome}
+                        >
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor}</p>
+                          <p>
+                            <span>R$</span> {post.valor}
+                          </p>
                           <div className="botoes">
-                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                            <button onClick={() => detalheProduto(post)}>
+                              Sobre
+                            </button>
                           </div>
                         </div>
                       </>
@@ -424,7 +474,7 @@ export function Categoria() {
           <section className="modal">
             <div className="container-produtos">
               <nav className="title">
-                <h1>FERRAGEM</h1> 
+                <h1>FERRAGEM</h1>
                 <IoClose className="fechar" onClick={fechou} />
               </nav>
 
@@ -433,15 +483,23 @@ export function Categoria() {
                   if (post.categoria == 8) {
                     return (
                       <>
-                        <div className="product" key={post.id} title={post.nome}>
+                        <div
+                          className="product"
+                          key={post.id}
+                          title={post.nome}
+                        >
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor}</p>
+                          <p>
+                            <span>R$</span> {post.valor}
+                          </p>
                           <div className="botoes">
-                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                            <button onClick={() => detalheProduto(post)}>
+                              Sobre
+                            </button>
                           </div>
                         </div>
                       </>
@@ -457,7 +515,7 @@ export function Categoria() {
           <section className="modal">
             <div className="container-produtos">
               <nav className="title">
-                <h1>EPI</h1> 
+                <h1>EPI</h1>
                 <IoClose className="fechar" onClick={fechou} />
               </nav>
 
@@ -466,15 +524,23 @@ export function Categoria() {
                   if (post.categoria == 9) {
                     return (
                       <>
-                        <div className="product" key={post.id} title={post.nome}>
+                        <div
+                          className="product"
+                          key={post.id}
+                          title={post.nome}
+                        >
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
                           <h2>{post.nome}</h2>
                           <h3>Cód: {post.id}</h3>
-                          <p><span>R$</span> {post.valor}</p>
+                          <p>
+                            <span>R$</span> {post.valor}
+                          </p>
                           <div className="botoes">
-                            <button onClick={() => detalheProduto(post)}>Sobre</button>
+                            <button onClick={() => detalheProduto(post)}>
+                              Sobre
+                            </button>
                           </div>
                         </div>
                       </>
@@ -487,55 +553,128 @@ export function Categoria() {
         )}
 
         <section className="modal-tel" id="menu-tel">
-          <IoClose className="fechar" onClick={closeCategories}/>
-          <button onClick={primeiraCategoria} className="botao-cat">Maquinas</button>
-          <button onClick={segundaCategoria} className="botao-cat">Decoração</button>
-          <button onClick={terceiraCategoria} className="botao-cat">Ferramentas</button>
-          <button onClick={quartaCategoria} className="botao-cat">Argamassas</button>
-          <button onClick={quintaCategoria} className="botao-cat">Iluminação</button>
-          <button onClick={sextaCategoria} className="botao-cat">Hidráulica</button>
-          <button onClick={setimaCategoria} className="botao-cat">Elétrica</button>
-          <button onClick={oitavaCategoria} className="botao-cat">Ferragem</button>
-          <button onClick={nonaCategoria} className="botao-cat">EPI</button>
+          <IoClose className="fechar" onClick={closeCategories} />
+          <button onClick={primeiraCategoria} className="botao-cat">
+            Maquinas
+          </button>
+          <button onClick={segundaCategoria} className="botao-cat">
+            Decoração
+          </button>
+          <button onClick={terceiraCategoria} className="botao-cat">
+            Ferramentas
+          </button>
+          <button onClick={quartaCategoria} className="botao-cat">
+            Argamassas
+          </button>
+          <button onClick={quintaCategoria} className="botao-cat">
+            Iluminação
+          </button>
+          <button onClick={sextaCategoria} className="botao-cat">
+            Hidráulica
+          </button>
+          <button onClick={setimaCategoria} className="botao-cat">
+            Elétrica
+          </button>
+          <button onClick={oitavaCategoria} className="botao-cat">
+            Ferragem
+          </button>
+          <button onClick={nonaCategoria} className="botao-cat">
+            EPI
+          </button>
         </section>
 
         <section className="categorias">
-            <button className="categoria" id="one" onClick={primeiraCategoria}>
-              <GiDrill />
-              <p>Maquinas</p>
-            </button>
-            <button className="categoria" id="two" onClick={segundaCategoria}>
-              <FaBrush />
-              <p>Decoração</p>
-            </button>
-            <button className="categoria" id="three" onClick={terceiraCategoria}>
-              <BsTools />
-              <p>Ferramentas</p>
-            </button>
-            <button className="categoria" id="four" onClick={quartaCategoria}>
-              <FaMortarPestle />
-              <p>Argamassas</p>
-            </button>
-            <button className="categoria" id="five" onClick={quintaCategoria}>
-              <FaLightbulb />
-              <p>Iluminação</p>
-            </button>
-            <button className="categoria" id="six" onClick={sextaCategoria}>
-              <GiStraightPipe />
-              <p>Hidráulica</p>
-            </button>
-            <button className="categoria" id="seven" onClick={setimaCategoria}>
-              <GiWireCoil />
-              <p>Elétrica</p>
-            </button>
-            <button className="categoria" id="eight" onClick={oitavaCategoria}>
-              <PiLadder />
-              <p>Ferragem</p>
-            </button>
-            <button className="categoria" id="nine" onClick={nonaCategoria}>
-              <GiChelseaBoot />
-              <p>EPI</p>
-            </button>
+          <button className="categoria" id="one" onClick={primeiraCategoria}>
+            <p>Maquinas</p>
+          </button>
+          <button className="categoria" id="two" onClick={segundaCategoria}>
+            <p>Decoração</p>
+          </button>
+          <button className="categoria" id="three" onClick={terceiraCategoria}>
+            <p>Ferramentas</p>
+          </button>
+          <button className="categoria" id="four" onClick={quartaCategoria}>
+            <p>Ligações</p>
+          </button>
+          <button className="categoria" id="five" onClick={quintaCategoria}>
+            <p>Iluminação</p>
+          </button>
+          <button className="categoria" id="six" onClick={sextaCategoria}>
+            <p>Hidráulica</p>
+          </button>
+          <button className="categoria" id="seven" onClick={setimaCategoria}>
+            <p>Elétrica</p>
+          </button>
+          <button className="categoria" id="eight" onClick={oitavaCategoria}>
+            <p>Ferragem</p>
+          </button>
+          <button className="categoria" id="nine" onClick={nonaCategoria}>
+            <p>EPI</p>
+          </button>
+        </section>
+      </section>
+
+      {/*BANNERS*/}
+      <Banners />
+
+      {/*PRODUTOS */}
+      <section className="produtos">
+        {fechar ? (
+          <section className="detalhamento">
+            <IoClose className="fechar" onClick={() => setFechar(false)} />
+            {detalhe.map((item) => {
+              return (
+                <>
+                  <section className="detalhe-interno">
+                    <img src={item.imagem} alt={item.nome} />
+                    <div className="sobre-produto">
+                      <h1>{item.nome}</h1>
+                      <h2>
+                        {" "}
+                        <span>R$</span> {item.valor}
+                      </h2>
+                      <span>Cod: {item.id}</span>
+
+                      <nav>
+                        <div>
+                          <h4>Descrição do produto:</h4>
+                        </div>
+
+                        <p>{item.descricao}</p>
+                      </nav>
+                    </div>
+                  </section>
+                </>
+              );
+            })}
+          </section>
+        ) : null}
+
+        <section className="container-produtos">
+          <h1>PRODUTOS</h1>
+          <section className="all-produtos">
+            {produtos.map((post) => {
+              return (
+                <>
+                  <div className="product" key={post.id} title={post.nome}>
+                    <nav>
+                      <img src={post.imagem} alt={post.nome} />
+                    </nav>
+                    <h2>{post.nome}</h2>
+                    <h3>Cód: {post.id}</h3>
+                    <p>
+                      <span>R$</span> {post.valor}
+                    </p>
+                    <div className="botoes">
+                      <button onClick={() => detalheProduto(post)}>
+                        Sobre
+                      </button>
+                    </div>
+                  </div>
+                </>
+              );
+            })}
+          </section>
         </section>
       </section>
     </>

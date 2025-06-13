@@ -13,11 +13,11 @@ body {
 }
 
 header {
-  padding-top: 100px;
   height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 
 main {
@@ -41,7 +41,7 @@ footer {
 
 
 /*DIVs FLEX*/
-.menu, .links, .tipos, .container-entrada, .container-estatico, .oneEstrutura, .imagens, .twoEstrutura, .promocoes-int, .produtos, .produto-categoria, .modal, .modal-tel, .categorias, .categoria, .produto-categoria, .all-produtos, .botoes, .detalhamento, .detalhe-interno, .sobre-produto, .links-footer, .redes, .rodape, .end {
+.menu, .links, .tipos, .container-entrada, .produtos, .produto-categoria, .modal, .modal-tel, .categorias, .categoria, .produto-categoria, .all-produtos, .botoes, .detalhamento, .detalhe-interno, .sobre-produto, .fornecedores, .titulo, .links-footer, .redes, .rodape, .end {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,45 +51,9 @@ footer {
 /*MENU*/
 .menu {
   justify-content: space-around;
-  height: 100px;
+  height: 80px;
   width: 100%;
   background-color: #0264b2;
-  z-index: +2;
-  position: fixed;
-  top: 0px;
-
-  & img {
-    height: 80px;
-    width: 152px;
-  }
-  & .links {
-    gap: 50px;
-  }
-  & a {
-    transition: all 0.3s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 5px;
-    color: white;
-    padding: 10px 0px;
-
-    &:hover {
-      color: tomato;
-    }
-  }
-  a:hover svg {
-    transition: all 0.3s;
-    color: tomato;
-  }
-  & svg {
-    color: white;
-    font-size: 20px;
-  }
-  & small {
-    font-size: 20px;
-  }
   & p {
     padding: 7px;
     font-size: 18px;
@@ -105,6 +69,46 @@ footer {
     & svg{
       font-size: 30px;
     }
+  }
+}
+.logo {
+  height: 70px;
+  width: 152px;
+}
+.pesquisa {
+  height: 45px;
+  width: 400px;
+  outline: none;
+  padding: 0px 30px 0px 7px;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  transition: all 1s ease;
+
+  &:hover {
+    filter: drop-shadow(0px 0px 5px rgb(235, 226, 226));
+  }
+  &::placeholder {
+    color: #0263b2;
+  }
+}
+.lupa {
+  position: relative;
+  right:30px;
+  top: 2px;
+}
+.whatsapp{
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  color: #2dd46b;
+  transition: all 1s ease;
+  & svg{
+    font-size: 45px;
+    z-index: +6;
+  }
+  &:hover{
+    color: #2dd46aa2;
   }
 }
 
@@ -158,32 +162,62 @@ footer {
   width: 100px;
   text-align: center;
   box-shadow: 0px 0px 3px gray;
-  border-radius: 20%;
+  border-radius: 10%;
   cursor: pointer;
-  gap: 5px;
   border: none;
-  background-color: rgb(246, 250, 253);
 
-  & svg {
-    font-size: 30px;
-    color: #f01f2b;
-  }
-  & p {
+  & p{
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    color: aliceblue;
+    backdrop-filter: blur(2px);
+    background-color: rgba(14, 13, 13, 0.815);
+    padding: 30px 0px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10%;
     font-size: 15px;
-    color: #181818;
   }
   &:hover{
     box-shadow: 0px 0px 5px gray;
   }
-  &:hover svg {
-    transition: all 0.6s ease-in-out;
-    color: #0264b2;
-  }
-  &:hover p {
-    transition: all 0.6s ease-in-out;
-    color: #0264b2;
+  &:hover p{
+    opacity: 1;
   }
 }
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine{
+  background-image: url(../imagens/categorias/maquinas.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#two{
+  background-image: url(../imagens/categorias/decoracao.jpg);
+}
+#three{
+  background-image: url(../imagens/categorias/ferramentas.jpg);
+}
+#four{
+  background-image: url(../imagens/categorias/materias-de-ligacao.jpg);
+}
+#five{
+  background-image: url(../imagens/categorias/iluminacao.jpg);
+}
+#six{
+  background-image: url(../imagens/categorias/hidráulica.jpg);
+}
+#seven{
+  background-image: url(../imagens/categorias/eletrica.jpg);
+}
+#eight{
+  background-image: url(../imagens/categorias/ferragem.jpg);
+}
+#nine{
+  background-image: url(../imagens/categorias/EPI.jpg);
+}
+/*CATEGORIA PARA TELEFONES*/
 .modal-tel{
   height: 100vh;
   width: 100%;
@@ -215,33 +249,26 @@ footer {
 
 /*ENTRADA*/
 .container-entrada {
-  height: 600px;
+  height: 350px;
   width: 100%;
-  margin-bottom: 50px;
 }
 .oneEstrutura, .twoEstrutura, .threeEstrutura{
   transition: all 0.5s ease-in-out;
-  height: 600px;
+  height: 350px;
   width: 100%;
   position: absolute;
   background-position: center;
-  background-image: url(../imagens/back-fertem.jpg);
+  background-image: url(../imagens/back-fertem-ind.png);
   background-size: contain;
   background-repeat: no-repeat;
+  border-radius: 20px;
 }
 .twoEstrutura {
   z-index: -1;
   opacity: 0;
-  background-image: url(../imagens/back-fertem-2.jpg);
+  background-image: url(../imagens/back-localizacao.png);
 }
-.threeEstrutura{
-  position: static;
-  display: none;
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-image: url(../imagens/back-fertem-mobile.jpg)
-}
+
 .setas {
   position: absolute;
   cursor: pointer;
@@ -255,7 +282,7 @@ footer {
     border-radius: 50%;
 
     &:hover {
-      border: 2px solid #0263b2;
+      border: 2px solid #ffffff;
     }
   }
 }
@@ -273,105 +300,13 @@ footer {
 }
 
 
-/*PROMOCOES*/
-.promocoes {
-  padding: 20px;
-  background-color: rgb(246, 250, 253);
-  filter: drop-shadow(0px 0px 20px gray);
-  border-radius: 5px;
-
-  & h1 {
-    font-family: "Karla", sans-serif;
-    color: #0264b2;
-    border-bottom: 2px solid #f01f2b;
-    margin-bottom: 10px;
-  }
-}
-.promocoes-int {
-  gap: 20px;
-  flex-wrap: wrap;
-}
-.promocao {
-  background-color: #0264b2;
-  border-radius: 3px;
-  color: aliceblue;
-  padding: 4px;
-  height: 400px;
-  width: 250px;
-
-  & img {
-    height: 241px;
-    width: 100%;
-    border-radius: 5px;
-  }
-  & h2 {
-    font-family: "Karla", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    margin: 0px 5px;
-  }
-  & div {
-    font-size: 14px;
-    color: #f83b3b;
-    font-weight: 800;
-    text-decoration: line-through;
-    margin: 7px 5px;
-  }
-  & h3 {
-    margin: 5px;
-    font-size: 24px;
-    font-weight: 800;
-    letter-spacing: 1.2px;
-
-    & span {
-      font-weight: 500;
-      font-size: 18px;
-    }
-  }
-  & p {
-    margin: 0px 5px;
-    font-size: 14px;
-  }
-}
-
-
 /*PRODUTOS*/
 .produtos {
   width: 100vh;
   border-radius: 5px;
-  margin: 50px 0px;
   flex-direction: column;
   padding: 20px;
   gap: 50px;
-
-}
-.pesquisa {
-  height: 45px;
-  width: 400px;
-  outline: none;
-  padding: 0px 30px 0px 7px;
-  border: none;
-  filter: drop-shadow(0px 0px 1px gray);
-  border-radius: 3px;
-  font-size: 18px;
-  transition: all 1s ease;
-  margin-left: 20px;
-
-  &:hover {
-    filter: drop-shadow(0px 0px 2px #0264b2);
-  }
-  &::placeholder {
-    color: #0263b2;
-  }
-}
-.lupa {
-  position: relative;
-  right: 30px;
-  top: 5px;
 }
 .container-produtos {
   max-height: 1500px;
@@ -526,10 +461,48 @@ footer {
     padding: 5px;
     box-shadow: 0px 0px 1px gray;
     h4{
-      width: 173px;
+      width: 180px;
       border-bottom: 2px solid #f01f2b;
       margin-bottom: 10px;
     }
+  }
+}
+
+
+/*FORNECEDORES*/
+.fornecedores{
+  border-radius: 10px;
+  height: 350px;
+  width: 98%;
+  padding: 0px 30px;
+  flex-direction: column;
+  gap: 30px;
+  box-shadow: 0px 0px 2px gray;
+}
+.titulo{
+  gap: 30px;
+  & h1{
+    font-family: "Karla", sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    padding: 10px 10px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #0263b2;
+    margin-bottom: 20px;
+  }
+  & nav{
+    height: 10px;
+    width: 40px;
+    background-color: #f01f2b;
+    border-radius: 0px 50px 0px 50px;
+    margin-bottom: 10px;
+    
+  }
+}
+.marquee{
+  & img{
+    margin-right: 50px;
+    height: 60px;
   }
 }
 

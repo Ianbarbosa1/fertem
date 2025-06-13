@@ -44,13 +44,12 @@ export function Banners() {
 
       <section className="oneEstrutura"></section>
 
-      <section className="twoEstrutura"></section>
-
-      <section className="threeEstrutura"></section>
+      <a href="https://maps.app.goo.gl/EhaDchrhHiLp9Upe8" target="_Blank" className="twoEstrutura"></a>
 
       <span className="setas" id="right" onClick={alteracaoEstrutura}>
         <IoIosArrowForward />
       </span>
+
     </section>
   );
 }

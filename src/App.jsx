@@ -1,18 +1,17 @@
-import { Entrada } from "./assets/componentes/entrada";
+import { Categoria } from "./assets/componentes/categorias";
 import { Footer } from "./assets/componentes/footer";
-import { Produtos } from "./assets/componentes/produtos";
-
+import { Fornecedores } from "./assets/componentes/fornecedores";
 
 function App() {
   return (
     <>
       <header id="home">
-        <Entrada />
+        <Categoria/>
       </header>
 
-      <main id="produtos">
-        <Produtos />
-      </main>
+      <main>
+        <Fornecedores/>
+      </main> 
 
       <footer>
         <Footer />
