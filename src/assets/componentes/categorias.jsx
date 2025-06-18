@@ -8,7 +8,7 @@ import { IoClose } from "react-icons/io5";
 
 /*IMAGENS*/
 import logo from "../imagens/logo-sem-fundo.png";
-import lupa from "../imagens/pesquisa.svg";
+import lupa from "../imagens/pesquisa.svg";;
 
 /*FUNCIONAMENTO DA LOJA FISICA*/
 let horas = new Date();
@@ -582,7 +582,7 @@ export function Categoria() {
             EPI
           </button>
         </section>
-
+        
         <section className="categorias">
           <button className="categoria" id="one" onClick={primeiraCategoria}>
             <p>Maquinas</p>
@@ -594,7 +594,7 @@ export function Categoria() {
             <p>Ferramentas</p>
           </button>
           <button className="categoria" id="four" onClick={quartaCategoria}>
-            <p>Ligações</p>
+            <p>Cimentos</p>
           </button>
           <button className="categoria" id="five" onClick={quintaCategoria}>
             <p>Iluminação</p>
@@ -610,6 +610,7 @@ export function Categoria() {
           </button>
           <button className="categoria" id="nine" onClick={nonaCategoria}>
             <p>EPI</p>
+            
           </button>
         </section>
       </section>

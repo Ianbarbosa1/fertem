@@ -44,7 +44,7 @@ export function Banners() {
 
       <section className="oneEstrutura"></section>
 
-      <a href="https://maps.app.goo.gl/EhaDchrhHiLp9Upe8" target="_Blank" className="twoEstrutura"></a>
+      <a href="https://maps.app.goo.gl/EhaDchrhHiLp9Upe8" aria-label="Localização da loja fisica" title="Localização" target="_Blank" className="twoEstrutura"></a>
 
       <span className="setas" id="right" onClick={alteracaoEstrutura}>
         <IoIosArrowForward />

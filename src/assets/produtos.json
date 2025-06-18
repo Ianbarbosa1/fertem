@@ -81,7 +81,7 @@
     },
     {
       "id": 1010,
-      "categoria": 2,
+      "categoria": 0,
       "nome": "Vaselina Liquida multiuso 500ml",
       "imagem": "https://i.postimg.cc/6q4FTcC9/vaselina-liquida.png",
       "valor": "0",
@@ -97,10 +97,122 @@
     },
     {
       "id": 1012,
-      "categoria": 2,
+      "categoria": 3,
       "nome": "Querosene Removedor Comum 500ml",
       "imagem": "https://i.postimg.cc/BvNrzXqG/querosene.png",
       "valor": "0",
       "descricao": "Combustível e solvente usado para limpeza, remoção de graxa, óleo e sujeiras pesadas em peças e superfícies metálicas."
+    },
+    {
+      "id": 1013,
+      "categoria": 0,
+      "nome": "Estopa 100% Algodão",
+      "imagem": "https://i.postimg.cc/L4v41XMP/estopa-100-algod-o.png",
+      "valor": "0",
+      "descricao": "Material de limpeza feito com fibras naturais, ideal para polimento, remoção de sujeiras pesadas, aplicação de produtos e limpeza geral em oficinas, indústrias e automóveis."
+    },
+    {
+      "id": 1014,
+      "categoria": 2,
+      "nome": "Pincel de Cerda 1/2 Polegada",
+      "imagem": "https://i.postimg.cc/BQk0TP7j/pincel-de-cerda-12-polegada.png",
+      "valor": "0",
+      "descricao": "Pincel com cerdas naturais e cabo de madeira, indicado para aplicação precisa de tintas, vernizes e produtos químicos em superfícies pequenas ou de difícil acesso."
+    },
+    {
+      "id": 1015,
+      "categoria": 2,
+      "nome": "Pincel de Cerda 3/4 Polegada",
+      "imagem": "https://i.postimg.cc/ZnDhDWTD/pincel-de-cerda-34-polegada.png",
+      "valor": "0",
+      "descricao": "Pincel com cerdas naturais e cabo de madeira, indicado para aplicação precisa de tintas, vernizes e produtos químicos em superfícies pequenas ou de difícil acesso."
+    },
+    {
+      "id": 1016,
+      "categoria": 2,
+      "nome": "Pincel de Cerda 1'' Polegada",
+      "imagem": "https://i.postimg.cc/SQZqKvW7/pincel-de-cerda-1-polegada.png",
+      "valor": "0",
+      "descricao": "Pincel com cerdas naturais e cabo de madeira, indicado para aplicação precisa de tintas, vernizes e produtos químicos em superfícies pequenas ou de difícil acesso."
+    },
+    {
+      "id": 1017,
+      "categoria": 2,
+      "nome": "Pincel de Cerda 2'' Polegada",
+      "imagem": "https://i.postimg.cc/cCJSmRNn/pincel-de-cerda-2-polegada.png",
+      "valor": "0",
+      "descricao": "Pincel com cerdas naturais e cabo de madeira, indicado para aplicação precisa de tintas, vernizes e produtos químicos em superfícies pequenas ou de difícil acesso."
+    },
+    {
+      "id": 1018,
+      "categoria": 2,
+      "nome": "Pincel de Cerda 3'' Polegada",
+      "imagem": "https://i.postimg.cc/28VYL7Gp/pincel-de-cerda-3-polegada.png",
+      "valor": "0",
+      "descricao": "Pincel com cerdas naturais e cabo de madeira, indicado para aplicação precisa de tintas, vernizes e produtos químicos em superfícies pequenas ou de difícil acesso."
+    },
+    {
+      "id": 1019,
+      "categoria": 2,
+      "nome": "Pincel de Cerda 4'' Polegada",
+      "imagem": "https://i.postimg.cc/m2DLNsb5/pincel-de-cerda-4-polegada.png",
+      "valor": "0",
+      "descricao": "Pincel com cerdas naturais e cabo de madeira, indicado para aplicação precisa de tintas, vernizes e produtos químicos em superfícies pequenas ou de difícil acesso."
+    },
+    {
+      "id": 1020,
+      "categoria": 2,
+      "nome": "Rolo Espuma Poliéster 5cm",
+      "imagem": "https://i.postimg.cc/LsMF7KpR/rolo-espuma-poli-ster.png",
+      "valor": "0",
+      "descricao": "Rolo compacto feito em espuma de poliéster, ideal para aplicação uniforme de tintas base água ou solvente em superfícies lisas e pequenos retoques com acabamento fino."
+    },
+    {
+      "id": 1021,
+      "categoria": 2,
+      "nome": "Rolo Espuma Poliéster 9cm",
+      "imagem": "https://i.postimg.cc/LsMF7KpR/rolo-espuma-poli-ster.png",
+      "valor": "0",
+      "descricao": "Rolo compacto feito em espuma de poliéster, ideal para aplicação uniforme de tintas base água ou solvente em superfícies lisas e pequenos retoques com acabamento fino."
+    },
+    {
+      "id": 1022,
+      "categoria": 2,
+      "nome": "Rolo Espuma Poliéster 15cm",
+      "imagem": "https://i.postimg.cc/LsMF7KpR/rolo-espuma-poli-ster.png",
+      "valor": "0",
+      "descricao": "Rolo compacto feito em espuma de poliéster, ideal para aplicação uniforme de tintas base água ou solvente em superfícies lisas e pequenos retoques com acabamento fino."
+    },
+    {
+      "id": 1023,
+      "categoria": 4,
+      "nome": "Viaplus 7000 Fibras",
+      "imagem": "https://i.postimg.cc/NMBYyhJb/viapol-7000-fibras.png",
+      "valor": "0",
+      "descricao": "Revestimento impermeabilizante flexível à base de cimento modificado com polímeros e fibras, utilizado para proteger estruturas de concreto e alvenaria contra a umidade e infiltrações em áreas como piscinas, caixas d’água e fundações."
+    },
+    {
+      "id": 1024,
+      "categoria": 6,
+      "nome": "Refil de Filtro de Torneira Ativi Universal",
+      "imagem": "https://i.postimg.cc/P5vd9Qvb/refil-de-filtro-de-torneira-ativi-universal.png",
+      "valor": "0",
+      "descricao": "Elemento filtrante de reposição compatível com diversos modelos de torneiras, projetado para reter impurezas sólidas, cloro e odores, garantindo água mais limpa e própria para o consumo no uso diário."
+    },
+    {
+      "id": 1025,
+      "categoria": 6,
+      "nome": "Torneira Jardim Preta Slim 1/2 - 3/4",
+      "imagem": "https://i.postimg.cc/BvWJ0P2r/torneira-jardim-preta-slim-12-34.png",
+      "valor": "0",
+      "descricao": "Torneira resistente com design moderno e bico tipo mangueira, ideal para áreas externas como jardins e quintais, compatível com conexões de 1/2 e 3/4, facilitando o uso com mangueiras e sistemas de irrigação."
+    },
+    {
+      "id": 1026,
+      "categoria": 6,
+      "nome": "Torneira Esfera 1/4 volta Jardim ou Tanque",
+      "imagem": "https://i.postimg.cc/FsB9TBzs/torneira-esfera-14-volta-pvc-jardim-ou-tanque.png",
+      "valor": "0",
+      "descricao": "Torneira com mecanismo de esfera que abre e fecha rapidamente com apenas um quarto de volta, indicada para uso em jardins, tanques e áreas externas, garantindo controle eficiente do fluxo de água.."
     }
 ]

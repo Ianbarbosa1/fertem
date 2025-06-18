@@ -1,12 +1,11 @@
 import { Categoria } from "./assets/componentes/categorias";
 import { Footer } from "./assets/componentes/footer";
 import { Fornecedores } from "./assets/componentes/fornecedores";
-
 function App() {
   return (
     <>
       <header id="home">
-        <Categoria/>
+        <Categoria />
       </header>
 
       <main>
