@@ -39,7 +39,6 @@ if (retorno === true) {
 }
 
 export function Categoria() {
-
   /*FUNÇÃO DE PESQUISA*/
   const [busca, setBusca] = useState("");
   const buscaM = busca.toLowerCase();
@@ -610,7 +609,6 @@ export function Categoria() {
           </button>
           <button className="categoria" id="nine" onClick={nonaCategoria}>
             <p>EPI</p>
-            
           </button>
         </section>
       </section>
