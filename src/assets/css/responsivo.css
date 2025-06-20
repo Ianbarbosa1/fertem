@@ -92,7 +92,6 @@
             background-color: #18181894;
         }
     }
-    
 
     /*PRODUTOS*/
     .produtos {
@@ -115,6 +114,7 @@
             width: 140px;
             & h2{
                 font-size: 12px;
+                height: 28px;
             }
             & h3{
                 font-size: 11px;
@@ -311,8 +311,8 @@
             height: 290px;
             width: 165px;
             & h2 {
-                -webkit-line-clamp: 2;
                 font-size: 15px;
+                height: 40px;
             }
             & h3 {
                 font-size: 12px;
@@ -480,6 +480,7 @@
             width: 165px;
             & h2 {
                 font-size: 16px;
+                height: 38px;
             }
             & h3 {
                 font-size: 14px;
@@ -615,6 +616,7 @@
             width: 180px;
             & h2 {
                 font-size: 16px;
+                height: 39px;
             }
             & h3 {
                 font-size: 14px;
@@ -671,6 +673,7 @@
         height: 80px;
         width: 80px;
     }
+
     /*BANNERS*/
     .container-entrada {
         height: 225px;
@@ -692,6 +695,7 @@
             width: 200px;
             & h2 {
                 font-size: 16px;
+                height: 38px;
             }
             & h3 {
                 font-size: 14px;
@@ -701,6 +705,7 @@
             }
         }
     }
+    
     /*FORNECEDORES*/
     .marquee{
         & img{
@@ -747,4 +752,5 @@
         height: 280px;
         width: 100%;
     }
+
 }

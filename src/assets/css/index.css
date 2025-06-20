@@ -360,6 +360,7 @@ footer {
       -webkit-box-orient: vertical;
       overflow: hidden;
       margin: 0px 7px;
+      height: 44px;
     }
     & h3 {
       color: gray;

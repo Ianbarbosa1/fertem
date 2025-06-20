@@ -213,6 +213,110 @@
       "nome": "Torneira Esfera 1/4 volta Jardim ou Tanque",
       "imagem": "https://i.postimg.cc/FsB9TBzs/torneira-esfera-14-volta-pvc-jardim-ou-tanque.png",
       "valor": "0",
-      "descricao": "Torneira com mecanismo de esfera que abre e fecha rapidamente com apenas um quarto de volta, indicada para uso em jardins, tanques e áreas externas, garantindo controle eficiente do fluxo de água.."
+      "descricao": "Torneira com mecanismo de esfera que abre e fecha rapidamente com apenas um quarto de volta, indicada para uso em jardins, tanques e áreas externas, garantindo controle eficiente do fluxo de água."
+    },
+    {
+      "id": 1027,
+      "categoria": 0,
+      "nome": "Carcaça Transparente de Policarbonato 10''",
+      "imagem": "https://i.postimg.cc/8cZQmV8b/Carca-a-Transparente-de-Policarbonato-10.png",
+      "valor": "0",
+      "descricao": "Utilizada em sistemas de filtragem de água, permite a visualização do refil interno para facilitar o monitoramento da troca, oferecendo resistência, durabilidade e segurança no processo de purificação."
+    },
+    {
+      "id": 1028,
+      "categoria": 0,
+      "nome": "Filtro de Carbon Block - Carvão Ativado 10''",
+      "imagem": "https://i.postimg.cc/NjrS5X0D/filtro-de-carbon-block.jpg",
+      "valor": "0",
+      "descricao": "Indicado para purificadores e sistemas de filtragem, esse refil de carvão ativado retém impurezas, odores e o gosto de cloro da água, garantindo mais qualidade e segurança no consumo."
+    },
+    {
+      "id": 1029,
+      "categoria": 0,
+      "nome": "Filtro de Polipropileno 5''",
+      "imagem": "https://i.postimg.cc/zvzYhGQB/Filtro-de-Polipropileno-5.png",
+      "valor": "0",
+      "descricao": "Ideal para remoção de sedimentos como areia, barro e ferrugem, esse refil é utilizado em sistemas de filtragem para proteger equipamentos e melhorar a qualidade da água desde a entrada."
+    },
+    {
+      "id": 1030,
+      "categoria": 0,
+      "nome": "Filtro de Polipropileno 10''",
+      "imagem": "https://i.postimg.cc/2jGDDnqB/filtro-de-polipropileno-10.jpg",
+      "valor": "0",
+      "descricao": "Aplicado em sistemas de filtragem residenciais e comerciais, esse refil retém sedimentos como barro, areia e ferrugem, protegendo equipamentos e garantindo uma água mais limpa desde o ponto de entrada."
+    },
+    {
+      "id": 1031,
+      "categoria": 1,
+      "nome": "Bomba Submersa (Sapo)  HB400",
+      "imagem": "https://i.postimg.cc/j5QrC7Zm/Bomba-Submersa-HB400.jpg",
+      "valor": "0",
+      "descricao": "Indicada para poços, cisternas e reservatórios, essa bomba submersa é eficiente na elevação e movimentação da água limpa, sendo ideal para uso doméstico, irrigação ou abastecimento de caixas d’água. Elevação de 50M de altura - Saida 3/4."
+    },
+    {
+      "id": 1032,
+      "categoria": 1,
+      "nome": "Bomba Submersa (Sapo) HB500",
+      "imagem": "https://i.postimg.cc/3RZP3HwH/Bomba-Submersa-HB500.jpg",
+      "valor": "0",
+      "descricao": "Projetada para uso em poços, cisternas e sistemas de irrigação, essa bomba submersa oferece maior vazão e potência, ideal para movimentar água limpa com eficiência em aplicações residenciais e rurais. Elevação de 50M de altura - Saida 3/4."
+    },
+    {
+      "id": 1033,
+      "categoria": 1,
+      "nome": "Bomba Submersa (Sapo) HB650",
+      "imagem": "https://i.postimg.cc/pXrgM4bg/Bomba-Submersa-HB650.jpg",
+      "valor": "0",
+      "descricao": "Projetada para captação e bombeamento de água limpa em poços e reservatórios, essa bomba submersa oferece alta eficiência e potência, ideal para uso residencial, irrigação e abastecimento de sistemas hidráulicos. Elevação de 65M de altura - Saida 3/4."
+    },
+    {
+      "id": 1034,
+      "categoria": 1,
+      "nome": "Bomba Submersa (Sapo) HB700",
+      "imagem": "https://i.postimg.cc/wTrnq293/Bomba-Submersa-HB700.jpg",
+      "valor": "0",
+      "descricao": "Indicada para poços profundos e sistemas de irrigação, essa bomba submersa proporciona alta vazão e desempenho confiável, ideal para abastecimento residencial e aplicações agrícolas. Elevação de 65M de altura - Saida 3/4."
+    },
+    {
+      "id": 1035,
+      "categoria": 3,
+      "nome": "Trena Fertak 10 Metros",
+      "imagem": "https://i.postimg.cc/28XNqm7k/Trena-Fertak-10-metros.jpg",
+      "valor": "0",
+      "descricao": "Trena compacta com corpo emborrachado, três travas de segurança, presilha para cinto e fita de aço graduada em mm/polegadas, ideal para medições rápidas e precisas em obras, reformas e medições domésticas."
+    },
+    {
+      "id": 1036,
+      "categoria": 3,
+      "nome": "Trena Starret 8 Metros",
+      "imagem": "https://i.postimg.cc/pLhbz7sD/Trena-Starret-8-Metros.jpg",
+      "valor": "0",
+      "descricao": "Trena robusta de bolso com fita de 25mm, graduação em mm/pol, trava e caixa resistente, ideal para medições rápidas e precisas em obras ou uso profissional."
+    },
+    {
+      "id": 1036,
+      "categoria": 0,
+      "nome": "WD-40 Multiuso 300ml",
+      "imagem": "https://i.postimg.cc/zfKsPhZv/WD-40-Multiuso-300ml.jpg",
+      "valor": "0",
+      "descricao": "Spray multiuso que lubrifica, penetra peças presas, desloca umidade, limpa e protege contra ferrugem, ideal para uso em casa, oficina, carro, eletrônicos e sistemas hidráulicos."
+    },
+    {
+      "id": 1037,
+      "categoria": 0,
+      "nome": "Vaselina Spray W-MAX 200ml",
+      "imagem": "https://i.postimg.cc/x1wrRRZB/Vaselina-Spray-W-MAX-200ml.jpg",
+      "valor": "0",
+      "descricao": "Lubrificante em spray com ação protetora e deslizante, ideal para reduzir atrito entre superfícies metálicas, plásticas ou de borracha, protegendo contra ferrugem e desgaste em equipamentos, ferramentas e peças automotivas."
+    },
+    {
+      "id": 1038,
+      "categoria": 0,
+      "nome": "Inseticida Mata Cupins Pro Inset 300ml",
+      "imagem": "https://i.postimg.cc/CLKVLdDr/Inseticida-Mata-Cupins-Pro-Inset.jpg",
+      "valor": "0",
+      "descricao": "Spray de ação imediata e prolongada, ideal para eliminar cupins e prevenir infestações em móveis, estruturas de madeira e áreas de difícil acesso, protegendo contra danos estruturais causados por insetos."
     }
 ]
