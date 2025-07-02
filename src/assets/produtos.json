@@ -318,5 +318,261 @@
       "imagem": "https://i.postimg.cc/CLKVLdDr/Inseticida-Mata-Cupins-Pro-Inset.jpg",
       "valor": "0",
       "descricao": "Spray de ação imediata e prolongada, ideal para eliminar cupins e prevenir infestações em móveis, estruturas de madeira e áreas de difícil acesso, protegendo contra danos estruturais causados por insetos."
+    },
+    {
+      "id": 1039,
+      "categoria": 6,
+      "nome": "Joelho Esgoto 90° PVC de 40mm",
+      "imagem": "https://i.postimg.cc/76J5NwqG/joelho-90o-pvc-esgoto-50mm-40mm.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para fazer curvas em tubulações de esgoto, permitindo que a direção do encanamento mude em um ângulo de 90 graus. Compatível com tubos de esgoto de 40mm de diâmetro."
+    },
+    {
+      "id": 1040,
+      "categoria": 6,
+      "nome": "Joelho Esgoto 45° PVC de 40mm",
+      "imagem": "https://i.postimg.cc/BvV8DXff/joelho-45o-pvc-para-esgoto-40mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão usada para fazer desvios suaves na tubulação de esgoto, mudando a direção do encanamento em 45 graus. Ideal para evitar curvas muito fechadas, que podem dificultar o fluxo da água servida. Compatível com tubos de esgoto de 40mm de diâmetro."
+    },
+    {
+      "id": 1041,
+      "categoria": 6,
+      "nome": "Luva Esgoto PVC de 40mm",
+      "imagem": "https://i.postimg.cc/SNfJdZbr/luva-pvc-para-esgoto-40mm.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para unir dois tubos de esgoto com o mesmo diâmetro, garantindo continuidade na tubulação e vedação segura contra vazamentos. Indicada para instalações residenciais e comerciais, é compatível com tubos de 40mm e ideal para ampliações, manutenções ou emendas no sistema de esgoto."
+    },
+    {
+      "id": 1042,
+      "categoria": 6,
+      "nome": "TE Esgoto PVC de 40mm",
+      "imagem": "https://i.postimg.cc/Dz802nJj/te-pvc-para-esgoto-40mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão em formato de ''T'' utilizada para unir três tubos de esgoto, permitindo a derivação do fluxo em um ângulo de 90 graus. Ideal para criar ramificações no sistema de esgoto, como quando é necessário desviar a água servida para outra direção. Compatível com tubulações de 40mm."
+    },
+    {
+      "id": 1043,
+      "categoria": 6,
+      "nome": "Junção Esgoto PVC de 40mm",
+      "imagem": "https://i.postimg.cc/wMh3S2y9/juncao-pvc-para-esgoto-40mm.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para realizar a derivação de uma tubulação de esgoto em um ângulo mais suave que o Tê, facilitando o escoamento da água servida sem causar retenções. Ideal para unir três tubos e direcionar o fluxo com menor turbulência. Compatível com tubulações de 40mm."
+    },
+    {
+      "id": 1044,
+      "categoria": 6,
+      "nome": "Cap Esgoto PVC de 40mm",
+      "imagem": "https://i.postimg.cc/02YJ3kD7/cap-pvc-esgoto-50mm-40mm.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para fechar temporária ou permanentemente a extremidade de uma tubulação de esgoto, impedindo a saída de água ou mau cheiro. Muito útil em pontos de inspeção, ampliações futuras ou finalizações de rede. Compatível com tubos de 40mm."
+    },
+    {
+      "id": 1045,
+      "categoria": 6,
+      "nome": "Curva Esgoto 90° PVC de 40mm",
+      "imagem": "https://i.postimg.cc/GmzTLXM2/curva-90o-curta-pvc-para-esgoto-40mm-50mm.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para fechar temporária ou permanentemente a extremidade de uma tubulação de esgoto, impedindo a saída de água ou mau cheiro. Muito útil em pontos de inspeção, ampliações futuras ou finalizações de rede. Compatível com tubos de 40mm."
+    },
+    {
+      "id": 1046,
+      "categoria": 6,
+      "nome": "Luva Esgoto Correr PVC de 40mm",
+      "imagem": "https://i.postimg.cc/m2sP7vJk/luva-pvc-esgoto-40mm-50mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão usada para unir dois tubos de esgoto com o mesmo diâmetro, permitindo ajuste no comprimento da tubulação graças ao seu design deslizante, facilitando a instalação e manutenção. É compatível com tubos de 40mm."
+    },
+    {
+      "id": 1047,
+      "categoria": 6,
+      "nome": "Joelho Esgoto 90° PVC de 50mm",
+      "imagem": "https://i.postimg.cc/76J5NwqG/joelho-90o-pvc-esgoto-50mm-40mm.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para fazer curvas em tubulações de esgoto, permitindo que a direção do encanamento mude em um ângulo de 90 graus. Compatível com tubos de esgoto de 50mm de diâmetro."
+    },
+    {
+      "id": 1048,
+      "categoria": 6,
+      "nome": "Joelho Esgoto 45° PVC de 50mm",
+      "imagem": "https://i.postimg.cc/zfBbVTMk/joelho-45o-pvc-esgoto-75mm-100-50.jpg",
+      "valor": "0",
+      "descricao": "Conexão usada para fazer desvios suaves na tubulação de esgoto, mudando a direção do encanamento em 45 graus. Ideal para evitar curvas muito fechadas, que podem dificultar o fluxo da água servida. Compatível com tubos de esgoto de 50mm de diâmetro."
+    },
+    {
+      "id": 1049,
+      "categoria": 6,
+      "nome": "Luva Esgoto PVC de 50mm",
+      "imagem": "https://i.postimg.cc/dVQDx8qK/luva-pvc-para-esgoto-75mm-50-100.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para unir dois tubos de esgoto com o mesmo diâmetro, garantindo continuidade na tubulação e vedação segura contra vazamentos. Indicada para instalações residenciais e comerciais, é compatível com tubos de 50mm e ideal para ampliações, manutenções ou emendas no sistema de esgoto."
+    },
+    {
+      "id": 1050,
+      "categoria": 6,
+      "nome": "TE Esgoto PVC de 50mm",
+      "imagem": "https://i.postimg.cc/t4r7QYTn/te-pvc-esgoto-75mm-50-100.jpg",
+      "valor": "0",
+      "descricao": "Conexão em formato de ''T'' utilizada para unir três tubos de esgoto, permitindo a derivação do fluxo em um ângulo de 90 graus. Ideal para criar ramificações no sistema de esgoto, como quando é necessário desviar a água servida para outra direção. Compatível com tubulações de 50mm."
+    },
+    {
+      "id": 1051,
+      "categoria": 6,
+      "nome": "Junção Esgoto PVC de 50mm",
+      "imagem": "https://i.postimg.cc/yxqkQtNf/juncao-pvc-esgoto-75mm-50-100.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para realizar a derivação de uma tubulação de esgoto em um ângulo mais suave que o Tê, facilitando o escoamento da água servida sem causar retenções. Ideal para unir três tubos e direcionar o fluxo com menor turbulência. Compatível com tubulações de 50mm."
+    },
+    {
+      "id": 1052,
+      "categoria": 6,
+      "nome": "Cap Esgoto PVC de 50mm",
+      "imagem": "https://i.postimg.cc/02YJ3kD7/cap-pvc-esgoto-50mm-40mm.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para fechar temporária ou permanentemente a extremidade de uma tubulação de esgoto, impedindo a saída de água ou mau cheiro. Muito útil em pontos de inspeção, ampliações futuras ou finalizações de rede. Compatível com tubos de 50mm."
+    },
+    {
+      "id": 1053,
+      "categoria": 6,
+      "nome": "Curva Esgoto 90° PVC de 50mm",
+      "imagem": "https://i.postimg.cc/GmzTLXM2/curva-90o-curta-pvc-para-esgoto-40mm-50mm.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para fechar temporária ou permanentemente a extremidade de uma tubulação de esgoto, impedindo a saída de água ou mau cheiro. Muito útil em pontos de inspeção, ampliações futuras ou finalizações de rede. Compatível com tubos de 50mm."
+    },
+    {
+      "id": 1054,
+      "categoria": 6,
+      "nome": "Luva Esgoto Correr PVC de 50mm",
+      "imagem": "https://i.postimg.cc/m2sP7vJk/luva-pvc-esgoto-40mm-50mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão usada para unir dois tubos de esgoto com o mesmo diâmetro, permitindo ajuste no comprimento da tubulação graças ao seu design deslizante, facilitando a instalação e manutenção. É compatível com tubos de 50mm."
+    },
+    {
+      "id": 1055,
+      "categoria": 6,
+      "nome": "Joelho Esgoto 90° PVC de 75mm",
+      "imagem": "https://i.postimg.cc/9QSVYT0b/joelho-90o-pvc-para-esgoto-100mm-7mm.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para fazer curvas em tubulações de esgoto, permitindo que a direção do encanamento mude em um ângulo de 90 graus. Compatível com tubos de esgoto de 75mm de diâmetro."
+    },
+    {
+      "id": 1056,
+      "categoria": 6,
+      "nome": "Joelho Esgoto 45° PVC de 75mm",
+      "imagem": "https://i.postimg.cc/zfBbVTMk/joelho-45o-pvc-esgoto-75mm-100-50.jpg",
+      "valor": "0",
+      "descricao": "Conexão usada para fazer desvios suaves na tubulação de esgoto, mudando a direção do encanamento em 45 graus. Ideal para evitar curvas muito fechadas, que podem dificultar o fluxo da água servida. Compatível com tubos de esgoto de 75mm de diâmetro."
+    },
+    {
+      "id": 1057,
+      "categoria": 6,
+      "nome": "Luva Esgoto PVC de 75mm",
+      "imagem": "https://i.postimg.cc/dVQDx8qK/luva-pvc-para-esgoto-75mm-50-100.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para unir dois tubos de esgoto com o mesmo diâmetro, garantindo continuidade na tubulação e vedação segura contra vazamentos. Indicada para instalações residenciais e comerciais, é compatível com tubos de 75mm e ideal para ampliações, manutenções ou emendas no sistema de esgoto."
+    },
+    {
+      "id": 1058,
+      "categoria": 6,
+      "nome": "TE Esgoto PVC de 75mm",
+      "imagem": "https://i.postimg.cc/t4r7QYTn/te-pvc-esgoto-75mm-50-100.jpg",
+      "valor": "0",
+      "descricao": "Conexão em formato de ''T'' utilizada para unir três tubos de esgoto, permitindo a derivação do fluxo em um ângulo de 90 graus. Ideal para criar ramificações no sistema de esgoto, como quando é necessário desviar a água servida para outra direção. Compatível com tubulações de 75mm."
+    },
+    {
+      "id": 1059,
+      "categoria": 6,
+      "nome": "Junção Esgoto PVC de 75mm",
+      "imagem": "https://i.postimg.cc/yxqkQtNf/juncao-pvc-esgoto-75mm-50-100.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para realizar a derivação de uma tubulação de esgoto em um ângulo mais suave que o Tê, facilitando o escoamento da água servida sem causar retenções. Ideal para unir três tubos e direcionar o fluxo com menor turbulência. Compatível com tubulações de 75mm."
+    },
+    {
+      "id": 1060,
+      "categoria": 6,
+      "nome": "Cap Esgoto PVC de 75mm",
+      "imagem": "https://i.postimg.cc/02YJ3kD7/cap-pvc-esgoto-50mm-40mm.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para fechar temporária ou permanentemente a extremidade de uma tubulação de esgoto, impedindo a saída de água ou mau cheiro. Muito útil em pontos de inspeção, ampliações futuras ou finalizações de rede. Compatível com tubos de 75mm."
+    },
+    {
+      "id": 1061,
+      "categoria": 6,
+      "nome": "Curva Esgoto 90° PVC de 75mm",
+      "imagem": "https://i.postimg.cc/6pBGxkfg/curva-90o-pvc-esgoto-75mm.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para fechar temporária ou permanentemente a extremidade de uma tubulação de esgoto, impedindo a saída de água ou mau cheiro. Muito útil em pontos de inspeção, ampliações futuras ou finalizações de rede. Compatível com tubos de 75mm."
+    },
+    {
+      "id": 1062,
+      "categoria": 6,
+      "nome": "Luva Esgoto Correr PVC de 75mm",
+      "imagem": "https://i.postimg.cc/jqNWwx8B/luva-de-correr-para-esgoto-75mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão usada para unir dois tubos de esgoto com o mesmo diâmetro, permitindo ajuste no comprimento da tubulação graças ao seu design deslizante, facilitando a instalação e manutenção. É compatível com tubos de 75mm."
+    },
+    {
+      "id": 1063,
+      "categoria": 6,
+      "nome": "Joelho Esgoto 90° PVC de 100mm",
+      "imagem": "https://i.postimg.cc/9QSVYT0b/joelho-90o-pvc-para-esgoto-100mm-7mm.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para fazer curvas em tubulações de esgoto, permitindo que a direção do encanamento mude em um ângulo de 90 graus. Compatível com tubos de esgoto de 100mm de diâmetro."
+    },
+    {
+      "id": 1064,
+      "categoria": 6,
+      "nome": "Joelho Esgoto 45° PVC de 100mm",
+      "imagem": "https://i.postimg.cc/zfBbVTMk/joelho-45o-pvc-esgoto-75mm-100-50.jpg",
+      "valor": "0",
+      "descricao": "Conexão usada para fazer desvios suaves na tubulação de esgoto, mudando a direção do encanamento em 45 graus. Ideal para evitar curvas muito fechadas, que podem dificultar o fluxo da água servida. Compatível com tubos de esgoto de 100mm de diâmetro."
+    },
+    {
+      "id": 1065,
+      "categoria": 6,
+      "nome": "Luva Esgoto PVC de 100mm",
+      "imagem": "https://i.postimg.cc/dVQDx8qK/luva-pvc-para-esgoto-75mm-50-100.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para unir dois tubos de esgoto com o mesmo diâmetro, garantindo continuidade na tubulação e vedação segura contra vazamentos. Indicada para instalações residenciais e comerciais, é compatível com tubos de 100mm e ideal para ampliações, manutenções ou emendas no sistema de esgoto."
+    },
+    {
+      "id": 1066,
+      "categoria": 6,
+      "nome": "TE Esgoto PVC de 100mm",
+      "imagem": "https://i.postimg.cc/t4r7QYTn/te-pvc-esgoto-75mm-50-100.jpg",
+      "valor": "0",
+      "descricao": "Conexão em formato de ''T'' utilizada para unir três tubos de esgoto, permitindo a derivação do fluxo em um ângulo de 90 graus. Ideal para criar ramificações no sistema de esgoto, como quando é necessário desviar a água servida para outra direção. Compatível com tubulações de 100mm."
+    },
+    {
+      "id": 1067,
+      "categoria": 6,
+      "nome": "Junção Esgoto PVC de 100mm",
+      "imagem": "https://i.postimg.cc/yxqkQtNf/juncao-pvc-esgoto-75mm-50-100.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para realizar a derivação de uma tubulação de esgoto em um ângulo mais suave que o Tê, facilitando o escoamento da água servida sem causar retenções. Ideal para unir três tubos e direcionar o fluxo com menor turbulência. Compatível com tubulações de 100mm."
+    },
+    {
+      "id": 1068,
+      "categoria": 6,
+      "nome": "Cap Esgoto PVC de 100mm",
+      "imagem": "https://i.postimg.cc/02YJ3kD7/cap-pvc-esgoto-50mm-40mm.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para fechar temporária ou permanentemente a extremidade de uma tubulação de esgoto, impedindo a saída de água ou mau cheiro. Muito útil em pontos de inspeção, ampliações futuras ou finalizações de rede. Compatível com tubos de 100mm."
+    },
+    {
+      "id": 1069,
+      "categoria": 6,
+      "nome": "Curva Esgoto 90° PVC de 100mm",
+      "imagem": "https://i.postimg.cc/6pBGxkfg/curva-90o-pvc-esgoto-75mm.jpg",
+      "valor": "0",
+      "descricao": "Peça utilizada para fechar temporária ou permanentemente a extremidade de uma tubulação de esgoto, impedindo a saída de água ou mau cheiro. Muito útil em pontos de inspeção, ampliações futuras ou finalizações de rede. Compatível com tubos de 100mm."
+    },
+    {
+      "id": 1070,
+      "categoria": 6,
+      "nome": "Luva Esgoto Correr PVC de 100mm",
+      "imagem": "https://i.postimg.cc/jqNWwx8B/luva-de-correr-para-esgoto-75mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão usada para unir dois tubos de esgoto com o mesmo diâmetro, permitindo ajuste no comprimento da tubulação graças ao seu design deslizante, facilitando a instalação e manutenção. É compatível com tubos de 70mm."
     }
 ]

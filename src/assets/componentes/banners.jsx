@@ -49,7 +49,6 @@ export function Banners() {
       <span className="setas" id="right" onClick={alteracaoEstrutura}>
         <IoIosArrowForward />
       </span>
-
     </section>
   );
 }

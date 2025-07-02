@@ -10,7 +10,7 @@ export function Footer(){
     return(
         <>  
             <section className='rodape'>
-                <a href='https://wa.me/5521971678688' className="whatsapp">
+                <a href='https://wa.me/5521971678688' className="whatsapp" aria-label="Localização da loja fisica">
                     <IoLogoWhatsapp/>
                 </a>
                 <section className='sobre'>
