@@ -574,5 +574,133 @@
       "imagem": "https://i.postimg.cc/jqNWwx8B/luva-de-correr-para-esgoto-75mm.jpg",
       "valor": "0",
       "descricao": "Conexão usada para unir dois tubos de esgoto com o mesmo diâmetro, permitindo ajuste no comprimento da tubulação graças ao seu design deslizante, facilitando a instalação e manutenção. É compatível com tubos de 70mm."
+    },
+    {
+      "id": 1071,
+      "categoria": 6,
+      "nome": "TE Soldável PVC de 20mm",
+      "imagem": "https://i.postimg.cc/y8Q0JXmY/te-90o-solda-marrom-20mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão em formato de ''T'' utilizada em tubulações hidráulicas de PVC soldável, ideal para distribuir o fluxo de água entre três direções diferentes com segurança e vedação eficiente."
+    },
+    {
+      "id": 1072,
+      "categoria": 6,
+      "nome": "TE Soldável PVC de 25mm",
+      "imagem": "https://i.postimg.cc/nLXBqj2K/te-90o-solda-marrom-25mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão em formato de ''T'' utilizada em tubulações hidráulicas de PVC soldável, ideal para distribuir o fluxo de água entre três direções diferentes com segurança e vedação eficiente."
+    },
+    {
+      "id": 1073,
+      "categoria": 6,
+      "nome": "TE Soldável PVC de 32mm",
+      "imagem": "https://i.postimg.cc/xdBH5fpw/te-90o-solda-marrom-32mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão em formato de ''T'' utilizada em tubulações hidráulicas de PVC soldável, ideal para distribuir o fluxo de água entre três direções diferentes com segurança e vedação eficiente."
+    },
+    {
+      "id": 1074,
+      "categoria": 6,
+      "nome": "TE Soldável PVC de 40mm",
+      "imagem": "https://i.postimg.cc/Ss89tBwJ/te-90o-solda-marrom-40mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão em formato de ''T'' utilizada em tubulações hidráulicas de PVC soldável, ideal para distribuir o fluxo de água entre três direções diferentes com segurança e vedação eficiente."
+    },
+    {
+      "id": 1075,
+      "categoria": 6,
+      "nome": "TE Soldável PVC de 50mm",
+      "imagem": "https://i.postimg.cc/nrJm8dJT/te-90o-solda-marrom-50mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão em formato de ''T'' utilizada em tubulações hidráulicas de PVC soldável, ideal para distribuir o fluxo de água entre três direções diferentes com segurança e vedação eficiente."
+    },
+    {
+      "id": 1076,
+      "categoria": 6,
+      "nome": "TE Azul Soldável e Roscável PVC 1/2 x 20mm",
+      "imagem": "https://i.postimg.cc/6p5d51Gm/te-90o-com-bucha-rosca-e-solda-azul-20mm-1-2.jpg",
+      "valor": "0",
+      "descricao": "Conexão hidráulica em formato de ''T'' com duas extremidades para solda e uma com rosca, utilizada para integrar sistemas de água fria, permitindo transições entre conexões soldáveis e roscáveis de forma prática e segura."
+    },
+    {
+      "id": 1077,
+      "categoria": 6,
+      "nome": "TE Azul Soldável e Roscável PVC 3/4 x 20mm",
+      "imagem": "https://i.postimg.cc/RVT7mzqt/te-90o-azul-pvc-25mmx20mm-ou-3-4x1-2.jpg",
+      "valor": "0",
+      "descricao": "Conexão hidráulica em formato de ''T'' com duas extremidades para solda e uma com rosca, utilizada para integrar sistemas de água fria, permitindo transições entre conexões soldáveis e roscáveis de forma prática e segura."
+    },
+    {
+      "id": 1078,
+      "categoria": 6,
+      "nome": "TE Azul Soldável e Roscável PVC 3/4 x 25mm",
+      "imagem": "https://i.postimg.cc/RVT7mzqt/te-90o-azul-pvc-25mmx20mm-ou-3-4x1-2.jpg",
+      "valor": "0",
+      "descricao": "Conexão hidráulica em formato de ''T'' com duas extremidades para solda e uma com rosca, utilizada para integrar sistemas de água fria, permitindo transições entre conexões soldáveis e roscáveis de forma prática e segura."
+    },
+    {
+      "id": 1079,
+      "categoria": 6,
+      "nome": "Luva Soldável PVC 20mm",
+      "imagem": "https://i.postimg.cc/V6b9Prbs/luva-solda-marrom-20mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão reta utilizada para unir dois tubos de PVC de 20mm por meio de solda, garantindo continuidade na tubulação e vedação eficiente em sistemas hidráulicos de água fria."
+    },
+    {
+      "id": 1080,
+      "categoria": 6,
+      "nome": "Luva Soldável PVC 25mm",
+      "imagem": "https://i.postimg.cc/T1MVddrV/luva-solda-marrom-25mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão reta utilizada para unir dois tubos de PVC de 25mm por meio de solda, garantindo continuidade na tubulação e vedação eficiente em sistemas hidráulicos de água fria."
+    },
+    {
+      "id": 1081,
+      "categoria": 6,
+      "nome": "Luva Soldável PVC 32mm",
+      "imagem": "https://i.postimg.cc/L5tzhcTr/luva-solda-marrom-32mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão reta utilizada para unir dois tubos de PVC de 32mm por meio de solda, garantindo continuidade na tubulação e vedação eficiente em sistemas hidráulicos de água fria."
+    },
+    {
+      "id": 1082,
+      "categoria": 6,
+      "nome": "Luva Soldável PVC 40mm",
+      "imagem": "https://i.postimg.cc/8kMdyvSt/luva-solda-marrom-40mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão reta utilizada para unir dois tubos de PVC de 40mm por meio de solda, garantindo continuidade na tubulação e vedação eficiente em sistemas hidráulicos de água fria."
+    },
+    {
+      "id": 1083,
+      "categoria": 6,
+      "nome": "Luva Soldável PVC 50mm",
+      "imagem": "https://i.postimg.cc/RVm720C9/luva-solda-marrom-50mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão reta utilizada para unir dois tubos de PVC de 50mm por meio de solda, garantindo continuidade na tubulação e vedação eficiente em sistemas hidráulicos de água fria."
+    },
+    {
+      "id": 1084,
+      "categoria": 6,
+      "nome": "Luva Azul Soldável e Roscável PVC 1/2 x 20mm",
+      "imagem": "https://i.postimg.cc/JhF3Fc0d/luva-com-bucha-rosca-e-solda-azul-20mm.jpg",
+      "valor": "0",
+      "descricao": "conexão hidráulica utilizada para unir um tubo soldável de 20mm a uma rosca de 1/2, ideal para transições entre diferentes tipos de conexões em sistemas de água fria com segurança e praticidade."
+    },
+    {
+      "id": 1085,
+      "categoria": 6,
+      "nome": "Luva Azul Soldável e Roscável PVC 3/4 x 25mm",
+      "imagem": "https://i.postimg.cc/bvrHLFyt/luva-com-bucha-rosca-e-solda-azul-25x25mm.jpg",
+      "valor": "0",
+      "descricao": "conexão hidráulica utilizada para unir um tubo soldável de 25mm a uma rosca de 3/4, ideal para transições entre diferentes tipos de conexões em sistemas de água fria com segurança e praticidade."
+    },
+    {
+      "id": 1086,
+      "categoria": 6,
+      "nome": "Luva Azul Soldável e Roscável PVC 3/4 x 20mm",
+      "imagem": "https://i.postimg.cc/Z5Vx8hSm/luva-com-bucha-azul-pvc-25x20mm.jpg",
+      "valor": "0",
+      "descricao": "conexão hidráulica utilizada para unir um tubo soldável de 20mm a uma rosca de 3/4, ideal para transições entre diferentes tipos de conexões em sistemas de água fria com segurança e praticidade."
     }
 ]
