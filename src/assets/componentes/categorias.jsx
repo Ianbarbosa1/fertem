@@ -184,10 +184,14 @@ export function Categoria() {
 
         {mostrou1 && (
           <section className="modal">
+            <div className="fechar-modal" onClick={fechou}>
+              <IoClose/>
+              Fechar Modal
+            </div>
+            
             <div className="container-produtos">
               <nav className="title">
                 <h1>MAQUINAS</h1>
-                <IoClose className="fechar" onClick={fechou} />
               </nav>
 
               <section className="all-produtos">
@@ -225,11 +229,12 @@ export function Categoria() {
 
         {mostrou2 && (
           <section className="modal">
+            <div className="fechar-modal" onClick={fechou}>
+              <IoClose/>
+              Fechar Modal
+            </div>
             <div className="container-produtos">
-              <nav className="title">
-                <h1>DECORAÇÃO</h1>
-                <IoClose className="fechar" onClick={fechou} />
-              </nav>
+              <h1>DECORAÇÃO</h1>
 
               <section className="all-produtos">
                 {Dados.map((post) => {
@@ -266,11 +271,12 @@ export function Categoria() {
 
         {mostrou3 && (
           <section className="modal">
+            <div className="fechar-modal" onClick={fechou}>
+              <IoClose/>
+              Fechar Modal
+            </div>
             <div className="container-produtos">
-              <nav className="title">
-                <h1>FERRAMENTAS</h1>
-                <IoClose className="fechar" onClick={fechou} />
-              </nav>
+              <h1>FERRAMENTAS</h1>
 
               <section className="all-produtos">
                 {Dados.map((post) => {
@@ -307,11 +313,12 @@ export function Categoria() {
 
         {mostrou4 && (
           <section className="modal">
+            <div className="fechar-modal" onClick={fechou}>
+              <IoClose/>
+              Fechar Modal
+            </div>
             <div className="container-produtos">
-              <nav className="title">
-                <h1>ARGAMASSAS</h1>
-                <IoClose className="fechar" onClick={fechou} />
-              </nav>
+              <h1>ARGAMASSAS</h1>
 
               <section className="all-produtos">
                 {Dados.map((post) => {
@@ -348,11 +355,12 @@ export function Categoria() {
 
         {mostrou5 && (
           <section className="modal">
+            <div className="fechar-modal" onClick={fechou}>
+              <IoClose/>
+              Fechar Modal
+            </div>
             <div className="container-produtos">
-              <nav className="title">
-                <h1>ILUMINAÇÃO</h1>
-                <IoClose className="fechar" onClick={fechou} />
-              </nav>
+              <h1>ILUMINAÇÃO</h1>
 
               <section className="all-produtos">
                 {Dados.map((post) => {
@@ -389,11 +397,12 @@ export function Categoria() {
 
         {mostrou6 && (
           <section className="modal">
+            <div className="fechar-modal" onClick={fechou}>
+              <IoClose/>
+              Fechar Modal
+            </div>
             <div className="container-produtos">
-              <nav className="title">
-                <h1>HIDRÁULICA</h1>
-                <IoClose className="fechar" onClick={fechou} />
-              </nav>
+              <h1>HIDRÁULICA</h1>
 
               <section className="all-produtos">
                 {Dados.map((post) => {
@@ -430,11 +439,12 @@ export function Categoria() {
 
         {mostrou7 && (
           <section className="modal">
+            <div className="fechar-modal" onClick={fechou}>
+              <IoClose/>
+              Fechar Modal
+            </div>
             <div className="container-produtos">
-              <nav className="title">
-                <h1>ELÉTRICA</h1>
-                <IoClose className="fechar" onClick={fechou} />
-              </nav>
+              <h1>ELÉTRICA</h1>
 
               <section className="all-produtos">
                 {Dados.map((post) => {
@@ -471,11 +481,12 @@ export function Categoria() {
 
         {mostrou8 && (
           <section className="modal">
+            <div className="fechar-modal" onClick={fechou}>
+              <IoClose/>
+              Fechar Modal
+            </div>
             <div className="container-produtos">
-              <nav className="title">
-                <h1>FERRAGEM</h1>
-                <IoClose className="fechar" onClick={fechou} />
-              </nav>
+              <h1>FERRAGEM</h1>
 
               <section className="all-produtos">
                 {Dados.map((post) => {
@@ -512,11 +523,12 @@ export function Categoria() {
 
         {mostrou9 && (
           <section className="modal">
+            <div className="fechar-modal" onClick={fechou}>
+              <IoClose/>
+              Fechar Modal
+            </div>
             <div className="container-produtos">
-              <nav className="title">
-                <h1>EPI</h1>
-                <IoClose className="fechar" onClick={fechou} />
-              </nav>
+              <h1>EPI</h1>
 
               <section className="all-produtos">
                 {Dados.map((post) => {
@@ -552,7 +564,10 @@ export function Categoria() {
         )}
 
         <section className="modal-tel" id="menu-tel">
-          <IoClose className="fechar" onClick={closeCategories} />
+          <div className="fechar-modal" onClick={closeCategories}>
+              <IoClose/>
+              Fechar Categorias
+            </div>
           <button onClick={primeiraCategoria} className="botao-cat">
             Maquinas
           </button>

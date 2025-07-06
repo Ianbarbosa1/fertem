@@ -59,6 +59,10 @@
     .modal-tel{
         gap: 20px;
     }
+    .fechar-modal{
+        width: 100%;
+        margin-bottom: 10px;
+    }
     
     /*CATEGORIAS*/
     .categorias {
@@ -268,6 +272,10 @@
     .botao-cat{ 
         font-size: 18px;
     }
+    .fechar-modal{
+        width: 100%;
+        margin-bottom: 10px;
+    }
     
     /*BANNERS*/
     .container-entrada {
@@ -445,6 +453,11 @@
     .categorias {
         display: none;
     }
+    .fechar-modal{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
 
     /*BANNERS*/
     .oneEstrutura{

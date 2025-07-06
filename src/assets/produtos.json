@@ -618,7 +618,7 @@
     {
       "id": 1076,
       "categoria": 6,
-      "nome": "TE Azul Soldável e Roscável PVC 1/2 x 20mm",
+      "nome": "TE Azul Soldável e Roscável PVC 20mm x 1/2",
       "imagem": "https://i.postimg.cc/6p5d51Gm/te-90o-com-bucha-rosca-e-solda-azul-20mm-1-2.jpg",
       "valor": "0",
       "descricao": "Conexão hidráulica em formato de ''T'' com duas extremidades para solda e uma com rosca, utilizada para integrar sistemas de água fria, permitindo transições entre conexões soldáveis e roscáveis de forma prática e segura."
@@ -626,7 +626,7 @@
     {
       "id": 1077,
       "categoria": 6,
-      "nome": "TE Azul Soldável e Roscável PVC 3/4 x 20mm",
+      "nome": "TE Azul Soldável e Roscável PVC 20mm x 3/4",
       "imagem": "https://i.postimg.cc/RVT7mzqt/te-90o-azul-pvc-25mmx20mm-ou-3-4x1-2.jpg",
       "valor": "0",
       "descricao": "Conexão hidráulica em formato de ''T'' com duas extremidades para solda e uma com rosca, utilizada para integrar sistemas de água fria, permitindo transições entre conexões soldáveis e roscáveis de forma prática e segura."
@@ -634,7 +634,7 @@
     {
       "id": 1078,
       "categoria": 6,
-      "nome": "TE Azul Soldável e Roscável PVC 3/4 x 25mm",
+      "nome": "TE Azul Soldável e Roscável PVC 25mm x 3/4",
       "imagem": "https://i.postimg.cc/RVT7mzqt/te-90o-azul-pvc-25mmx20mm-ou-3-4x1-2.jpg",
       "valor": "0",
       "descricao": "Conexão hidráulica em formato de ''T'' com duas extremidades para solda e uma com rosca, utilizada para integrar sistemas de água fria, permitindo transições entre conexões soldáveis e roscáveis de forma prática e segura."
@@ -682,25 +682,113 @@
     {
       "id": 1084,
       "categoria": 6,
-      "nome": "Luva Azul Soldável e Roscável PVC 1/2 x 20mm",
+      "nome": "Luva Azul Soldável e Roscável PVC 20mm x 1/2",
       "imagem": "https://i.postimg.cc/JhF3Fc0d/luva-com-bucha-rosca-e-solda-azul-20mm.jpg",
       "valor": "0",
-      "descricao": "conexão hidráulica utilizada para unir um tubo soldável de 20mm a uma rosca de 1/2, ideal para transições entre diferentes tipos de conexões em sistemas de água fria com segurança e praticidade."
+      "descricao": "Conexão hidráulica utilizada para unir um tubo soldável de 20mm a uma rosca de 1/2, ideal para transições entre diferentes tipos de conexões em sistemas de água fria com segurança e praticidade."
     },
     {
       "id": 1085,
       "categoria": 6,
-      "nome": "Luva Azul Soldável e Roscável PVC 3/4 x 25mm",
+      "nome": "Luva Azul Soldável e Roscável PVC 25mm x 3/4",
       "imagem": "https://i.postimg.cc/bvrHLFyt/luva-com-bucha-rosca-e-solda-azul-25x25mm.jpg",
       "valor": "0",
-      "descricao": "conexão hidráulica utilizada para unir um tubo soldável de 25mm a uma rosca de 3/4, ideal para transições entre diferentes tipos de conexões em sistemas de água fria com segurança e praticidade."
+      "descricao": "Conexão hidráulica utilizada para unir um tubo soldável de 25mm a uma rosca de 3/4, ideal para transições entre diferentes tipos de conexões em sistemas de água fria com segurança e praticidade."
     },
     {
       "id": 1086,
       "categoria": 6,
-      "nome": "Luva Azul Soldável e Roscável PVC 3/4 x 20mm",
+      "nome": "Luva Azul Soldável e Roscável PVC 20mm x 3/4",
       "imagem": "https://i.postimg.cc/Z5Vx8hSm/luva-com-bucha-azul-pvc-25x20mm.jpg",
       "valor": "0",
-      "descricao": "conexão hidráulica utilizada para unir um tubo soldável de 20mm a uma rosca de 3/4, ideal para transições entre diferentes tipos de conexões em sistemas de água fria com segurança e praticidade."
+      "descricao": "Conexão hidráulica utilizada para unir um tubo soldável de 20mm a uma rosca de 3/4, ideal para transições entre diferentes tipos de conexões em sistemas de água fria com segurança e praticidade."
+    },
+    {
+      "id": 1087,
+      "categoria": 6,
+      "nome": "Joelho Soldável 90° PVC de 20mm",
+      "imagem": "https://i.postimg.cc/zG6xSGqg/joelho-90o-solda-marrom-20mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão utilizada para realizar curvas em ângulo de 90° em tubulações de PVC, ideal para condução de água fria em instalações hidráulicas residenciais e comerciais. "
+    },
+    {
+      "id": 1088,
+      "categoria": 6,
+      "nome": "Joelho Soldável 90° PVC de 25mm",
+      "imagem": "https://i.postimg.cc/0NSct1NH/joelho-90o-solda-marrom-25mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão utilizada para realizar curvas em ângulo de 90° em tubulações de PVC, ideal para condução de água fria em instalações hidráulicas residenciais e comerciais. "
+    },
+    {
+      "id": 1089,
+      "categoria": 6,
+      "nome": "Joelho Soldável 90° PVC de 32mm",
+      "imagem": "https://i.postimg.cc/KzyQwpkc/joelho-90o-solda-marrom-32mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão utilizada para realizar curvas em ângulo de 90° em tubulações de PVC, ideal para condução de água fria em instalações hidráulicas residenciais e comerciais."
+    },
+    {
+      "id": 1090,
+      "categoria": 6,
+      "nome": "Joelho Soldável 90° PVC de 40mm",
+      "imagem": "https://i.postimg.cc/pTYkHQzf/joelho-90o-solda-marrom-40mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão utilizada para realizar curvas em ângulo de 90° em tubulações de PVC, ideal para condução de água fria em instalações hidráulicas residenciais e comerciais."
+    },
+    {
+      "id": 1091,
+      "categoria": 6,
+      "nome": "Joelho Soldável 90° PVC de 50mm",
+      "imagem": "https://i.postimg.cc/bY9FcP97/joelho-90o-marrom-pvc-50mm.jpg",
+      "valor": "0",
+      "descricao": "Conexão utilizada para realizar curvas em ângulo de 90° em tubulações de PVC, ideal para condução de água fria em instalações hidráulicas residenciais e comerciais."
+    },
+    {
+      "id": 1092,
+      "categoria": 6,
+      "nome": "Joelho Marrom Soldável e Roscável PVC 20mm x 1/2",
+      "imagem": "https://i.postimg.cc/4N42X08m/joelho-90o-rosca-e-solda-marrom-20mm-1-2.jpg",
+      "valor": "0",
+      "descricao": "Conexão versátil que permite a mudança de direção em 90° em tubulações, com uma ponta para solda e outra roscável, ideal para transições entre sistemas de encaixe e rosca em instalações hidráulicas de água fria."
+    },
+    {
+      "id": 1093,
+      "categoria": 6,
+      "nome": "Joelho Marrom Soldável e Roscável PVC 20mm x 3/4",
+      "imagem": "https://i.postimg.cc/tCrSJzfD/joelho-90o-rosca-e-solda-marrom-20mm-3-4.jpg",
+      "valor": "0",
+      "descricao": "Conexão versátil que permite a mudança de direção em 90° em tubulações, com uma ponta para solda e outra roscável, ideal para transições entre sistemas de encaixe e rosca em instalações hidráulicas de água fria."
+    },
+    {
+      "id": 1094,
+      "categoria": 6,
+      "nome": "Joelho Marrom Soldável e Roscável PVC 25mm x 3/4",
+      "imagem": "https://i.postimg.cc/cLrDnnGW/joelho-90o-rosca-e-solda-marrom-25mm-3-4.jpg",
+      "valor": "0",
+      "descricao": "Conexão versátil que permite a mudança de direção em 90° em tubulações, com uma ponta para solda e outra roscável, ideal para transições entre sistemas de encaixe e rosca em instalações hidráulicas de água fria."
+    },
+    {
+      "id": 1095,
+      "categoria": 6,
+      "nome": "Joelho Azul Soldável e Roscável PVC 20mm x 1/2",
+      "imagem": "https://i.postimg.cc/8cNKJXNX/joelho-90o-com-bucha-rosca-e-solda-azul-20mm-1-2.jpg",
+      "valor": "0",
+      "descricao": "Conexão em PVC usada para mudar a direção da tubulação em 90°, com uma ponta soldável e outra roscável. Ideal para água fria, oferece fácil instalação, boa vedação e praticidade em manutenções, unindo firmeza e versatilidade no sistema hidráulico."
+    },
+    {
+      "id": 1095,
+      "categoria": 6,
+      "nome": "Joelho Azul Soldável e Roscável PVC 20mm x 3/4",
+      "imagem": "https://i.postimg.cc/qqwm8c7J/joelho-90o-bucha-rosca-e-solda-azul-20mm-3-4.jpg",
+      "valor": "0",
+      "descricao": "Conexão em PVC usada para mudar a direção da tubulação em 90°, com uma ponta soldável e outra roscável. Ideal para água fria, oferece fácil instalação, boa vedação e praticidade em manutenções, unindo firmeza e versatilidade no sistema hidráulico."
+    },
+    {
+      "id": 1095,
+      "categoria": 6,
+      "nome": "Joelho Azul Soldável e Roscável PVC 25mm x 3/4",
+      "imagem": "https://i.postimg.cc/C1jrKpTf/joelho-90o-bucha-rosca-e-solda-azul-25mm-3-4.jpg",
+      "valor": "0",
+      "descricao": "Conexão em PVC usada para mudar a direção da tubulação em 90°, com uma ponta soldável e outra roscável. Ideal para água fria, oferece fácil instalação, boa vedação e praticidade em manutenções, unindo firmeza e versatilidade no sistema hidráulico."
     }
 ]
