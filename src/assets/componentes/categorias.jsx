@@ -1,4 +1,4 @@
-import Dados from "../produtos.json";
+import Dados from "../produtos-valores.json";
 import { useState } from "react";
 import { Banners } from "./banners";
 
@@ -159,6 +159,7 @@ export function Categoria() {
                 <>
                   <section className="detalhe-interno">
                     <img src={item.imagem} alt={item.nome} />
+
                     <div className="sobre-produto">
                       <h1>{item.nome}</h1>
                       <h2>
@@ -212,10 +213,14 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botoes">
+                          <div className="botao">
                             <button onClick={() => detalheProduto(post)}>
                               Sobre
                             </button>
+
+                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
+                              Orcamento
+                            </a>
                           </div>
                         </div>
                       </>
@@ -254,10 +259,14 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botoes">
+                          <div className="botao">
                             <button onClick={() => detalheProduto(post)}>
                               Sobre
                             </button>
+
+                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
+                              Orcamento
+                            </a>
                           </div>
                         </div>
                       </>
@@ -296,10 +305,14 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botoes">
+                          <div className="botao">
                             <button onClick={() => detalheProduto(post)}>
                               Sobre
                             </button>
+
+                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
+                              Orcamento
+                            </a>
                           </div>
                         </div>
                       </>
@@ -338,10 +351,14 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botoes">
+                          <div className="botao">
                             <button onClick={() => detalheProduto(post)}>
                               Sobre
                             </button>
+
+                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
+                              Orcamento
+                            </a>
                           </div>
                         </div>
                       </>
@@ -380,10 +397,14 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botoes">
+                          <div className="botao">
                             <button onClick={() => detalheProduto(post)}>
                               Sobre
                             </button>
+                            
+                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
+                              Orcamento
+                            </a>
                           </div>
                         </div>
                       </>
@@ -422,10 +443,14 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botoes">
+                          <div className="botao">
                             <button onClick={() => detalheProduto(post)}>
                               Sobre
                             </button>
+
+                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
+                              Orcamento
+                            </a>
                           </div>
                         </div>
                       </>
@@ -464,10 +489,14 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botoes">
+                          <div className="botao">
                             <button onClick={() => detalheProduto(post)}>
                               Sobre
                             </button>
+
+                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
+                              Orcamento
+                            </a>
                           </div>
                         </div>
                       </>
@@ -506,10 +535,14 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botoes">
+                          <div className="botao">
                             <button onClick={() => detalheProduto(post)}>
                               Sobre
                             </button>
+
+                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
+                              Orcamento
+                            </a>
                           </div>
                         </div>
                       </>
@@ -548,10 +581,14 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botoes">
+                          <div className="botao">
                             <button onClick={() => detalheProduto(post)}>
                               Sobre
                             </button>
+
+                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
+                              Orcamento
+                            </a>
                           </div>
                         </div>
                       </>
@@ -679,10 +716,13 @@ export function Categoria() {
                     <p>
                       <span>R$</span> {post.valor}
                     </p>
-                    <div className="botoes">
+                    <div className="botao">
                       <button onClick={() => detalheProduto(post)}>
                         Sobre
                       </button>
+                      <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
+                        Orcamento
+                      </a>
                     </div>
                   </div>
                 </>

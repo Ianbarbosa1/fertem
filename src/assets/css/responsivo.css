@@ -114,7 +114,7 @@
         justify-content: center;
         & .product{
             margin-left: 0px;
-            height: 240px;
+            height: 253px;
             width: 140px;
             & h2{
                 font-size: 12px;
@@ -126,11 +126,15 @@
             & p{
                 font-size: 18px;
             }
-            .botoes{
+            .botao{
                 button, a{
                     font-size: 11px;
                 }
-            }
+                a{
+                    opacity: 1;
+                    z-index: 1;
+                }
+            } 
         }
     }
     .detalhamento{
@@ -316,7 +320,7 @@
         justify-content: center;
         & .product {
             margin-left: 5px;
-            height: 290px;
+            height: 293px;
             width: 165px;
             & h2 {
                 font-size: 15px;
@@ -327,6 +331,12 @@
             }
             & p {
                 font-size: 20px;
+            }
+            .botao{
+                a{
+                    opacity: 1;
+                    z-index: 1;
+                }
             }
         }
     }
@@ -489,7 +499,7 @@
     .all-produtos{
         gap: 20px 0px;
         & .product {
-            height: 280px;
+            height: 300px;
             width: 165px;
             & h2 {
                 font-size: 16px;
@@ -500,6 +510,12 @@
             }
             & p {
                 font-size: 23px;
+            }
+            .botao{
+                a{
+                    opacity: 1;
+                    z-index: 1;
+                }
             }
         }
     }
@@ -625,7 +641,7 @@
     .all-produtos{
         gap: 20px 0px;
         & .product {
-            height: 290px;
+            height: 310px;
             width: 180px;
             & h2 {
                 font-size: 16px;
@@ -704,7 +720,7 @@
     .all-produtos{
         gap: 15px 5px;
         & .product {
-            height: 305px;
+            height: 323px;
             width: 200px;
             & h2 {
                 font-size: 16px;

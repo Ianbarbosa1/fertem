@@ -41,7 +41,7 @@ footer {
 
 
 /*DIVs FLEX*/
-.menu, .links, .tipos, .container-entrada, .produtos, .produto-categoria, .modal, .modal-tel, .fechar-modal, .categorias, .categoria, .produto-categoria, .all-produtos, .botoes, .detalhamento, .detalhe-interno, .sobre-produto, .fornecedores, .titulo, .links-footer, .redes, .rodape, .end {
+.menu, .links, .tipos, .container-entrada, .produtos, .produto-categoria, .modal, .modal-tel, .fechar-modal, .categorias, .categoria, .produto-categoria, .all-produtos, .botao, .detalhamento, .detalhe-interno, .sobre-produto, .fornecedores, .titulo, .links-footer, .redes, .rodape, .end {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,7 +105,7 @@ footer {
   transition: all 1s ease;
   & svg{
     font-size: 45px;
-    z-index: +6;
+    z-index: +7;
   }
   &:hover{
     color: #2dd46aa2;
@@ -348,13 +348,17 @@ footer {
 
   & .product {
     margin-left: 13px;
-    height: 355px;
+    height: 365px;
     width: 250px;
     background-color: white;
     box-shadow: 0px 0px 2px gray;
     border-radius: 4px;
     transition: all 0.5s ease-in-out;
 
+    &:hover .botao a{
+        opacity: 1;
+        z-index: 1;
+    }
     &:hover {
       filter: drop-shadow(0px 0px 3px gray);
     }
@@ -394,28 +398,32 @@ footer {
         font-size: 15px;
       }
     }
-    .botoes{
+    .botao{
       flex-direction: column;
       gap: 10px;
       margin: 10px 10px 0px 10px;
+      gap: 3px;
 
       button, a{
         cursor: pointer;
         border: none;
         color: aliceblue;
-        padding: 7px;
+        padding: 5px;
         width: 100%;
         background-color: #0263b2;
-        border-radius: 10px;
+        border-radius: 5px;
         text-align: center;
         font-size: 14px;
         &:hover{
-          color: #181818;
+          color: rgba(240, 248, 255, 0.466);
         }
       }
-
       a{
-        background-color: #f01f2b;
+        transition: all 0.5s ease-in-out;
+        padding: 3px;
+        opacity: 0;
+        z-index: -1;
+        background-color: tomato;
       }
     }
   }
