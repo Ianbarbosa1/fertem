@@ -98,6 +98,11 @@
     }
 
     /*PRODUTOS*/
+    .titulo-externo{
+        & .titulo-produto{
+           font-size: 18px; 
+        }
+    }
     .produtos {
         padding: 0px;
         width: 100%;
@@ -114,7 +119,7 @@
         justify-content: center;
         & .product{
             margin-left: 0px;
-            height: 253px;
+            height: 233px;
             width: 140px;
             & h2{
                 font-size: 12px;
@@ -127,12 +132,9 @@
                 font-size: 18px;
             }
             .botao{
-                button, a{
+                button{
                     font-size: 11px;
-                }
-                a{
-                    opacity: 1;
-                    z-index: 1;
+                    padding: 7px;
                 }
             } 
         }
@@ -145,9 +147,14 @@
         }
     }
     .detalhe-interno{
-        img{
-            height: 150px;
-            width: 150px;
+        .orcamento-imagem{
+            img{
+                height: 150px;
+                width: 150px;
+            }
+            a{
+                font-size: 12px;
+            }
         }
     }
     .sobre-produto{
@@ -304,9 +311,14 @@
     }
     
     /*PRODUTOS*/
+    .titulo-externo{
+        & .titulo-produto{
+           font-size: 18px; 
+        }
+    }
     .produtos {
-        padding: 0px;
         width: 100%;
+        padding: 0px;
     }
     .container-produtos {
         padding: 20px 10px;
@@ -320,7 +332,7 @@
         justify-content: center;
         & .product {
             margin-left: 5px;
-            height: 293px;
+            height: 267px;
             width: 165px;
             & h2 {
                 font-size: 15px;
@@ -333,9 +345,9 @@
                 font-size: 20px;
             }
             .botao{
-                a{
-                    opacity: 1;
-                    z-index: 1;
+                button{
+                    font-size: 12px;
+                    padding: 7px;
                 }
             }
         }
@@ -348,10 +360,15 @@
         }
     }
     .detalhe-interno{
-        img{
-            height: 200px;
-            width: 200px;
-        }
+        .orcamento-imagem{
+            img{
+                height: 200px;
+                width: 200px;
+            }
+            a{
+                font-size: 12px;
+            }
+        } 
     }
     .sobre-produto{
         width: 200px;
@@ -499,7 +516,7 @@
     .all-produtos{
         gap: 20px 0px;
         & .product {
-            height: 300px;
+            height: 280px;
             width: 165px;
             & h2 {
                 font-size: 16px;
@@ -512,9 +529,9 @@
                 font-size: 23px;
             }
             .botao{
-                a{
-                    opacity: 1;
-                    z-index: 1;
+                button{
+                    font-size: 12px;
+                    padding: 8px;
                 }
             }
         }
@@ -527,9 +544,14 @@
         }
     }
     .detalhe-interno{
-        img{
-            height: 300px;
-            width: 300px;
+        .orcamento-imagem{
+            img{
+                height: 300px;
+                width: 300px;
+            }
+            a{
+                font-size: 15px;
+            }
         }
     }
     .sobre-produto{
@@ -641,7 +663,7 @@
     .all-produtos{
         gap: 20px 0px;
         & .product {
-            height: 310px;
+            height: 290px;
             width: 180px;
             & h2 {
                 font-size: 16px;
@@ -653,6 +675,11 @@
             & p {
                 font-size: 23px;
             }
+            .botao{
+                button{
+                    font-size: 12px;
+                }
+            }
         }
     }
     .detalhamento{
@@ -663,9 +690,11 @@
         }
     }
     .detalhe-interno{
-        img{
-            height: 400px;
-            width: 400px;
+        & .orcamento-imagem{
+            img{
+                height: 400px;
+                width: 400px;
+            }
         }
     }
 
@@ -720,7 +749,7 @@
     .all-produtos{
         gap: 15px 5px;
         & .product {
-            height: 323px;
+            height: 305px;
             width: 200px;
             & h2 {
                 font-size: 16px;
@@ -731,6 +760,11 @@
             }
             & p {
                 font-size: 23px;
+            }
+            .botao{
+                button{
+                    font-size: 12px;
+                }
             }
         }
     }

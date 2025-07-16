@@ -151,38 +151,6 @@ export function Categoria() {
 
       {/*CATEGORIAS*/}
       <section className="produto-categoria">
-        {fechar ? (
-          <section className="detalhamento">
-            <IoClose className="fechar" onClick={() => setFechar(false)} />
-            {detalhe.map((item) => {
-              return (
-                <>
-                  <section className="detalhe-interno">
-                    <img src={item.imagem} alt={item.nome} />
-
-                    <div className="sobre-produto">
-                      <h1>{item.nome}</h1>
-                      <h2>
-                        {" "}
-                        <span>R$</span> {item.valor}
-                      </h2>
-                      <span>Cod: {item.id}</span>
-
-                      <nav>
-                        <div>
-                          <h4>Descrição do produto:</h4>
-                        </div>
-
-                        <p>{item.descricao}</p>
-                      </nav>
-                    </div>
-                  </section>
-                </>
-              );
-            })}
-          </section>
-        ) : null}
-
         {mostrou1 && (
           <section className="modal">
             <div className="fechar-modal" onClick={fechou}>
@@ -214,13 +182,7 @@ export function Categoria() {
                             <span>R$</span> {post.valor}
                           </p>
                           <div className="botao">
-                            <button onClick={() => detalheProduto(post)}>
-                              Sobre
-                            </button>
-
-                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
-                              Orcamento
-                            </a>
+                            <button onClick={() => detalheProduto(post)}> Sobre </button>
                           </div>
                         </div>
                       </>
@@ -260,13 +222,7 @@ export function Categoria() {
                             <span>R$</span> {post.valor}
                           </p>
                           <div className="botao">
-                            <button onClick={() => detalheProduto(post)}>
-                              Sobre
-                            </button>
-
-                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
-                              Orcamento
-                            </a>
+                            <button onClick={() => detalheProduto(post)}> Sobre </button>
                           </div>
                         </div>
                       </>
@@ -306,13 +262,7 @@ export function Categoria() {
                             <span>R$</span> {post.valor}
                           </p>
                           <div className="botao">
-                            <button onClick={() => detalheProduto(post)}>
-                              Sobre
-                            </button>
-
-                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
-                              Orcamento
-                            </a>
+                            <button onClick={() => detalheProduto(post)}> Sobre </button>
                           </div>
                         </div>
                       </>
@@ -352,13 +302,7 @@ export function Categoria() {
                             <span>R$</span> {post.valor}
                           </p>
                           <div className="botao">
-                            <button onClick={() => detalheProduto(post)}>
-                              Sobre
-                            </button>
-
-                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
-                              Orcamento
-                            </a>
+                            <button onClick={() => detalheProduto(post)}> Sobre </button>
                           </div>
                         </div>
                       </>
@@ -398,13 +342,7 @@ export function Categoria() {
                             <span>R$</span> {post.valor}
                           </p>
                           <div className="botao">
-                            <button onClick={() => detalheProduto(post)}>
-                              Sobre
-                            </button>
-                            
-                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
-                              Orcamento
-                            </a>
+                            <button onClick={() => detalheProduto(post)}> Sobre </button>
                           </div>
                         </div>
                       </>
@@ -444,13 +382,7 @@ export function Categoria() {
                             <span>R$</span> {post.valor}
                           </p>
                           <div className="botao">
-                            <button onClick={() => detalheProduto(post)}>
-                              Sobre
-                            </button>
-
-                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
-                              Orcamento
-                            </a>
+                            <button onClick={() => detalheProduto(post)}> Sobre </button>
                           </div>
                         </div>
                       </>
@@ -490,13 +422,7 @@ export function Categoria() {
                             <span>R$</span> {post.valor}
                           </p>
                           <div className="botao">
-                            <button onClick={() => detalheProduto(post)}>
-                              Sobre
-                            </button>
-
-                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
-                              Orcamento
-                            </a>
+                            <button onClick={() => detalheProduto(post)}> Sobre </button>
                           </div>
                         </div>
                       </>
@@ -536,13 +462,7 @@ export function Categoria() {
                             <span>R$</span> {post.valor}
                           </p>
                           <div className="botao">
-                            <button onClick={() => detalheProduto(post)}>
-                              Sobre
-                            </button>
-
-                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
-                              Orcamento
-                            </a>
+                            <button onClick={() => detalheProduto(post)}> Sobre </button>
                           </div>
                         </div>
                       </>
@@ -582,13 +502,7 @@ export function Categoria() {
                             <span>R$</span> {post.valor}
                           </p>
                           <div className="botao">
-                            <button onClick={() => detalheProduto(post)}>
-                              Sobre
-                            </button>
-
-                            <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
-                              Orcamento
-                            </a>
+                            <button onClick={() => detalheProduto(post)}> Sobre </button>
                           </div>
                         </div>
                       </>
@@ -677,7 +591,11 @@ export function Categoria() {
               return (
                 <>
                   <section className="detalhe-interno">
-                    <img src={item.imagem} alt={item.nome} />
+                    <div className="orcamento-imagem">
+                      <img src={item.imagem} alt={item.nome} />
+                      <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/" title="Fazer Orçamento"> Fazer Orçamento </a>
+                    </div>
+                    
                     <div className="sobre-produto">
                       <h1>{item.nome}</h1>
                       <h2>
@@ -701,8 +619,13 @@ export function Categoria() {
           </section>
         ) : null}
 
+        <section className="titulo-externo">
+            <nav></nav>
+            <h1 className="titulo-produto">PRODUTOS</h1>
+            <nav></nav>
+        </section>
+
         <section className="container-produtos">
-          <h1>PRODUTOS</h1>
           <section className="all-produtos">
             {produtos.map((post) => {
               return (
@@ -717,12 +640,9 @@ export function Categoria() {
                       <span>R$</span> {post.valor}
                     </p>
                     <div className="botao">
-                      <button onClick={() => detalheProduto(post)}>
+                      <button onClick={() => detalheProduto(post)} title="Mais informações sobre o produto">
                         Sobre
                       </button>
-                      <a href="https://ianbarbosa1.github.io/Orcamento-Fertem/">
-                        Orcamento
-                      </a>
                     </div>
                   </div>
                 </>
