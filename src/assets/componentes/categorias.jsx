@@ -14,10 +14,11 @@ import lupa from "../imagens/pesquisa.svg";;
 let horas = new Date();
 let dia = horas.getDay();
 let hora = horas.getHours();
+console.log(hora, dia);
 function funcionamento() {
   if (
-    (hora >= 8 && hora <= 18 && dia >= 1 && dia <= 6) ||
-    (hora >= 8 && hora <= 13 && dia == 0)
+    (hora >= 8 && hora <= 17 && dia >= 1 && dia <= 6) ||
+    (hora >= 8 && hora <= 12 && dia == 0)
   ) {
     return true;
   } else {
@@ -26,6 +27,7 @@ function funcionamento() {
 }
 let estilo = "";
 let retorno = funcionamento();
+console.log(retorno)
 if (retorno === true) {
   retorno = "Aberto";
   estilo = {
@@ -159,9 +161,7 @@ export function Categoria() {
             </div>
             
             <div className="container-produtos">
-              <nav className="title">
-                <h1>MAQUINAS</h1>
-              </nav>
+              <h1>MAQUINAS</h1>
 
               <section className="all-produtos">
                 {Dados.map((post) => {
@@ -518,7 +518,7 @@ export function Categoria() {
           <div className="fechar-modal" onClick={closeCategories}>
               <IoClose/>
               Fechar Categorias
-            </div>
+          </div>
           <button onClick={primeiraCategoria} className="botao-cat">
             Maquinas
           </button>
