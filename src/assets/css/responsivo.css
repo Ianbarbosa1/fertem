@@ -187,13 +187,26 @@
     /*FORNECEDORES*/
     .titulo{
         & h1{
-            font-size: 20px;
+            font-size: 18px;
         }
     }
     .marquee{
         & img{
             margin-right: 25px;
             height: 30px;
+        }
+    }
+
+    /*ORCAMENTO*/
+    .orcamento{
+        padding: 50px 20px;
+        width: 98%;
+        & h1, h2{
+            font-size: 18px;
+        }
+        & a{
+            padding: 8px 20px;
+            border-radius: 5px;
         }
     }
 
@@ -410,6 +423,19 @@
         }
     }
 
+    /*ORCAMENTO*/
+    .orcamento{
+        padding: 50px 20px;
+        width: 98%;
+        & h1, h2{
+            font-size: 19px;
+        }
+        & a{
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    }
+
     /*RODAPÉ*/
     .rodape{
         flex-direction: column;
@@ -583,6 +609,17 @@
             height: 40px;
         }
     }
+
+    .orcamento{
+        padding: 50px 20px;
+        width: 98%;
+        & h1, h2{
+            font-size: 23px;
+        }
+        & a{
+            padding: 10px 20px;
+        }
+    }
     
     /*RODAPÉ*/
     .sobre{
@@ -703,6 +740,12 @@
         & img{
             margin-right: 50px;
             height: 43px;
+        }
+    }
+    /*ORCAMENTO*/
+    .orcamento{
+        & h1, h2{
+            font-size: 25px;
         }
     }
 
