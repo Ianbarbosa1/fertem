@@ -22,7 +22,7 @@ export function Footer(){
                 <section className='links-footer'>
                     <a href='#home'>Home</a>
                     <a href='https://maps.app.goo.gl/EhaDchrhHiLp9Upe8' target="_blank">Localização</a>
-                    <a href='https://ianbarbosa1.github.io/Orcamento-Fertem/' target="_blank">Orçamento</a>
+                    <a href='https://ianbarbosa1.github.io/Orcamento-Fertem/'>Orçamento</a>
                 </section>
 
                 <section className='redes'>
