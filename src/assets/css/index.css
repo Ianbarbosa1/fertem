@@ -42,7 +42,7 @@ footer {
 
 
 /*DIVs FLEX*/
-.menu, .links, .tipos, .container-entrada, .produtos, .titulo-externo, .produto-categoria, .modal, .modal-tel, .fechar-modal, .categorias, .categoria, .produto-categoria, .all-produtos, .botao, .detalhamento, .detalhe-interno, .sobre-produto, .orcamento-imagem, .fornecedores, .orcamento, .titulo, .links-footer, .redes, .rodape, .end {
+.menu, .links, .tipos, .container-entrada, .produtos, .titulo-externo, .produto-categoria, .modal, .modal-tel, .fechar-modal, .categorias, .categoria, .produto-categoria, .all-produtos, .botao, .detalhamento, .detalhe-interno, .sobre-produto, .orcamento-imagem, .fornecedores, .orcamento, .orcamento-title, .titulo, .links-footer, .redes, .rodape, .end {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -566,18 +566,38 @@ footer {
   padding: 50px;
   border-radius: 10px;
   flex-direction: column;
-  align-items: start;
-  gap: 10px;
-
-  & h1, h2{
+  gap: 20px;
+  width: 80%;
+  .orcamento-title{
+    gap: 20px;
+    & svg{
+      font-size: 25px;
+      color: #f01f2b;
+    }
+  }
+  & h1, h2, h3{
+    text-align: center;
     font-family: "Karla", sans-serif;
-    font-size: 30px;
     color: #0263b2;
-    font-weight: 500;
     & span{
       color: #f01f2b;
       text-decoration: underline;
     }
+  }
+  & h1{
+    font-size: 28px;
+    padding: 10px;
+    background-color: #f01f2b;
+    color: aliceblue;
+    border-radius: 5px;
+  }
+  & h2{
+    font-size: 25px;  
+    font-weight: 600;
+  }
+  & h3{
+    font-size: 23px;
+    font-weight: 500;
   }
   & a{
     border-radius: 10px;
