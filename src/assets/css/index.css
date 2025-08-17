@@ -343,7 +343,7 @@ footer {
     }
 }
 .container-produtos {
-  max-height: 1500px;
+  height: 85vh;
   overflow-y: auto;
   width: 1200px;
   padding: 20px;
