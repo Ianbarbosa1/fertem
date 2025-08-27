@@ -55,7 +55,7 @@ export function Footer(){
             <div className='end'>
                 <h1>© Todos os Direitos Reservados Por Fertem Ferragista</h1>
                 <nav></nav>
-                <h2>Atendemos São Gonsalo, Niterói, Rio bonito e Itaboraí</h2>
+                <h2>Atendemos São Gonçalo, Niterói, Rio bonito e Itaboraí</h2>
             </div>
         </>
     )
