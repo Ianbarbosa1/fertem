@@ -136,19 +136,9 @@ export function Categoria() {
           <img src={lupa} alt="" className="lupa" />
         </nav>
 
-        <p
-          title="Funcionamento da Loja Fisica"
-          style={estilo}
-          className="observador">
-          {retorno}
-        </p>
+        <p title="Funcionamento da Loja Fisica" style={estilo} className="observador"> {retorno}</p>
 
-        <p
-          className="menu-hamburguer"
-          title="Categorias"
-          onClick={openCategories}>
-          <IoMenu />
-        </p>
+        <p className="menu-hamburguer" title="Categorias" onClick={openCategories}> <IoMenu /></p>
       </section>
 
       {/*CATEGORIAS*/}
@@ -168,11 +158,7 @@ export function Categoria() {
                   if (post.categoria == 1) {
                     return (
                       <>
-                        <div
-                          className="product"
-                          key={post.id}
-                          title={post.nome}
-                        >
+                        <div className="product" key={post.id} title={post.nome} onClick={() => detalheProduto(post)}>
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
@@ -181,9 +167,6 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botao">
-                            <button onClick={() => detalheProduto(post)}> Sobre </button>
-                          </div>
                         </div>
                       </>
                     );
@@ -208,11 +191,7 @@ export function Categoria() {
                   if (post.categoria == 2) {
                     return (
                       <>
-                        <div
-                          className="product"
-                          key={post.id}
-                          title={post.nome}
-                        >
+                        <div className="product" key={post.id} title={post.nome} onClick={() => detalheProduto(post)}>
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
@@ -221,9 +200,6 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botao">
-                            <button onClick={() => detalheProduto(post)}> Sobre </button>
-                          </div>
                         </div>
                       </>
                     );
@@ -248,11 +224,7 @@ export function Categoria() {
                   if (post.categoria == 3) {
                     return (
                       <>
-                        <div
-                          className="product"
-                          key={post.id}
-                          title={post.nome}
-                        >
+                        <div className="product" key={post.id} title={post.nome} onClick={() => detalheProduto(post)}>
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
@@ -261,9 +233,6 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botao">
-                            <button onClick={() => detalheProduto(post)}> Sobre </button>
-                          </div>
                         </div>
                       </>
                     );
@@ -288,11 +257,7 @@ export function Categoria() {
                   if (post.categoria == 4) {
                     return (
                       <>
-                        <div
-                          className="product"
-                          key={post.id}
-                          title={post.nome}
-                        >
+                        <div className="product" key={post.id} title={post.nome} onClick={() => detalheProduto(post)}>
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
@@ -301,9 +266,6 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botao">
-                            <button onClick={() => detalheProduto(post)}> Sobre </button>
-                          </div>
                         </div>
                       </>
                     );
@@ -328,11 +290,7 @@ export function Categoria() {
                   if (post.categoria == 5) {
                     return (
                       <>
-                        <div
-                          className="product"
-                          key={post.id}
-                          title={post.nome}
-                        >
+                        <div className="product" key={post.id} title={post.nome} onClick={() => detalheProduto(post)}>
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
@@ -341,9 +299,6 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botao">
-                            <button onClick={() => detalheProduto(post)}> Sobre </button>
-                          </div>
                         </div>
                       </>
                     );
@@ -368,11 +323,7 @@ export function Categoria() {
                   if (post.categoria == 6) {
                     return (
                       <>
-                        <div
-                          className="product"
-                          key={post.id}
-                          title={post.nome}
-                        >
+                        <div className="product" key={post.id} title={post.nome} onClick={() => detalheProduto(post)}>
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
@@ -381,9 +332,6 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botao">
-                            <button onClick={() => detalheProduto(post)}> Sobre </button>
-                          </div>
                         </div>
                       </>
                     );
@@ -408,11 +356,7 @@ export function Categoria() {
                   if (post.categoria == 7) {
                     return (
                       <>
-                        <div
-                          className="product"
-                          key={post.id}
-                          title={post.nome}
-                        >
+                        <div className="product" key={post.id} title={post.nome} onClick={() => detalheProduto(post)} >
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
@@ -421,9 +365,6 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botao">
-                            <button onClick={() => detalheProduto(post)}> Sobre </button>
-                          </div>
                         </div>
                       </>
                     );
@@ -448,11 +389,7 @@ export function Categoria() {
                   if (post.categoria == 8) {
                     return (
                       <>
-                        <div
-                          className="product"
-                          key={post.id}
-                          title={post.nome}
-                        >
+                        <div className="product" key={post.id} title={post.nome} onClick={() => detalheProduto(post)}>
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
@@ -461,9 +398,6 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botao">
-                            <button onClick={() => detalheProduto(post)}> Sobre </button>
-                          </div>
                         </div>
                       </>
                     );
@@ -488,11 +422,7 @@ export function Categoria() {
                   if (post.categoria == 9) {
                     return (
                       <>
-                        <div
-                          className="product"
-                          key={post.id}
-                          title={post.nome}
-                        >
+                        <div className="product" key={post.id} title={post.nome} onClick={() => detalheProduto(post)}>
                           <nav>
                             <img src={post.imagem} alt={post.nome} />
                           </nav>
@@ -501,9 +431,6 @@ export function Categoria() {
                           <p>
                             <span>R$</span> {post.valor}
                           </p>
-                          <div className="botao">
-                            <button onClick={() => detalheProduto(post)}> Sobre </button>
-                          </div>
                         </div>
                       </>
                     );
@@ -514,6 +441,7 @@ export function Categoria() {
           </section>
         )}
 
+        {/*MODAL PARA TELEFONES*/}
         <section className="modal-tel" id="menu-tel">
           <div className="fechar-modal" onClick={closeCategories}>
               <IoClose/>
@@ -548,6 +476,7 @@ export function Categoria() {
           </button>
         </section>
         
+        {/*MODAL PARA COMPUTADORES*/}
         <section className="categorias">
           <button className="categoria" id="one" onClick={primeiraCategoria}>
             <p>Maquinas</p>
@@ -630,7 +559,7 @@ export function Categoria() {
             {produtos.map((post) => {
               return (
                 <>
-                  <div className="product" key={post.id} title={post.nome}>
+                  <div className="product" key={post.id} title={post.nome} onClick={() => detalheProduto(post)}>
                     <nav>
                       <img src={post.imagem} alt={post.nome} />
                     </nav>
@@ -639,11 +568,6 @@ export function Categoria() {
                     <p>
                       <span>R$</span> {post.valor}
                     </p>
-                    <div className="botao">
-                      <button onClick={() => detalheProduto(post)} title="Mais informações sobre o produto">
-                        Sobre
-                      </button>
-                    </div>
                   </div>
                 </>
               );

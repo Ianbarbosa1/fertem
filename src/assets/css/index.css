@@ -324,8 +324,8 @@ footer {
   gap: 20px;
 }
 .titulo-externo{
-    width: 100%;
-    margin: 20px 0px;
+  width: 100%;
+  margin: 20px 0px;
 
     & nav{
       height: 3px;
@@ -333,7 +333,7 @@ footer {
       background-color: #f01f2b;
     }
     .titulo-produto{
-      font-size: 24px;
+      font-size: 20px;
       color: aliceblue;
       font-weight: 600;
       padding: 10px;
@@ -366,16 +366,17 @@ footer {
 
   & .product {
     margin-left: 13px;
-    height: 350px;
+    height: 312px;
     width: 250px;
     background-color: white;
     box-shadow: 0px 0px 2px gray;
     border-radius: 4px;
     transition: all 0.5s ease-in-out;
+    cursor: pointer;
 
     &:hover .botao a{
-        opacity: 1;
-        z-index: 1;
+      opacity: 1;
+      z-index: 1;
     }
     &:hover {
       filter: drop-shadow(0px 0px 3px gray);
@@ -414,27 +415,7 @@ footer {
 
       & span {
         font-size: 15px;
-      }
-    }
-    .botao{
-      flex-direction: column;
-      gap: 10px;
-      margin: 10px 10px 0px 10px;
-      gap: 3px;
-
-      button{
-        cursor: pointer;
-        border: none;
-        color: aliceblue;
-        padding: 10px;
-        width: 100%;
-        background-color: #0263b2;
-        border-radius: 5px;
-        text-align: center;
-        font-size: 14px;
-        &:hover{
-          color: rgba(240, 248, 255, 0.466);
-        }
+        color: #0263b2;
       }
     }
   }
